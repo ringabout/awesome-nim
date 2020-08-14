@@ -21,7 +21,6 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Game Development](#game-development)
 - [GUI](#gui)
 - [Editor](#editor)
-- [IDE](#ide)
 - [Implementations](#implementations)
 - [Macros](#macros)
 - [Package Repositories](#package-repositories)
@@ -130,8 +129,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Game Development
 
-* [frag](https://github.com/fragworks/frag) - Cross-platform 2D|3D game framework for the Nim programming language. [MIT]
-* [zengine](https://github.com/zacharycarter/zengine) - 2D | 3D Game development library.
+* [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
 * [SDL2](https://github.com/Vladar4/sdl2_nim) - Wrapper for SDL 2. [MIT]
 * [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs. [MIT]
 * [nim-glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim. [MIT]
@@ -152,13 +150,14 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 * [moe](https://github.com/fox0430/moe) - Command line based editor. [GPL]
 
+* [Aporia](https://github.com/nim-lang/Aporia) - Text editor to get started with Nim easily (not maintained anymore).
+
+* [Editor Integration](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
+
+* [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
+
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-## IDE
-
-* [Aporia](https://github.com/nim-lang/Aporia) - Text editor to get started with Nim easily (not maintained anymore).
-* [Editor Integration](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
-* [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -189,6 +188,7 @@ It tests package installation and generates documentation using "nim doc".
 ## REPL
 
 * [INim](https://github.com/AndreiRegiani/INim) - Interactive Nim Shell. [MIT]
+* [jupyternim](https://github.com/stisa/jupyternim) - A Jupyter kernel for nim. [MIT]
 
 ## Scripting
 
