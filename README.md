@@ -18,6 +18,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Embedded](#embedded)
 - [Game Development](#game-development)
 - [GUI](#gui)
+- [Editor](#editor)
 - [IDE](#ide)
 - [Implementations](#implementations)
 - [Macros](#macros)
@@ -25,10 +26,13 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [REPL](#repl)
 - [Scripting](#scripting)
 - [Services](#services)
+- [IO](#io)
 - [Text Processing](#text-processing)
     - [Translation](#translation)
     - [Template Engines](#template-engines)
 - [Web](#web)
+    - [HTTP server](#http-server)
+    - [Websocket](#websocket)
     - [Web Frameworks](#web-frameworks)
     - [Parsing HTML](#parsing-html)
     - [Generating HTML](#generating-html)
@@ -122,7 +126,13 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [nim-kdialog](https://github.com/juancarlospaco/nim-kdialog#nim-kdialog) - Nim [Kdialog](https://techbase.kde.org/Development/Tutorials/Shell_Scripting_with_KDE_Dialogs) Qt5 Wrapper for Desktop. [LGPL]
 * [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 * [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
-* [NiGui](https://github.com/trustable-code/NiGui) -  cross-platform, desktop GUI toolkit [MIT]
+* [NiGui](https://github.com/trustable-code/NiGui) - cross-platform, desktop GUI toolkit [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Editor
+
+* [moe](https://github.com/fox0430/moe) - Command line based editor. [GPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -174,6 +184,13 @@ It tests package installation and generates documentation using "nim doc".
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
+## IO
+
+* [ioselectors](https://github.com/xflywind/ioselectors) - ioselectors plus for Nim. [Apache-2.0]
+* [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 ## Text Processing
 
 * [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match. [MIT]
@@ -188,17 +205,36 @@ It tests package installation and generates documentation using "nim doc".
 
 ### Template Engines
 
-* [smalte](https://github.com/roquie/smalte) - Is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker. [MIT]
+* [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Web
 
+### HTTP server
+* [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim. [Apache-2.0]
+* [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server written in Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### Websocket
+
+* [websocket.nim](https://github.com/niv/websocket.nim) - Websockets for nim.
+* [ws](https://github.com/treeform/ws) - Simple WebSocket library for nim.
+
+
 ### Web Frameworks
 
 * [Jester](https://github.com/dom96/jester) - The sinatra-like web framework for Nim. Jester provides a DSL for quickly creating web applications in Nim. [MIT]
+
 * [prologue](https://github.com/planety/prologue) - Full-Stack Web Framework written in Nim. [Apache-2.0]
+
 * [rosencrantz](http://andreaferretti.github.io/rosencrantz/) - DSL to write web servers, inspired by [Spray](http://spray.io/) and its successor [Akka HTTP](http://akka.io).
+
+* [whip](https://github.com/mattaylor/whip) - Simple fast http server for nim based on httpbeast and nest for high performance routing.
+
+* [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
+
 
 * [Karax](https://github.com/pragmagic/karax) - Framework for developing single page applications in Nim.
 
@@ -245,6 +281,7 @@ It tests package installation and generates documentation using "nim doc".
 
 * [Nim in Action](https://www.manning.com/books/nim-in-action) - Nim's first book
 * [Nim Days](https://github.com/xmonader/nimdays) - A project to document my journey with nim with mini applications, libraries documented from A to Z and also to provide new Nim users with some extra in depth information.
+* [Nimbus Handbook](https://status-im.github.io/nim-beacon-chain/auditors-book) - A comprehensive introduction to the Nim programming language.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
