@@ -12,6 +12,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Byte Size](#byte-size)
 - [CheckSums](#checksums)
 - [Database](#database)
+    - [Driver](#driver)
+    - [ORM](#orm)
 - [Date Time](#date-time)
 - [Deep Learning](#deep-learning)
 - [Design](#design)
@@ -60,10 +62,12 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [Nake](https://github.com/fowlmouth/nake) - Describe your Nim builds as tasks. [MIT]
 * [Nawabs](https://github.com/Araq/nawabs) - A build system that throws away version numbering in favor of git hashes. [MIT]
 * [Nimble](https://github.com/nim-lang/nimble) - Nimble can be used as a build system. [BSD]
+* [nimph](https://github.com/disruptek/nimph) - Nim package hierarchy manager from the future. [MIT]
+* [nimby](https://github.com/treeform/nimby) - Nimby is a very simple and unofficial package manager for nim language.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-### Byte Size
+## Byte Size
 
 * [nim-bytes2human](https://github.com/juancarlospaco/nim-bytes2human#nim-bytes2human) - Calculate all Byte units from an integer, with precision from Bytes to Yottabytes, and return a human friendly string representation. [LGPL]
 
@@ -77,8 +81,20 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Database
 
+### driver
+
+* [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver. [MIT]
+
+
+### orm
+
 * [ormin](https://github.com/Araq/ormin) - Prepared SQL statement generator , A lightweight ORM.
-* [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver. http://sspkrolik.github.io/nimongo [MIT]
+
+* [nim-allographer](https://github.com/itsumura-h/nim-allographer) - A query_builder/ORM library inspired by Laravel/PHP and Orator/Python for Nim. [MIT]
+
+* [nim-gatabase](https://github.com/juancarlospaco/nim-gatabase) - Connection-Pooling Compile-Time ORM for Nim. [MIT]
+
+* [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -214,6 +230,7 @@ It tests package installation and generates documentation using "nim doc".
 ### HTTP server
 * [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim. [Apache-2.0]
 * [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server written in Nim. [MIT]
+* [GuildenStern](https://github.com/olliNiinivaara/GuildenStern) - Genuinely multithreading integrated HTTP/1.1 + WebSocket v13 Server for POSIX-compliant OSes. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
