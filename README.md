@@ -7,7 +7,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 <details open >
   <summary title="Hide/Show">Table of contents</summary>
 
-- [Async Processing](#async-processing)
+- [Async IO](#async-io)
 - [Build Systems/Package Management](#build-systemspackage-management)
 - [Byte Size](#byte-size)
 - [CheckSums](#checksums)
@@ -51,8 +51,10 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 </details>
 
-## Async processing
-* [Nim-Asyncdispatch2](https://github.com/status-im/nim-asyncdispatch2) - Hard fork of Asyncdispatch. [MIT]
+## Async IO
+* [nim-chronos](https://github.com/status-im/nim-chronos) - An efficient library for asynchronous programming. [MIT]
+
+* [cps](https://github.com/disruptek/cps) - Continuation-Passing Style for Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
