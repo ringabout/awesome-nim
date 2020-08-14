@@ -11,7 +11,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Build Systems/Package Management](#build-systemspackage-management)
 - [System API](#system-api)
 - [Web API](#web-api)
-- [CheckSums](#checksums)
+- [Cryptographic](#cryptographic)
 - [Parsers](#parsers)
 - [Database](#database)
     - [Driver](#driver)
@@ -93,7 +93,9 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-## Checksums
+## Cryptographic
+
+* [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library. [MIT]
 
 * [nim-crc32](https://github.com/juancarlospaco/nim-crc32#nim-crc32) - CRC32 for Nim, 2 proc, just pass the thing you want to do CRC. [MIT]
 
@@ -244,6 +246,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 * [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim. [MIT]
 * [nim-plotly](https://github.com/brentp/nim-plotly) - plotting library for nim-lang. [MIT]
+* [graph](https://github.com/stisa/graph) - A basic plotting lib in nim.
 
 ## Editor
 
@@ -310,6 +313,7 @@ It tests package installation and generates documentation using "nim doc".
 
 * [ioselectors](https://github.com/xflywind/ioselectors) - ioselectors plus for Nim. [Apache-2.0]
 * [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim. [MIT]
+* [nim-faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim. [MIT/Apache-2.0]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -402,9 +406,9 @@ It tests package installation and generates documentation using "nim doc".
 
 ## Command-Line Interface Automation
 
-* [cligen](https://github.com/c-blake/cligen) - Infer & generate command-line interace/option/argument parsers [MIT]
-* [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser [MIT]
-
+* [cligen](https://github.com/c-blake/cligen) - Infer & generate command-line interace/option/argument parsers. [MIT]
+* [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser. [MIT]
+* [nim-argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
