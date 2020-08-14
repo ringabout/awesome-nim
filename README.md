@@ -9,17 +9,28 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 - [Async IO](#async-io)
 - [Build Systems/Package Management](#build-systemspackage-management)
-- [Byte Size](#byte-size)
+- [System API](#system-api)
+- [Web API](#web-api)
 - [CheckSums](#checksums)
+- [Parsers](#parsers)
 - [Database](#database)
     - [Driver](#driver)
     - [ORM](#orm)
 - [Date Time](#date-time)
+- [Random](#random)
+- [Data Processing](#data-processing)
+- [Image](#image)
+- [Audio](#audio)
+- [Matrix](#matrix)
 - [Deep Learning](#deep-learning)
 - [Design](#design)
 - [Embedded](#embedded)
 - [Game Development](#game-development)
+- [Logging](#logging)
+- [Window](#window)
+- [UI](#ui)
 - [GUI](#gui)
+- [Graphic](#graphic)
 - [Editor](#editor)
 - [Implementations](#implementations)
 - [Macros](#macros)
@@ -36,7 +47,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
     - [Websocket](#websocket)
     - [Web Frameworks](#web-frameworks)
     - [Parsing HTML](#parsing-html)
-    - [Generating HTML](#generating-html)
+- [Markdown](#markdown)
 - [Development Tools](#development-tools)
     - [Binding Generators](#binding-generators)
     - [Command-Line Interface Automation](#command-line-interface-automation)
@@ -68,9 +79,17 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-## Byte Size
+## System API
 
-* [nim-bytes2human](https://github.com/juancarlospaco/nim-bytes2human#nim-bytes2human) - Calculate all Byte units from an integer, with precision from Bytes to Yottabytes, and return a human friendly string representation. [LGPL]
+* [winim](https://github.com/khchen/winim) - Nim's Windows API and COM Library. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Web API
+
+* [telebot.nim](https://github.com/ba0f3/telebot.nim) - Async client for Telegram Bot API in pure Nim. [MIT]
+* [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim. [MIT]
+* [nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end. [AGPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -80,14 +99,25 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
+## Parsers
+
+* [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files. [MIT]
+* [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 ## Database
 
-### driver
+### Driver
 
 * [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver. [MIT]
 
+* [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim language. [MIT]
 
-### orm
+* [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver. [MIT]
+
+
+### ORM
 
 * [ormin](https://github.com/Araq/ormin) - Prepared SQL statement generator , A lightweight ORM.
 
@@ -102,6 +132,38 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Date Time
 
 * [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human#nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601. [LGPL]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Random
+
+* [nim-random](https://github.com/oprypin/nim-random) Random number generation library for Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Data Processing
+
+* [NimData](https://github.com/bluenote10/NimData) DataFrame API written in Nim, enabling fast out-of-core data processing. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Image
+
+* [nimPNG](https://github.com/jangko/nimPNG) PNG (Portable Network Graphics) decoder and encoder written in Nim. [MIT]
+
+* [nimpdf](https://github.com/jangko/nimpdf) PDF document writer, written in nim lang. [MIT]
+
+* [NimSvg](https://github.com/bluenote10/NimSvg) Nim-based DSL allowing to generate SVG files and GIF animations.
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Audio
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Matrix
+
+* [neo](https://github.com/unicredit/neo) A matrix library.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -129,22 +191,59 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Game Development
 
-* [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
+* [frag](https://github.com/zacharycarter/frag) - 3D Game Engine. [MIT]
+* [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8. [MIT]
+* [nimgame2](https://github.com/Vladar4/nimgame2) - A simple 2D game engine for Nim language. [MIT]
+* [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine. [MIT]
+* [rod](https://github.com/yglukhov/rod) - Cross-platform game engine. [MIT]
+* [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim. [Zlib]
+* [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics. [MIT]
 * [SDL2](https://github.com/Vladar4/sdl2_nim) - Wrapper for SDL 2. [MIT]
+* [rapid](https://github.com/liquid600pgm/rapid) - A game engine written in Nim, optimized for rapid game development and prototyping. [MIT]
 * [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs. [MIT]
 * [nim-glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim. [MIT]
+* [enu](https://github.com/dsrw/enu) - A Logo-like DSL for Godot, implemented in Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
+
+
+## Logging
+
+* [nim-chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim. [MIT/Apache 2.0]
+
+
+
+## Windows
+
+* [nimdow](https://github.com/avahe-kellenberger/nimdow) - A window manager written in Nim. [GPL]
+
+
+## UI
+
+* [ui](https://github.com/nim-lang/iup) - Wrapper for IUP - Beginnings of what might become Nim's official UI library.
+
+* [fidget](https://github.com/treeform/fidget) - Figma based UI library for nim, with HTML and OpenGL backends.
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 
 ## GUI
 
-* [ui](https://github.com/nim-lang/iup) - Wrapper for IUP - Beginnings of what might become Nim's official UI library.
-* [nim-kdialog](https://github.com/juancarlospaco/nim-kdialog#nim-kdialog) - Nim [Kdialog](https://techbase.kde.org/Development/Tutorials/Shell_Scripting_with_KDE_Dialogs) Qt5 Wrapper for Desktop. [LGPL]
 * [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 * [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
-* [NiGui](https://github.com/trustable-code/NiGui) - cross-platform, desktop GUI toolkit [MIT]
+* [NiGui](https://github.com/trustable-code/NiGui) - cross-platform, desktop GUI toolkit. [MIT]
+* [wNim](https://github.com/khchen/wNim) - Nim's Windows GUI Framework. [MIT]
+* [nimqml](https://github.com/filcuc/nimqml) - Qt Qml bindings for the Nim programming language. [LGPL]
+* [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based Crossplatform GUI Framework with Dark theme. [MIT]
+* [gintro](https://github.com/StefanSalewski/gintro) - High level GObject-Introspection based GTK3/GTK4 bindings for Nim language. [MIT]
+* [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Plot
+
+* [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim. [MIT]
+* [nim-plotly](https://github.com/brentp/nim-plotly) - plotting library for nim-lang. [MIT]
 
 ## Editor
 
@@ -174,8 +273,9 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Macros
 
+* [with](https://github.com/zevv/with) - with macro for Nim.
+* [macroutils](https://github.com/PMunch/macroutils) - A package that makes creating macros easier.
 * [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart. [MIT]
-* [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library. [MIT]
 * [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages. [MIT]
 * [unpack](https://github.com/technicallyagd/unpack) - Sequence/object unpacking/destructuring. [MIT]
 
@@ -216,6 +316,9 @@ It tests package installation and generates documentation using "nim doc".
 ## Text Processing
 
 * [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match. [MIT]
+* [npeg](https://github.com/zevv/npeg) - PEGs for Nim, another take. [MIT]
+* [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim. [Apache-2.0]
+* [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library. [MIT]
 * [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns. [MIT]
 * [nim-datauri](https://github.com/juancarlospaco/nim-datauri#nim-datauri) - Data URI Base64 UTF-8. [LGPL]
 
@@ -237,6 +340,7 @@ It tests package installation and generates documentation using "nim doc".
 * [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim. [Apache-2.0]
 * [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server written in Nim. [MIT]
 * [GuildenStern](https://github.com/olliNiinivaara/GuildenStern) - Genuinely multithreading integrated HTTP/1.1 + WebSocket v13 Server for POSIX-compliant OSes. [MIT]
+* [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written by pure Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -263,7 +367,7 @@ It tests package installation and generates documentation using "nim doc".
 
 * [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim. [Apache-2.0]
 
-
+* [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes. [PPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -275,9 +379,12 @@ It tests package installation and generates documentation using "nim doc".
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-### Generating HTML
+### Markdown
 
-* [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents. https://h3rald.com/hastyscribe
+* [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
+
+* [nim-markdown](https://github.com/soasme/nim-markdown) - A Beautiful Markdown Parser in the Nim World. [MIT]
+
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -286,7 +393,10 @@ It tests package installation and generates documentation using "nim doc".
 ## Binding Generators
 
 * [Nimpy](https://github.com/yglukhov/nimpy) - Gen Python wrappers, call python from nim. [MIT]
-* [Pymod](https://github.com/jboy/nim-pymod) - Gen Python C-API wrappers. [MIT]
+* [nimterop](https://github.com/nimterop/nimterop) - Nimterop is a Nim package that aims to make C/C++ interop seamless. [MIT]
+* [c2nim](https://github.com/nim-lang/c2nim) - c2nim is a tool to translate Ansi C code to Nim. [MIT]
+* [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge. [MIT]
+
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -294,7 +404,7 @@ It tests package installation and generates documentation using "nim doc".
 
 * [cligen](https://github.com/c-blake/cligen) - Infer & generate command-line interace/option/argument parsers [MIT]
 * [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser [MIT]
-* [commandeer](https://github.com/fenekku/commandeer) - Provides a small command line parsing DSL (domain specific language) [MIT]
+
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
