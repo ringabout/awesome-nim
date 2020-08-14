@@ -150,13 +150,17 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 * [moe](https://github.com/fox0430/moe) - Command line based editor. [GPL]
 
+* [paravim](https://github.com/paranim/paravim) - A Vim-based editor for Nim. [Unlicense]
+
+* [nim-noise](https://github.com/jangko/nim-noise) - Nim implementation of linenoise command line editor. [MIT]
+
+* [editor](https://github.com/pseudo-random/editor) - A simple text editor written in Nim. [MIT]
+
 * [Aporia](https://github.com/nim-lang/Aporia) - Text editor to get started with Nim easily (not maintained anymore).
 
 * [Editor Integration](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
 
 * [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
-
-[**&DoubleUpArrow;**](#contents "Go to the top")
 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
