@@ -8,6 +8,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
   <summary title="Hide/Show">Table of contents</summary>
 
 - [Async IO](#async-io)
+- [Threading](#threading)
 - [Build Systems/Package Management](#build-systemspackage-management)
 - [System API](#system-api)
 - [Web API](#web-api)
@@ -17,6 +18,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
     - [Driver](#driver)
     - [ORM](#orm)
 - [Date Time](#date-time)
+- [Benchmarking](#benchmarking)
 - [Random](#random)
 - [Data Processing](#data-processing)
 - [Image](#image)
@@ -68,6 +70,10 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
+## Threading
+
+* [weave](https://github.com/mratsim/weave) - A state-of-the-art multithreading runtime: message-passing based, fast, scalable, ultra-low overhead. [MIT/Apache-2.0]
+
 ## Build Systems/Package Management
 
 * [ChooseNim](https://github.com/dom96/choosenim) - Installing and switching between Nim versions (à la rustup, pyenv). [MIT]
@@ -96,6 +102,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Cryptographic
 
 * [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library. [MIT]
+
+* [nimAES](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
 
 * [nim-crc32](https://github.com/juancarlospaco/nim-crc32#nim-crc32) - CRC32 for Nim, 2 proc, just pass the thing you want to do CRC. [MIT]
 
@@ -137,9 +145,16 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
+## Benchmarking
+
+* [golden](https://github.com/disruptek/golden) - A benchmark for compile-time and/or runtime Nim. [MIT]
+* [timeit](https://github.com/xflywind/timeit) - Measuring execution times written by Nim. [MIT]
+* [criterion](https://github.com/disruptek/criterion) - Statistic-driven micro-benchmark framework.
+
 ## Random
 
 * [nim-random](https://github.com/oprypin/nim-random) Random number generation library for Nim. [MIT]
+* [sysrandom.nim](https://github.com/euantorano/sysrandom.nim) A Nim library to generate random numbers and random ranges of bytes using the system's PRNG. [BSD-3]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -300,6 +315,7 @@ It tests package installation and generates documentation using "nim doc".
 ## Scripting
 
 * [Nimcr](https://github.com/PMunch/nimcr/blob/master/README.md) - Running Nim code with Shebangs.
+* [nimr](https://github.com/Jeff-Ciesielski/nimr - Run nim programs like scripts.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
