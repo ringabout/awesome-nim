@@ -193,7 +193,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Audio
 
-* [paramidi](https://github.com/paranim/paramidi) - A Nim library for making MIDI music. [Unliense]
+* [paramidi](https://github.com/paranim/paramidi) - A Nim library for making MIDI music. [Unlicense]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
