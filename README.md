@@ -553,7 +553,12 @@ It tests package installation and generates documentation using "nim doc".
 * [Make a website with Nim](https://www.youtube.com/watch?v=ndzlVRWqT2E&list=PL6RpFCvmb5SGw7aJK1E4goBxpMK3NvkON) - This is a video series meant to teach people make a website with Nim
 using `jester`.
 * [araq twitch](https://www.twitch.tv/araq4k) - The live broadcast regarding Nim language.
+* [alehander42 twitch](https://www.twitch.tv/alehander42) - The live broadcast regarding Nim language.
+* [clyybber twitch](https://www.twitch.tv/clyybber) - The live broadcast regarding Nim language.
+* [d0m96 twitch](https://www.twitch.tv/d0m96) - The live broadcast regarding Nim language.
 * [disruptek twitch](https://www.twitch.tv/disruptek) - The live broadcast regarding Nim language.
+* [yardanico twitch](https://www.twitch.tv/yardanico) - The live broadcast regarding Nim language.
+* [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
