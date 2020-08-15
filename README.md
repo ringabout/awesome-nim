@@ -83,6 +83,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 * [weave](https://github.com/mratsim/weave) - A state-of-the-art multithreading runtime: message-passing based, fast, scalable, ultra-low overhead. [MIT/Apache-2.0]
 
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 ## Build Systems/Package Management
 
 * [ChooseNim](https://github.com/dom96/choosenim) - Installing and switching between Nim versions (à la rustup, pyenv). [MIT]
@@ -141,6 +143,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim language. [MIT]
 * [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver. [MIT]
 
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ### ORM
 
@@ -163,6 +166,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [golden](https://github.com/disruptek/golden) - A benchmark for compile-time and/or runtime Nim. [MIT]
 * [timeit](https://github.com/xflywind/timeit) - Measuring execution times written by Nim. [MIT]
 * [criterion](https://github.com/disruptek/criterion) - Statistic-driven micro-benchmark framework.
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Random
 
@@ -266,13 +271,14 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 * [nim-chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim. [MIT/Apache 2.0]
 
-
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Windows
 
 * [nimdow](https://github.com/avahe-kellenberger/nimdow) - A window manager written in Nim. [GPL]
 * [Nimwin](https://github.com/weskerfoot/Nimwin) - A Very Simple X11 Window Manager.
 
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## UI
 
@@ -280,7 +286,6 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [fidget](https://github.com/treeform/fidget) - Figma based UI library for nim, with HTML and OpenGL backends.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
-
 
 ## GUI
 
@@ -355,6 +360,8 @@ It tests package installation and generates documentation using "nim doc".
 * [INim](https://github.com/AndreiRegiani/INim) - Interactive Nim Shell. [MIT]
 * [jupyternim](https://github.com/stisa/jupyternim) - A Jupyter kernel for nim. [MIT]
 
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 ## Scripting
 
 * [Nimcr](https://github.com/PMunch/nimcr/blob/master/README.md) - Running Nim code with Shebangs.
@@ -381,6 +388,8 @@ It tests package installation and generates documentation using "nim doc".
 
 * [testes](https://github.com/disruptek/testes) - A small unittest framework with decent support. [MIT]
 
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 ## Text Processing
 
 * [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match. [MIT]
@@ -395,6 +404,8 @@ It tests package installation and generates documentation using "nim doc".
 ### Translation
 
 * [nim-tinyslation](https://github.com/juancarlospaco/nim-tinyslation#nim-tinyslation) - Text string translation from free online crowdsourced API. [LGPL]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ### Template Engines
 
@@ -438,6 +449,7 @@ It tests package installation and generates documentation using "nim doc".
 * [ws](https://github.com/treeform/ws) - Simple WebSocket library for nim. [MIT]
 * [news](https://github.com/Tormund/news) - Nim easy web socket. [MIT]
 
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ### Web Frameworks
 
