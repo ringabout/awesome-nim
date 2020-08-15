@@ -365,7 +365,7 @@ It tests package installation and generates documentation using "nim doc".
 ## Scripting
 
 * [Nimcr](https://github.com/PMunch/nimcr/blob/master/README.md) - Running Nim code with Shebangs.
-* [nimr](https://github.com/Jeff-Ciesielski/nimr - Run nim programs like scripts.
+* [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run nim programs like scripts.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
