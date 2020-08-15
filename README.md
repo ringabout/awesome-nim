@@ -14,6 +14,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Web API](#web-api)
 - [Cryptographic](#cryptographic)
 - [Parsers](#parsers)
+- [Serialization](#serialization)
 - [Database](#database)
     - [Driver](#driver)
     - [ORM](#orm)
@@ -23,7 +24,11 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Data Processing](#data-processing)
 - [Image](#image)
 - [Audio](#audio)
-- [Matrix](#matrix)
+- [Math](#math)
+    - [Symbolic](#Symbolic)
+    - [FFT](#fft)
+    - [Vector](#vector)
+    - [Matrix](#matrix)
 - [Deep Learning](#deep-learning)
 - [Design](#design)
 - [Embedded](#embedded)
@@ -32,7 +37,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Window](#window)
 - [UI](#ui)
 - [GUI](#gui)
-- [Graphic](#graphic)
+- [Plot](#plot)
+- [Terminal](#terminal)
 - [Editor](#editor)
 - [Implementations](#implementations)
 - [Macros](#macros)
@@ -41,10 +47,14 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Scripting](#scripting)
 - [Services](#services)
 - [IO](#io)
+- [Tests](#tests)
 - [Text Processing](#text-processing)
     - [Translation](#translation)
     - [Template Engines](#template-engines)
 - [Web](#web)
+    - [UDP](#udp)
+    - [RPC](#rpc)
+    - [MQTT](#mqtt)
     - [HTTP server](#http-server)
     - [Websocket](#websocket)
     - [Web Frameworks](#web-frameworks)
@@ -65,7 +75,6 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Async IO
 * [nim-chronos](https://github.com/status-im/nim-chronos) - An efficient library for asynchronous programming. [MIT]
-
 * [cps](https://github.com/disruptek/cps) - Continuation-Passing Style for Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
@@ -102,9 +111,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Cryptographic
 
 * [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library. [MIT]
-
 * [nimAES](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
-
 * [nim-crc32](https://github.com/juancarlospaco/nim-crc32#nim-crc32) - CRC32 for Nim, 2 proc, just pass the thing you want to do CRC. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
@@ -116,25 +123,30 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
+## Serializtion
+
+* [nim-toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization [not] relying on run-time type information. [MIT/Apache-2.0]
+* [nim-serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim. [MIT/Apache-2.0]
+* [frosty](https://github.com/disruptek/frosty) - Marshal native Nim objects via streams, sockets. [MIT]
+* [nim-protobuf-serialization](https://github.com/status-im/nim-protobuf-serialization) - nim-protobuf-serialization. [MIT/Apache-2.0]
+* [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
 ## Database
 
 ### Driver
 
 * [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver. [MIT]
-
 * [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim language. [MIT]
-
 * [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver. [MIT]
 
 
 ### ORM
 
 * [ormin](https://github.com/Araq/ormin) - Prepared SQL statement generator , A lightweight ORM.
-
 * [nim-allographer](https://github.com/itsumura-h/nim-allographer) - A query_builder/ORM library inspired by Laravel/PHP and Orator/Python for Nim. [MIT]
-
 * [nim-gatabase](https://github.com/juancarlospaco/nim-gatabase) - Connection-Pooling Compile-Time ORM for Nim. [MIT]
-
 * [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
@@ -142,6 +154,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Date Time
 
 * [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human#nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601. [LGPL]
+* [timezones](https://github.com/GULPF/timezones) - Nim timezone library compatible with the standard library. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -153,34 +166,56 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Random
 
-* [nim-random](https://github.com/oprypin/nim-random) Random number generation library for Nim. [MIT]
-* [sysrandom.nim](https://github.com/euantorano/sysrandom.nim) A Nim library to generate random numbers and random ranges of bytes using the system's PRNG. [BSD-3]
+* [nim-random](https://github.com/oprypin/nim-random) - Random number generation library for Nim. [MIT]
+* [sysrandom.nim](https://github.com/euantorano/sysrandom.nim) - A Nim library to generate random numbers and random ranges of bytes using the system's PRNG. [BSD-3]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Data Processing
 
-* [NimData](https://github.com/bluenote10/NimData) DataFrame API written in Nim, enabling fast out-of-core data processing. [MIT]
+* [NimData](https://github.com/bluenote10/NimData) - DataFrame API written in Nim, enabling fast out-of-core data processing. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Image
 
-* [nimPNG](https://github.com/jangko/nimPNG) PNG (Portable Network Graphics) decoder and encoder written in Nim. [MIT]
-
-* [nimpdf](https://github.com/jangko/nimpdf) PDF document writer, written in nim lang. [MIT]
-
-* [NimSvg](https://github.com/bluenote10/NimSvg) Nim-based DSL allowing to generate SVG files and GIF animations.
+* [nimPNG](https://github.com/jangko/nimPNG) - PNG (Portable Network Graphics) decoder and encoder written in Nim. [MIT]
+* [nimpdf](https://github.com/jangko/nimpdf)  - PDF document writer, written in nim lang. [MIT]
+* [NimSvg](https://github.com/bluenote10/NimSvg) - Nim-based DSL allowing to generate SVG files and GIF animations.
+* [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim. [MPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Audio
 
+* [paramidi](https://github.com/paranim/paramidi) - A Nim library for making MIDI music. [Unliense]
+
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-## Matrix
+## Math
 
-* [neo](https://github.com/unicredit/neo) A matrix library.
+### Symbolic
+
+* [symbolicnim](https://github.com/HugoGranstrom/symbolicnim) - A symbolic library written purely in Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### FFT
+
+* [impulse](https://github.com/SciNim/impulse) - Impulse will be a collection of primitives for signal processing (FFT, Convolutions, ...). [MIT/Apache-2.0]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### Vector
+
+* [vectorize](https://github.com/SciNim/vectorize) - SIMD vectorization backend. [MIT/Apache-2.0]
+* [vmath](https://github.com/treeform/vmath) - Math vector library for graphical things.
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### Matrix
+
+* [neo](https://github.com/unicredit/neo) - A matrix library. [Apache-2.0]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -194,6 +229,9 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Design
 
 * [nim-random-font-color](https://github.com/juancarlospaco/nim-random-font-color#nim-random-font-color) - Random curated Fonts, pastel Colors and Seamless CSS3 Patterns for your UI/UX design, design for non-designers, poors man design. [LGPL]
+* [chroma](https://github.com/treeform/chroma) - Everything you want to do with colors, in nim. [MIT]
+* [typography](https://github.com/treeform/typography) - Fonts, Typesetting and Rasterization. [MIT]
+* [trick](https://github.com/exelotl/trick) - Library for GBA/NDS image conversion, and more! [Zlib]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -233,12 +271,12 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Windows
 
 * [nimdow](https://github.com/avahe-kellenberger/nimdow) - A window manager written in Nim. [GPL]
+* [Nimwin](https://github.com/weskerfoot/Nimwin) - A Very Simple X11 Window Manager.
 
 
 ## UI
 
 * [ui](https://github.com/nim-lang/iup) - Wrapper for IUP - Beginnings of what might become Nim's official UI library.
-
 * [fidget](https://github.com/treeform/fidget) - Figma based UI library for nim, with HTML and OpenGL backends.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
@@ -262,21 +300,25 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim. [MIT]
 * [nim-plotly](https://github.com/brentp/nim-plotly) - plotting library for nim-lang. [MIT]
 * [graph](https://github.com/stisa/graph) - A basic plotting lib in nim.
+* [npainter](https://github.com/mrgaturus/npainter) -Semi GPU-Accelerated painting software written in Nim. [Apache-2.0]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Terminal
+
+* [NimCx](https://github.com/qqtop/NimCx) - Color and Utilities for the Linux Terminal. [MIT]
+* [nicy](https://github.com/icyphox/nicy) - A nice and icy zsh and bash prompt in Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Editor
 
 * [moe](https://github.com/fox0430/moe) - Command line based editor. [GPL]
-
 * [paravim](https://github.com/paranim/paravim) - A Vim-based editor for Nim. [Unlicense]
-
 * [nim-noise](https://github.com/jangko/nim-noise) - Nim implementation of linenoise command line editor. [MIT]
-
 * [editor](https://github.com/pseudo-random/editor) - A simple text editor written in Nim. [MIT]
-
 * [Aporia](https://github.com/nim-lang/Aporia) - Text editor to get started with Nim easily (not maintained anymore).
-
 * [Editor Integration](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
-
 * [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
 
 
@@ -296,6 +338,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart. [MIT]
 * [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages. [MIT]
 * [unpack](https://github.com/technicallyagd/unpack) - Sequence/object unpacking/destructuring. [MIT]
+* [nimacros](https://github.com/FemtoEmacs/nimacros) - Documentation for Nim Macros.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -330,8 +373,13 @@ It tests package installation and generates documentation using "nim doc".
 * [ioselectors](https://github.com/xflywind/ioselectors) - ioselectors plus for Nim. [Apache-2.0]
 * [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim. [MIT]
 * [nim-faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim. [MIT/Apache-2.0]
+* [lockfreequeues](https://github.com/elijahr/lockfreequeues) - Lock-free queue implementations for Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Tests
+
+* [testes](https://github.com/disruptek/testes) - A small unittest framework with decent support. [MIT]
 
 ## Text Processing
 
@@ -351,10 +399,30 @@ It tests package installation and generates documentation using "nim doc".
 ### Template Engines
 
 * [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker. [MIT]
+* [nim-html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL. [MIT]
+* [nim-templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim. [BSD-3]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
 ## Web
+
+### UDP
+
+* [netty](https://github.com/treeform/netty) - Reliable UDP connection library for games in Nim.
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### RPC
+
+* [nim-json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers. [MIT/Apache-2.0]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### MQTT
+
+* [nmqtt](https://github.com/zevv/nmqtt) - Native Nim MQTT client library. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
 
 ### HTTP server
 * [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim. [Apache-2.0]
@@ -366,27 +434,20 @@ It tests package installation and generates documentation using "nim doc".
 
 ### Websocket
 
-* [websocket.nim](https://github.com/niv/websocket.nim) - Websockets for nim.
-* [ws](https://github.com/treeform/ws) - Simple WebSocket library for nim.
+* [websocket.nim](https://github.com/niv/websocket.nim) - Websockets for nim. [MIT]
+* [ws](https://github.com/treeform/ws) - Simple WebSocket library for nim. [MIT]
+* [news](https://github.com/Tormund/news) - Nim easy web socket. [MIT]
 
 
 ### Web Frameworks
 
 * [Jester](https://github.com/dom96/jester) - The sinatra-like web framework for Nim. Jester provides a DSL for quickly creating web applications in Nim. [MIT]
-
 * [prologue](https://github.com/planety/prologue) - Full-Stack Web Framework written in Nim. [Apache-2.0]
-
 * [rosencrantz](http://andreaferretti.github.io/rosencrantz/) - DSL to write web servers, inspired by [Spray](http://spray.io/) and its successor [Akka HTTP](http://akka.io).
-
 * [whip](https://github.com/mattaylor/whip) - Simple fast http server for nim based on httpbeast and nest for high performance routing.
-
 * [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
-
-
 * [Karax](https://github.com/pragmagic/karax) - Framework for developing single page applications in Nim.
-
 * [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim. [Apache-2.0]
-
 * [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes. [PPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
@@ -402,7 +463,6 @@ It tests package installation and generates documentation using "nim doc".
 ### Markdown
 
 * [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
-
 * [nim-markdown](https://github.com/soasme/nim-markdown) - A Beautiful Markdown Parser in the Nim World. [MIT]
 
 
@@ -477,14 +537,10 @@ It tests package installation and generates documentation using "nim doc".
 ## Videos
 
 * [Nim official Channel](https://www.youtube.com/channel/UCDAYn_VFt0VisL5-1a5Dk7Q/videos) - Official videos introduce the powerful and interesting part in Nim language.
-
 * [Nim for beginners][https://www.youtube.com/user/kiloneie/playlists] - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
-
 * [Make a website with Nim](https://www.youtube.com/watch?v=ndzlVRWqT2E&list=PL6RpFCvmb5SGw7aJK1E4goBxpMK3NvkON) - This is a video series meant to teach people make a website with Nim
 using `jester`.
-
 * [araq twitch](https://www.twitch.tv/araq4k) - The live broadcast regarding Nim language.
-
 * [disruptek twitch](https://www.twitch.tv/disruptek) - The live broadcast regarding Nim language.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
