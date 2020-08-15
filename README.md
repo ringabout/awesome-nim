@@ -549,7 +549,7 @@ It tests package installation and generates documentation using "nim doc".
 ## Videos
 
 * [Nim official Channel](https://www.youtube.com/channel/UCDAYn_VFt0VisL5-1a5Dk7Q/videos) - Official videos introduce the powerful and interesting part in Nim language.
-* [Nim for beginners][https://www.youtube.com/user/kiloneie/playlists] - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
+* [Nim for beginners](https://www.youtube.com/user/kiloneie/playlists) - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
 * [Make a website with Nim](https://www.youtube.com/watch?v=ndzlVRWqT2E&list=PL6RpFCvmb5SGw7aJK1E4goBxpMK3NvkON) - This is a video series meant to teach people make a website with Nim
 using `jester`.
 * [araq twitch](https://www.twitch.tv/araq4k) - The live broadcast regarding Nim language.
