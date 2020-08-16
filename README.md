@@ -270,6 +270,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Logging
 
 * [nim-chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim. [MIT/Apache 2.0]
+* [nim-morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim. [LGPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -461,6 +462,7 @@ It tests package installation and generates documentation using "nim doc".
 * [Karax](https://github.com/pragmagic/karax) - Framework for developing single page applications in Nim.
 * [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim. [Apache-2.0]
 * [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes. [PPL]
+* [nim-httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim. [LGPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
