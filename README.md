@@ -188,6 +188,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [nimpdf](https://github.com/jangko/nimpdf)  - PDF document writer, written in nim lang. [MIT]
 * [NimSvg](https://github.com/bluenote10/NimSvg) - Nim-based DSL allowing to generate SVG files and GIF animations.
 * [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim. [MPL]
+* [flippy](https://github.com/treeform/flippy) - Flippy is a simple 2d image and drawing library. [MIT]
+* [imageman](https://github.com/SolitudeSF/imageman) - Image manipulation library. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
