@@ -193,7 +193,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Audio
 
-* [paramidi](https://github.com/paranim/paramidi) - A Nim library for making MIDI music. [Unliense]
+* [paramidi](https://github.com/paranim/paramidi) - A Nim library for making MIDI music. [Unlicense]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -366,7 +366,7 @@ It tests package installation and generates documentation using "nim doc".
 ## Scripting
 
 * [Nimcr](https://github.com/PMunch/nimcr/blob/master/README.md) - Running Nim code with Shebangs.
-* [nimr](https://github.com/Jeff-Ciesielski/nimr - Run nim programs like scripts.
+* [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run nim programs like scripts.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -551,11 +551,16 @@ It tests package installation and generates documentation using "nim doc".
 ## Videos
 
 * [Nim official Channel](https://www.youtube.com/channel/UCDAYn_VFt0VisL5-1a5Dk7Q/videos) - Official videos introduce the powerful and interesting part in Nim language.
-* [Nim for beginners][https://www.youtube.com/user/kiloneie/playlists] - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
+* [Nim for beginners](https://www.youtube.com/user/kiloneie/playlists) - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
 * [Make a website with Nim](https://www.youtube.com/watch?v=ndzlVRWqT2E&list=PL6RpFCvmb5SGw7aJK1E4goBxpMK3NvkON) - This is a video series meant to teach people make a website with Nim
 using `jester`.
 * [araq twitch](https://www.twitch.tv/araq4k) - The live broadcast regarding Nim language.
+* [alehander42 twitch](https://www.twitch.tv/alehander42) - The live broadcast regarding Nim language.
+* [clyybber twitch](https://www.twitch.tv/clyybber) - The live broadcast regarding Nim language.
+* [d0m96 twitch](https://www.twitch.tv/d0m96) - The live broadcast regarding Nim language.
 * [disruptek twitch](https://www.twitch.tv/disruptek) - The live broadcast regarding Nim language.
+* [yardanico twitch](https://www.twitch.tv/yardanico) - The live broadcast regarding Nim language.
+* [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
