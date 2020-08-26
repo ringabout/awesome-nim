@@ -522,6 +522,8 @@ It tests package installation and generates documentation using "nim doc".
 * [Rants from the Ballmer Peak](https://gradha.github.io/tags/nim.html) - Posts on Nim and other languages.
 * [Yuriy Glukhov's blog](https://yglukhov.github.io/) - Making and shipping a game in Nim
 * [Araq's Musings](https://nim-lang.org/araq) - Blog on Nim from the creator himself.
+* [Nim memory](http://zevv.nl/nim-memory/) - This is a small tutorial explaining how Nim stores data in memory.
+* [Nim Arc](http://zevv.nl/nim-memory/nim-arc.html) - Make a friendly explanation of ARC and its implications for the programmer.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
