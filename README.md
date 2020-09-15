@@ -59,6 +59,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
     - [Websocket](#websocket)
     - [Web Frameworks](#web-frameworks)
     - [Parsing HTML](#parsing-html)
+    - [Auth](#auth)
 - [Markdown](#markdown)
 - [Development Tools](#development-tools)
     - [Binding Generators](#binding-generators)
@@ -142,6 +143,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver. [MIT]
 * [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim language. [MIT]
 * [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver. [MIT]
+* [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -471,6 +473,12 @@ It tests package installation and generates documentation using "nim doc".
 * [Nimquery](https://github.com/GULPF/nimquery) - Library for
   querying HTML using CSS selectors, like Javascript's
   `document.querySelector`. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+### Auth
+
+* [nim-httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim. [LGPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
