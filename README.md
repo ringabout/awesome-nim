@@ -190,6 +190,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [nimpdf](https://github.com/jangko/nimpdf)  - PDF document writer, written in nim lang. [MIT]
 * [NimSvg](https://github.com/bluenote10/NimSvg) - Nim-based DSL allowing to generate SVG files and GIF animations.
 * [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim. [MPL]
+* [flippy](https://github.com/treeform/flippy) - Flippy is a simple 2d image and drawing library. [MIT]
+* [imageman](https://github.com/SolitudeSF/imageman) - Image manipulation library. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -528,6 +530,8 @@ It tests package installation and generates documentation using "nim doc".
 * [Rants from the Ballmer Peak](https://gradha.github.io/tags/nim.html) - Posts on Nim and other languages.
 * [Yuriy Glukhov's blog](https://yglukhov.github.io/) - Making and shipping a game in Nim
 * [Araq's Musings](https://nim-lang.org/araq) - Blog on Nim from the creator himself.
+* [Nim memory](http://zevv.nl/nim-memory/) - This is a small tutorial explaining how Nim stores data in memory.
+* [Nim Arc](http://zevv.nl/nim-memory/nim-arc.html) - Make a friendly explanation of ARC and its implications for the programmer.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
