@@ -464,9 +464,7 @@ It tests package installation and generates documentation using "nim doc".
 * [whip](https://github.com/mattaylor/whip) - Simple fast http server for nim based on httpbeast and nest for high performance routing.
 * [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
 * [Karax](https://github.com/pragmagic/karax) - Framework for developing single page applications in Nim.
-* [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim. [Apache-2.0]
 * [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes. [PPL]
-* [nim-httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim. [LGPL]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -481,6 +479,7 @@ It tests package installation and generates documentation using "nim doc".
 ### Auth
 
 * [nim-httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim. [LGPL]
+* [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim. [Apache-2.0]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
