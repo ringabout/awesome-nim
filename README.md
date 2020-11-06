@@ -144,6 +144,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim language. [MIT]
 * [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver. [MIT]
 * [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim. [MIT]
+* [amysql](https://github.com/bung87/amysql) - Async MySQL Connector write in pure Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
