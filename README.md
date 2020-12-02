@@ -247,10 +247,11 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 ## Embedded
 
-* [msp430f5510](https://gitlab.com/jalexander8717/msp430f5510-nim) - Run Nim on MSP430f5510 micro-controller (6KB of RAM).
-* [stm32f3](https://github.com/mwbrown/nim_stm32f3) - Run Nim on STM32F3 micro-controller (16KB of RAM).
 * [ardunimo](https://github.com/gokr/ardunimo) - Nim wrapper for Arduino + LinkIt ONE SDK by Mediatek.
 * [ardunimesp](https://gitlab.com/NetaLabTek/Arduimesp) - Nim wrapper for Arduino ESP8266 framework + A tool for flash, compile and make the nim project into an Arduino project.
+* [msp430f5510](https://gitlab.com/jalexander8717/msp430f5510-nim) - Run Nim on MSP430f5510 micro-controller (6KB of RAM).
+* [Nesper](https://github.com/elcritch/nesper) - Program the ESP32 using Nim. Library on top of esp-idf. [Apache-2.0]
+* [stm32f3](https://github.com/mwbrown/nim_stm32f3) - Run Nim on STM32F3 micro-controller (16KB of RAM).
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
