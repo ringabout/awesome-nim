@@ -581,6 +581,5 @@ using `jester`.
 
 Contributions are very welcome!
 
-Please have a look at [CONTRIBUTING](https://github.com/VPashkov/awesome-nim/blob/master/CONTRIBUTING.md) for guidelines.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
