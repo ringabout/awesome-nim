@@ -126,7 +126,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
-## Serializtion
+## Serialization
 
 * [nim-toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization [not] relying on run-time type information. [MIT/Apache-2.0]
 * [nim-serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim. [MIT/Apache-2.0]
