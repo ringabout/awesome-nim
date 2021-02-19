@@ -47,6 +47,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 - [Scripting](#scripting)
 - [Services](#services)
 - [IO](#io)
+- [Compression](Compression)
 - [Tests](#tests)
 - [Text Processing](#text-processing)
     - [Translation](#translation)
@@ -312,7 +313,8 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 * [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim. [MIT]
 * [nim-plotly](https://github.com/brentp/nim-plotly) - plotting library for nim-lang. [MIT]
 * [graph](https://github.com/stisa/graph) - A basic plotting lib in nim.
-* [npainter](https://github.com/mrgaturus/npainter) -Semi GPU-Accelerated painting software written in Nim. [Apache-2.0]
+* [npainter](https://github.com/mrgaturus/npainter) - Semi GPU-Accelerated painting software written in Nim. [Apache-2.0]
+* [pixie](https://github.com/treeform/pixie) - Full-featured 2d graphics library for Nim. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -388,6 +390,15 @@ It tests package installation and generates documentation using "nim doc".
 * [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim. [MIT]
 * [nim-faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim. [MIT/Apache-2.0]
 * [lockfreequeues](https://github.com/elijahr/lockfreequeues) - Lock-free queue implementations for Nim. [MIT]
+
+[**&DoubleUpArrow;**](#contents "Go to the top")
+
+## Compression
+
+* [zippy](https://github.com/guzba/zippy) - Pure Nim implementation of deflate, zlib, gzip and zip. [MIT]
+* [supersnappy](https://github.com/guzba/supersnappy) - Dependency-free and performant Nim Snappy implementation. [MIT]
+* [snappy] https://github.com/jangko/snappy - Nim implementation of Snappy compression algorithm. [MIT]
+* [zip](https://github.com/nim-lang/zip) - Wrapper for the zip library. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
@@ -519,7 +530,8 @@ It tests package installation and generates documentation using "nim doc".
 
 * [Nim in Action](https://www.manning.com/books/nim-in-action) - Nim's first book
 * [Nim Days](https://github.com/xmonader/nimdays) - A project to document my journey with nim with mini applications, libraries documented from A to Z and also to provide new Nim users with some extra in depth information.
-* [Nimbus Handbook](https://status-im.github.io/nim-beacon-chain/auditors-book) - A comprehensive introduction to the Nim programming language.
+* [Nimbus Handbook](https://nimbus.guide) - A comprehensive introduction to the Nim programming language.
+* [nim-style-guide](https://github.com/status-im/nim-style-guide) - Status style guid for the Nim language.
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
