@@ -200,7 +200,7 @@ A curated list of awesome [Nim](https://nim-lang.org) frameworks, libraries and 
 ## Audio
 
 * [paramidi](https://github.com/paranim/paramidi) - A Nim library for making MIDI music. [Unlicense]
-* [omni](https://vitreo12.github.io/omni/) - A DSL for low-level audio programming. [MIT]
+* [omni](https://github.com/vitreo12/omni) - A DSL for low-level audio programming. [MIT]
 
 [**&DoubleUpArrow;**](#contents "Go to the top")
 
