@@ -1,7 +1,5 @@
 name: CI
-on:
-  pull_request:
-    branches: [main]
+on: [push, pull_request]
 jobs:
   Awesome_Lint:
     runs-on: ubuntu-latest
