@@ -429,7 +429,7 @@ It tests package installation and generates documentation using "nim doc".
 - [rosencrantz](http://andreaferretti.github.io/rosencrantz/) - DSL to write web servers, inspired by [Spray](http://spray.io/) and its successor [Akka HTTP](http://akka.io).
 - [whip](https://github.com/mattaylor/whip) - Simple fast http server for nim based on httpbeast and nest for high performance routing.
 - [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
-- [Karax](https://github.com/pragmagic/karax) - Framework for developing single page applications in Nim.
+- [Karax](https://github.com/karaxnim/karax) - Framework for developing single page applications in Nim.
 - [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes.
 
 
