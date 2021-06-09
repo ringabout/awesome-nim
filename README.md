@@ -289,6 +289,7 @@
 
 ## Terminal
 
+- [illwill](https://github.com/johnnovak/illwill) - Simple cross-platform terminal library inspired by (n)curses.
 - [NimCx](https://github.com/qqtop/NimCx) - Color and Utilities for the Linux Terminal.
 - [nicy](https://github.com/icyphox/nicy) - A nice and icy zsh and bash prompt in Nim.
 
@@ -304,7 +305,6 @@
 - [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
 
 
-
 ## Implementations
 
 - [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
@@ -313,13 +313,13 @@
 
 ## Macros
 
-- [with](https://github.com/zevv/with) - The with macro for Nim.
-- [macroutils](https://github.com/PMunch/macroutils) - A package that makes creating macros easier.
 - [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
+- [macroutils](https://github.com/PMunch/macroutils) - A package that makes creating macros easier.
+- [nimacros](https://github.com/FemtoEmacs/nimacros) - Documentation for Nim Macros.
 - [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
 - [unpack](https://github.com/technicallyagd/unpack) - Sequence/object unpacking/destructuring.
-- [nimacros](https://github.com/FemtoEmacs/nimacros) - Documentation for Nim Macros.
-
+- [with](https://github.com/zevv/with) - The with macro for Nim.
+- [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
 
 
 ## Package Repositories
@@ -333,7 +333,6 @@ It tests package installation and generates documentation using "nim doc".
 
 - [INim](https://github.com/AndreiRegiani/INim) - Interactive Nim Shell.
 - [jupyternim](https://github.com/stisa/jupyternim) - A Jupyter kernel for nim.
-
 
 
 ## Scripting
@@ -365,7 +364,7 @@ It tests package installation and generates documentation using "nim doc".
 
 ## Tests
 
-- [testes](https://github.com/disruptek/testes) - A small unittest framework with decent support.
+- [balls](https://github.com/disruptek/balls) - A unittest macro to save the world, or at least your Sunday.
 
 
 ## Text Processing
@@ -435,9 +434,7 @@ It tests package installation and generates documentation using "nim doc".
 
 ### Parsing HTML
 
-- [Nimquery](https://github.com/GULPF/nimquery) - Library for
-  querying HTML using CSS selectors, like JavaScript's
-  `document.querySelector`.
+- [Nimquery](https://github.com/GULPF/nimquery) - Library for querying HTML using CSS selectors, like JavaScript's `document.querySelector`.
 
 
 ### Auth
@@ -519,6 +516,7 @@ It tests package installation and generates documentation using "nim doc".
 - [Nim for beginners](https://www.youtube.com/user/kiloneie/playlists) - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
 - [Make a website with Nim](https://www.youtube.com/watch?v=ndzlVRWqT2E&list=PL6RpFCvmb5SGw7aJK1E4goBxpMK3NvkON) - This is a video series meant to teach people make a website with Nim
 using `jester`.
+- [Learning Nim](https://www.youtube.com/watch?v=I_Y94G37iR4&list=PLu-ydI-PCl0PqxiYXQMmLh7wjQKm5Cz-H) - Tutorial video series on learning Nim showcasing various features of the language and its libraries.
 - [araq twitch](https://www.twitch.tv/araq4k) - The live broadcast regarding Nim language.
 - [alehander42 twitch](https://www.twitch.tv/alehander42) - The live broadcast regarding Nim language.
 - [clyybber twitch](https://www.twitch.tv/clyybber) - The live broadcast regarding Nim language.
