@@ -464,6 +464,7 @@ It tests package installation and generates documentation using "nim doc".
 - [cligen](https://github.com/c-blake/cligen) - Infer & generate command-line interace/option/argument parsers.
 - [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser.
 - [nim-argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
+- [clapfn](https://github.com/oliversandli/clapfn) - Argument parsing similar to Python's argparse.
 
 
 ## Resources
