@@ -1,3 +1,5 @@
+<p align="center"><img src="asset/logo.svg" width="400"/></p>
+
 # Awesome Nim [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of awesome Nim frameworks, libraries, software and resources.
