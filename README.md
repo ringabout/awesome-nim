@@ -389,6 +389,7 @@ It tests package installation and generates documentation using "nim doc".
 - [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker.
 - [nim-html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
 - [nim-templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
+- [nimja](https://github.com/enthus1ast/nimja) - Typed and compiled template engine inspired by jinja2, twig and onionhammer/nim-templates for Nim.
 
 
 ## Web
