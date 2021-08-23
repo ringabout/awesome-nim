@@ -431,7 +431,7 @@ It tests package installation and generates documentation using "nim doc".
 - [whip](https://github.com/mattaylor/whip) - Simple fast http server for Nim based on httpbeast and nest for high performance routing.
 - [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
 - [Karax](https://github.com/karaxnim/karax) - Framework for developing single page applications in Nim.
-- [scorper](https://github.com/bung87/scorper) - a micro and elegant web framework written in Nim
+- [scorper](https://github.com/bung87/scorper) - A micro and elegant web framework written in Nim.
 - [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes.
 
 
