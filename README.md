@@ -310,6 +310,7 @@
 
 - [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
 - [Nlvm](https://github.com/arnetheduck/nlvm) - LLVM backend for Nim.
+- [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
 
 
 ## Macros
