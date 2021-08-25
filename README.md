@@ -304,13 +304,13 @@
 - [editor](https://github.com/pseudo-random/editor) - A simple text editor written in Nim.
 - [Editor Integration](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
 - [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
+- [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
 
 
 ## Implementations
 
 - [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
 - [Nlvm](https://github.com/arnetheduck/nlvm) - LLVM backend for Nim.
-- [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
 
 
 ## Macros
