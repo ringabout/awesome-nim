@@ -330,11 +330,12 @@
 - [Nim package directory](https://nimble.directory/) - This service allows you to explore Nim packages known to Nimble.
   It tests package installation and generates documentation using "nim doc".
 
+
 ## Protocols
 - [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
-- [nim-json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers.
 - [nim-ndns](https://github.com/rockcavera/nim-ndns) - A pure Nim Domain Name System (DNS) client.
 - [nim-dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language.
+
 
 ## REPL
 
