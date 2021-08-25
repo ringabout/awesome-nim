@@ -44,6 +44,7 @@
 - [Implementations](#implementations)
 - [Macros](#macros)
 - [Package Repositories](#package-repositories)
+- [Protocols](#protocols)
 - [REPL](#repl)
 - [Scripting](#scripting)
 - [Services](#services)
@@ -147,7 +148,7 @@
 - [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
 
 
-## Date Time
+## Date/Time
 
 - [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human#nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601.
 - [timezones](https://github.com/GULPF/timezones) - Nim timezone library compatible with the standard library.
@@ -255,7 +256,6 @@
 - [nim-morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim.
 
 
-
 ## Window
 
 - [nimdow](https://github.com/avahe-kellenberger/nimdow) - A window manager written in Nim.
@@ -328,8 +328,13 @@
 
 - [Nim packages](https://github.com/nim-lang/packages) - List of packages for Nimble.
 - [Nim package directory](https://nimble.directory/) - This service allows you to explore Nim packages known to Nimble.
-It tests package installation and generates documentation using "nim doc".
+  It tests package installation and generates documentation using "nim doc".
 
+## Protocols
+- [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim
+- [nim-json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers
+- [nim-ndns](https://github.com/rockcavera/nim-ndns) - A pure Nim Domain Name System (DNS) client
+- [nim-dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language 
 
 ## REPL
 
