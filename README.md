@@ -148,7 +148,7 @@
 - [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
 
 
-## Date/Time
+## Date Time
 
 - [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human#nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601.
 - [timezones](https://github.com/GULPF/timezones) - Nim timezone library compatible with the standard library.
