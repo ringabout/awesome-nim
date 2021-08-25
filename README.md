@@ -304,6 +304,7 @@
 - [editor](https://github.com/pseudo-random/editor) - A simple text editor written in Nim.
 - [Editor Integration](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
 - [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
+- [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
 
 
 ## Implementations
@@ -450,6 +451,7 @@ It tests package installation and generates documentation using "nim doc".
 
 - [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
 - [nim-markdown](https://github.com/soasme/nim-markdown) - A Beautiful Markdown Parser in the Nim World.
+- [lester](https://github.com/madprops/lester) - Create quick documents out of Markdown, into HTML.
 
 
 ## Development Tools
