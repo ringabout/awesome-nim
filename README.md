@@ -451,7 +451,7 @@ It tests package installation and generates documentation using "nim doc".
 
 - [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
 - [nim-markdown](https://github.com/soasme/nim-markdown) - A Beautiful Markdown Parser in the Nim World.
-- [lester](https://github.com/madprops/lester) - Create quick documents out of Markdown, into HTML
+- [lester](https://github.com/madprops/lester) - Create quick documents out of Markdown, into HTML.
 
 
 ## Development Tools
