@@ -12,7 +12,7 @@
 - [Threading](#threading)
 - [Build Systems/Package Management](#build-systemspackage-management)
 - [System API](#system-api)
-- [Web API](#web-api)
+- [Web Application](#web-application)
 - [Cryptographic](#cryptographic)
 - [Parsers](#parsers)
 - [Serialization](#serialization)
@@ -100,10 +100,8 @@
 - [winim](https://github.com/khchen/winim) - Nim's Windows API and COM Library.
 
 
-## Web API
+## Web Application
 
-- [telebot.nim](https://github.com/ba0f3/telebot.nim) - Async client for Telegram Bot API in pure Nim.
-- [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
 - [nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end.
 
 
@@ -335,6 +333,8 @@
 - [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
 - [nim-ndns](https://github.com/rockcavera/nim-ndns) - A pure Nim Domain Name System (DNS) client.
 - [nim-dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language.
+- [telebot.nim](https://github.com/ba0f3/telebot.nim) - Async client for Telegram Bot API in pure Nim.
+- [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
 
 
 ## REPL
