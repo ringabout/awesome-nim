@@ -44,6 +44,7 @@
 - [Implementations](#implementations)
 - [Macros](#macros)
 - [Package Repositories](#package-repositories)
+- [Protocols](#protocols)
 - [REPL](#repl)
 - [Scripting](#scripting)
 - [Services](#services)
@@ -255,7 +256,6 @@
 - [nim-morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim.
 
 
-
 ## Window
 
 - [nimdow](https://github.com/avahe-kellenberger/nimdow) - A window manager written in Nim.
@@ -328,7 +328,13 @@
 
 - [Nim packages](https://github.com/nim-lang/packages) - List of packages for Nimble.
 - [Nim package directory](https://nimble.directory/) - This service allows you to explore Nim packages known to Nimble.
-It tests package installation and generates documentation using "nim doc".
+  It tests package installation and generates documentation using "nim doc".
+
+
+## Protocols
+- [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
+- [nim-ndns](https://github.com/rockcavera/nim-ndns) - A pure Nim Domain Name System (DNS) client.
+- [nim-dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language.
 
 
 ## REPL
