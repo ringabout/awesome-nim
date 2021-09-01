@@ -21,7 +21,7 @@
     - [ORM](#orm)
 - [Date Time](#date-time)
 - [Benchmarking](#benchmarking)
-- [Random](#random)
+- [Randomization](#randomization)
 - [Data Processing](#data-processing)
 - [Image](#image)
 - [Audio](#audio)
@@ -159,7 +159,7 @@
 - [criterion](https://github.com/disruptek/criterion) - Statistic-driven micro-benchmark framework.
 
 
-## Random
+## Randomization
 
 - [nim-random](https://github.com/oprypin/nim-random) - Random number generation library for Nim.
 - [sysrandom.nim](https://github.com/euantorano/sysrandom.nim) - A Nim library to generate random numbers and random ranges of bytes using the system's PRNG.
@@ -271,6 +271,7 @@
 - [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 - [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
 - [NiGui](https://github.com/trustable-code/NiGui) - The cross-platform, desktop GUI toolkit.
+- [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML/JS GUI apps.
 - [wNim](https://github.com/khchen/wNim) - Nim's Windows GUI Framework.
 - [nimqml](https://github.com/filcuc/nimqml) - Qt Qml bindings for the Nim programming language.
 - [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based Crossplatform GUI Framework with Dark theme.
