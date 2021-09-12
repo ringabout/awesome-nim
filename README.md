@@ -246,6 +246,7 @@
 - [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
 - [nim-glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
 - [enu](https://github.com/dsrw/enu) - A Logo-like DSL for Godot, implemented in Nim.
+- [nodesnim](https://github.com/ethosa/nodesnim) - Simple game engine based on SDL2 and OpenGL.
 
 
 ## Logging
@@ -277,6 +278,7 @@
 - [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based Crossplatform GUI Framework with Dark theme.
 - [gintro](https://github.com/StefanSalewski/gintro) - High-level GObject-Introspection based GTK3/GTK4 bindings for Nim.
 - [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
+- [nodesnim](https://github.com/ethosa/nodesnim) - Simple GUI engine.
 
 
 ## Plot
