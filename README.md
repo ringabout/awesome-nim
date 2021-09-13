@@ -278,7 +278,6 @@
 - [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based Crossplatform GUI Framework with Dark theme.
 - [gintro](https://github.com/StefanSalewski/gintro) - High-level GObject-Introspection based GTK3/GTK4 bindings for Nim.
 - [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
-- [nodesnim](https://github.com/ethosa/nodesnim) - Simple GUI engine.
 
 
 ## Plot
