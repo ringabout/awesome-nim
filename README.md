@@ -136,6 +136,7 @@
 - [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver.
 - [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim.
 - [amysql](https://github.com/bung87/amysql) - Async MySQL Connector write in pure Nim.
+- [mycouch](https://github.com/hamidb80/mycouch) - multisync CouchDB driver for nim
 
 
 ### ORM
