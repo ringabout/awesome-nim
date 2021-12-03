@@ -488,7 +488,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 some users found useful to make other standard libraries usable from Nim.
 
 - [cpython](https://github.com/juancarlospaco/cpython) - Python standard library for Nim.
-- [nodejs](https://github.com/juancarlospaco/nodejs) - NodeJS standard library for Nim.
+- [Node.js](https://github.com/juancarlospaco/nodejs) - Node.js standard library for Nim.
 
 
 ## Resources
