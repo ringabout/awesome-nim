@@ -67,7 +67,7 @@
 - [Development Tools](#development-tools)
     - [Binding Generators](#binding-generators)
     - [Command-Line Interface Automation](#command-line-interface-automation)
-- [Standard Libraries](#Standard Libraries)
+- [Standard Libraries](#standard-libraries)
 - [Resources](#resources)
     - [Books](#books)
     - [Blogs](#blogs)
