@@ -425,6 +425,7 @@
 - [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server written in Nim.
 - [GuildenStern](https://github.com/olliNiinivaara/GuildenStern) - Genuinely multithreading integrated HTTP/1.1 + WebSocket v13 Server for POSIX-compliant OSes.
 - [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written by pure Nim.
+- [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
 
 
 ### Websocket
@@ -432,6 +433,7 @@
 - [websocket.nim](https://github.com/niv/websocket.nim) - Websockets for Nim.
 - [ws](https://github.com/treeform/ws) - Simple WebSocket library for Nim.
 - [news](https://github.com/Tormund/news) - Nim easy web socket.
+- [jswebsockets](https://juancarlospaco.github.io/nodejs/nodejs/jswebsockets) - WebSockets optimized for JavaScript targets.
 
 
 ### Web Frameworks
@@ -480,6 +482,7 @@
 - [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser.
 - [nim-argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
 - [clapfn](https://github.com/oliversandli/clapfn) - Argument parsing similar to Python's argparse.
+- [cliche](https://github.com/juancarlospaco/cliche) - AutoMagic CLI argument parsing is so Cliché.
 
 
 ## Standard Libraries
