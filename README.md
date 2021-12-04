@@ -67,6 +67,7 @@
 - [Development Tools](#development-tools)
     - [Binding Generators](#binding-generators)
     - [Command-Line Interface Automation](#command-line-interface-automation)
+- [Standard Libraries](#standard-libraries)
 - [Resources](#resources)
     - [Books](#books)
     - [Blogs](#blogs)
@@ -479,6 +480,15 @@
 - [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser.
 - [nim-argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
 - [clapfn](https://github.com/oliversandli/clapfn) - Argument parsing similar to Python's argparse.
+
+
+## Standard Libraries
+
+Nim provides unique features for seamless and transparent interoperability with other technologies,
+some users found useful to make other standard libraries usable from Nim.
+
+- [cpython](https://github.com/juancarlospaco/cpython) - Python standard library for Nim.
+- [Node.js](https://github.com/juancarlospaco/nodejs) - Node.js standard library for Nim.
 
 
 ## Resources
