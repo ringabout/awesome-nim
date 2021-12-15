@@ -94,6 +94,7 @@
 - [Nimble](https://github.com/nim-lang/nimble) - Nimble can be used as a build system.
 - [nimph](https://github.com/disruptek/nimph) - Nim package hierarchy manager from the future.
 - [nimby](https://github.com/treeform/nimby) - Nimby is a very simple and unofficial package manager for Nim.
+- [nsis](https://github.com/nim-libs/nsis) - Nim programming language setup tool.
 
 
 ## System API
