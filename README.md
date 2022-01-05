@@ -286,7 +286,7 @@
 ## Plot
 
 - [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim.
-- [nim-plotly](https://github.com/brentp/nim-plotly) - The plotting library for Nim.
+- [nim-plotly](https://github.com/SciNim/nim-plotly) - The plotting library for Nim.
 - [graph](https://github.com/stisa/graph) - A basic plotting libiary in Nim.
 - [npainter](https://github.com/mrgaturus/npainter) - Semi GPU-Accelerated painting software written in Nim.
 - [pixie](https://github.com/treeform/pixie) - Full-featured 2d graphics library for Nim.
