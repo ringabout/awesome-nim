@@ -523,7 +523,7 @@ some users found useful to make other standard libraries usable from Nim.
 - [The Nim IRC channel](http://webchat.freenode.net/?channels=nim)
 - [The Nim Gitter channel](https://gitter.im/nim-lang/Nim)
 - [The Nim Discord channel](https://discord.gg/ptW3Rb3)
-- [The Nim mailing list](http://www.freelists.org/list/nim-dev)
+- [The Nim mailing list (forum archive)](https://www.mail-archive.com/nim-general@lists.nim-lang.org/)
 - [The Nim SubReddit](http://reddit.com/r/nim)
 - [The Nim Telegram](https://t.me/nim_lang)
 - [The Nim Telegram in Spanish](https://t.me/NimArgentina)
