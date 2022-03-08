@@ -180,7 +180,7 @@
 - [NimSvg](https://github.com/bluenote10/NimSvg) - The Nim-based DSL allowing to generate SVG files and GIF animations.
 - [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim.
 - [imageman](https://github.com/SolitudeSF/imageman) - Image manipulation library.
-- [pixie](https://github.com/treeform/pixie) -A full-featured 2D graphics library for Nim.
+- [pixie](https://github.com/treeform/pixie) - A full-featured 2D graphics library for Nim.
 
 
 ## Audio
@@ -289,7 +289,6 @@
 - [nim-plotly](https://github.com/SciNim/nim-plotly) - The plotting library for Nim.
 - [graph](https://github.com/stisa/graph) - A basic plotting libiary in Nim.
 - [npainter](https://github.com/mrgaturus/npainter) - Semi GPU-Accelerated painting software written in Nim.
-- [pixie](https://github.com/treeform/pixie) - Full-featured 2d graphics library for Nim.
 
 
 ## Terminal
