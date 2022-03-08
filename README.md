@@ -179,8 +179,8 @@
 - [nimpdf](https://github.com/jangko/nimpdf) - PDF document writer, written in Nim.
 - [NimSvg](https://github.com/bluenote10/NimSvg) - The Nim-based DSL allowing to generate SVG files and GIF animations.
 - [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim.
-- [flippy](https://github.com/treeform/flippy) - Flippy is a simple 2d image and drawing library.
 - [imageman](https://github.com/SolitudeSF/imageman) - Image manipulation library.
+- [pixie](https://github.com/treeform/pixie) -A full-featured 2D graphics library for Nim.
 
 
 ## Audio
