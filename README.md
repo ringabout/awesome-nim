@@ -38,6 +38,7 @@
 - [Window](#window)
 - [UI](#ui)
 - [GUI](#gui)
+- [Hardware](#hardware)
 - [Plot](#plot)
 - [Terminal](#terminal)
 - [Editor](#editor)
@@ -281,6 +282,12 @@
 - [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based Crossplatform GUI Framework with Dark theme.
 - [gintro](https://github.com/StefanSalewski/gintro) - High-level GObject-Introspection based GTK3/GTK4 bindings for Nim.
 - [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
+
+
+## Hardware
+
+- [nimvisa](https://github.com/leeooox/nimvisa) - Wrapper for NI-VISA instrument control library.
+- [ftd2xx](https://github.com/leeooox/ftd2xx) - Wrapper for FTDI ftd2xx library (USB to JTAG/SPI/I2C/Bitbang etc.).
 
 
 ## Plot
