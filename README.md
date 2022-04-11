@@ -538,5 +538,5 @@ using `jester`.
 - [yardanico twitch](https://www.twitch.tv/yardanico) - The live broadcast regarding Nim language.
 - [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
 
----
+## License
 *Awesome-Nim logo is based on the "Nim Crown" logo by Joseph Wecker, used with permission from the Nim project.*
