@@ -1,6 +1,4 @@
-<!-- <p align="center"><img src="asset/logo.svg" width="400"/></p> -->
-
-# Awesome Nim [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# <a href="https://nim-lang.org"><img src="asset/awesome-nim-logo.svg" alt="Awesome-nim-logo" width="600"/></a><a href="https://awesome.re"><img align="right" src="https://awesome.re/badge.svg"></a>
 
 > A curated list of awesome Nim frameworks, libraries, software and resources.
 
@@ -559,3 +557,6 @@ using `jester`.
 - [disruptek twitch](https://www.twitch.tv/disruptek) - The live broadcast regarding Nim language.
 - [yardanico twitch](https://www.twitch.tv/yardanico) - The live broadcast regarding Nim language.
 - [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
+
+---
+*Awesome-Nim logo is based on the "Nim Crown" logo by Joseph Wecker, used with permission from the Nim project.*
