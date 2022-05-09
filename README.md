@@ -479,6 +479,7 @@
 - [nimterop](https://github.com/nimterop/nimterop) - Nimterop is a Nim package that aims to make C/C++ interop seamless.
 - [c2nim](https://github.com/nim-lang/c2nim) - c2nim is a tool to translate Ansi C code to Nim.
 - [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
+- [Futhark](https://github.com/PMunch/futhark) - Automatic wrapping of C headers in Nim with libclang.
 
 
 ### Command-Line Interface Automation
