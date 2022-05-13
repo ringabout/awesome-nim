@@ -505,21 +505,20 @@ some users found useful to make other standard libraries usable from Nim.
 ### Books
 
 - [Nim in Action](https://www.manning.com/books/nim-in-action) - Nim's first book.
-- [Nim Days](https://github.com/xmonader/nimdays) - A project to document my journey with Nim with mini applications, libraries documented from A to Z and also to provide new Nim users with some extra in depth information.
-- [Nimbus Handbook](https://nimbus.guide) - A comprehensive introduction to the Nim programming language.
-- [nim-style-guide](https://github.com/status-im/nim-style-guide) - Status style guid for the Nim language.
+- [Computer Programming with Nim](https://ssalewski.de/nimprogramming.html) - A gentle introduction to the Nim programming language.
+- [Nim Days](https://xmonader.github.io/nimdays/) - A project to document my journey with Nim with mini applications, libraries documented from A to Z and also to provide new Nim users with some extra in depth information.
+- [Nim Style Guide](https://status-im.github.io/nim-style-guide/) - Status style guide for the Nim language.
 
 
 ### Blogs
 
 - [Nim Blog](http://nim-lang.org/blog.html) - Official Nim blog.
-- [Goran Krampe](http://goran.krampe.se/nim/) - Wrapping C, arduino, performance, links.
+- [Goran Krampe](http://goran.krampe.se/nim/) - Wrapping C, Arduino, performance, links.
 - [HookRace](https://hookrace.net/blog/nim/) - Blog with multiple articles on Nim.
 - [Rants from the Ballmer Peak](https://gradha.github.io/tags/nim.html) - Posts on Nim and other languages.
 - [Yuriy Glukhov's blog](https://yglukhov.github.io/) - Making and shipping a game in Nim.
 - [Araq's Musings](https://nim-lang.org/araq) - Blog on Nim from the creator himself.
-- [Nim memory](http://zevv.nl/nim-memory/) - This is a small tutorial explaining how Nim stores data in memory.
-- [Nim Arc](http://zevv.nl/nim-memory/nim-arc.html) - Make a friendly explanation of ARC and its implications for the programmer.
+- [Nim on dev.to](https://dev.to/t/nim) - Nim blogs on `dev.to`.
 
 
 ### Community
@@ -529,9 +528,10 @@ some users found useful to make other standard libraries usable from Nim.
 - [The Nim Gitter channel](https://gitter.im/nim-lang/Nim)
 - [The Nim Discord channel](https://discord.gg/ptW3Rb3)
 - [The Nim mailing list (forum archive)](https://www.mail-archive.com/nim-general@lists.nim-lang.org/)
-- [The Nim SubReddit](http://reddit.com/r/nim)
+- [The Nim subreddit](http://reddit.com/r/nim)
 - [The Nim Telegram](https://t.me/nim_lang)
 - [The Nim Telegram in Spanish](https://t.me/NimArgentina)
+
 
 ### Websites
 
@@ -540,14 +540,15 @@ some users found useful to make other standard libraries usable from Nim.
 - [Learn Nim in Y minutes](https://learnxinyminutes.com/docs/nim/) - Whirlwind tour.
 - [Nim by Example](https://nim-by-example.github.io) - Series of pages and examples for learning the Nim programming language.
 - [Nim for Python programmers](https://github.com/nim-lang/Nim/wiki/Nim-for-Python-Programmers) - Guide to Nim for people with experience in Python.
-- [Rosettacode:Nim](https://rosettacode.org/wiki/Category:Nim) - 100s of solutions for various tasks using Nim (Implementations available in other languages as well).
-- [dev](https://dev.to/t/nim) - Nim blogs in `dev.io`.
+- [Nim on Rosetta Code](https://rosettacode.org/wiki/Category:Nim) - Thousands of solutions for various tasks using Nim.
+- [Nim Memory](http://zevv.nl/nim-memory/) - A small tutorial explaining how Nim stores data in memory.
+- [Nim ARC](http://zevv.nl/nim-memory/nim-arc.html) - A friendly explanation of ARC and its implications for the programmer.
 
 
 ### Videos
 
-- [Nim official Channel](https://www.youtube.com/channel/UCDAYn_VFt0VisL5-1a5Dk7Q/videos) - Official videos introduce the powerful and interesting part in Nim language.
-- [Nim for beginners](https://www.youtube.com/user/kiloneie/playlists) - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
+- [Nim's Official Channel](https://www.youtube.com/channel/UCDAYn_VFt0VisL5-1a5Dk7Q/videos) - Official videos introduce the powerful and interesting part in Nim language.
+- [Nim for Beginners](https://www.youtube.com/user/kiloneie/playlists) - This is a video series meant to teach people programming in Nim to people who have never programmed before, or are new to Nim.
 - [Make a website with Nim](https://www.youtube.com/watch?v=ndzlVRWqT2E&list=PL6RpFCvmb5SGw7aJK1E4goBxpMK3NvkON) - This is a video series meant to teach people make a website with Nim
 using `jester`.
 - [Learning Nim](https://www.youtube.com/watch?v=I_Y94G37iR4&list=PLu-ydI-PCl0PqxiYXQMmLh7wjQKm5Cz-H) - Tutorial video series on learning Nim showcasing various features of the language and its libraries.
