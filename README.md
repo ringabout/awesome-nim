@@ -17,7 +17,7 @@
 - [Database](#database)
     - [Driver](#driver)
     - [ORM](#orm)
-- [Date Time](#date-time)
+- [Date and Time](#date-and-time)
 - [Benchmarking](#benchmarking)
 - [Randomization](#randomization)
 - [Data Processing](#data-processing)
@@ -92,7 +92,7 @@
 - [Nawabs](https://github.com/Araq/nawabs) - A build system that throws away version numbering in favor of git hashes.
 - [Nimble](https://github.com/nim-lang/nimble) - Nimble can be used as a build system.
 - [nimph](https://github.com/disruptek/nimph) - Nim package hierarchy manager from the future.
-- [nimby](https://github.com/treeform/nimby) - Nimby is a very simple and unofficial package manager for Nim.
+- [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
 - [nsis](https://github.com/nim-libs/nsis) - Nim programming language setup tool.
 
 
@@ -148,7 +148,7 @@
 - [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
 
 
-## Date Time
+## Date and Time
 
 - [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human#nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601.
 - [timezones](https://github.com/GULPF/timezones) - Nim timezone library compatible with the standard library.
@@ -174,9 +174,9 @@
 
 ## Image
 
-- [nimPNG](https://github.com/jangko/nimPNG) - PNG (Portable Network Graphics) decoder and encoder written in Nim.
+- [nimpng](https://github.com/jangko/nimPNG) - PNG (Portable Network Graphics) decoder and encoder written in Nim.
 - [nimpdf](https://github.com/jangko/nimpdf) - PDF document writer, written in Nim.
-- [NimSvg](https://github.com/bluenote10/NimSvg) - The Nim-based DSL allowing to generate SVG files and GIF animations.
+- [nimsvg](https://github.com/bluenote10/NimSvg) - The Nim-based DSL allowing to generate SVG files and GIF animations.
 - [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim.
 - [imageman](https://github.com/SolitudeSF/imageman) - Image manipulation library.
 - [pixie](https://github.com/treeform/pixie) - A full-featured 2D graphics library for Nim.
@@ -219,16 +219,16 @@
 
 ## Design
 
-- [nim-random-font-color](https://github.com/juancarlospaco/nim-random-font-color#nim-random-font-color) - Random curated Fonts, pastel Colors and Seamless CSS3 Patterns for your UI/UX design, design for non-designers, poors man design.
+- [nim-random-font-color](https://github.com/juancarlospaco/nim-random-font-color) - Random curated fonts, pastel colors and seamless CSS3 Patterns for your UI/UX design. Design for non-designers - poor man's design.
 - [chroma](https://github.com/treeform/chroma) - Everything you want to do with colors, in Nim.
-- [typography](https://github.com/treeform/typography) - Fonts, Typesetting and Rasterization.
+- [typography](https://github.com/treeform/typography) - Fonts, typesetting and rasterization.
 - [trick](https://github.com/exelotl/trick) - Library for GBA/NDS image conversion, and more!
 
 
 ## Embedded
 
 - [ardunimo](https://github.com/gokr/ardunimo) - Nim wrapper for Arduino + LinkIt ONE SDK by Mediatek.
-- [ardunimesp](https://gitlab.com/NetaLabTek/Arduimesp) - Nim wrapper for Arduino ESP8266 framework + A tool for flash, compile and make the nim project into an Arduino project.
+- [ardunimesp](https://gitlab.com/NetaLabTek/Arduimesp) - Nim wrapper for Arduino ESP8266 framework + A tool for flashing, compiling and making a Nim project into an Arduino project.
 - [msp430f5510](https://gitlab.com/jalexander8717/msp430f5510-nim) - Run Nim on MSP430f5510 micro-controller (6KB of RAM).
 - [Nesper](https://github.com/elcritch/nesper) - Program the ESP32 using Nim. Library on top of esp-idf.
 - [stm32f3](https://github.com/mwbrown/nim_stm32f3) - Run Nim on STM32F3 micro-controller (16KB of RAM).
@@ -260,12 +260,12 @@
 ## Window
 
 - [nimdow](https://github.com/avahe-kellenberger/nimdow) - A window manager written in Nim.
-- [Nimwin](https://github.com/weskerfoot/Nimwin) - A Very Simple X11 Window Manager.
+- [Nimwin](https://github.com/weskerfoot/Nimwin) - A very simple X11 Window manager.
 
 
 ## UI
 
-- [ui](https://github.com/nim-lang/iup) - Wrapper for IUP - Beginnings of what might become Nim's official UI library.
+- [iup](https://github.com/nim-lang/iup) - Wrapper for IUP. Beginnings of what might become Nim's official UI library.
 - [fidget](https://github.com/treeform/fidget) - Figma based UI library for Nim, with HTML and OpenGL backends.
 
 
@@ -273,11 +273,11 @@
 
 - [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 - [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
-- [NiGui](https://github.com/trustable-code/NiGui) - The cross-platform, desktop GUI toolkit.
+- [NiGui](https://github.com/trustable-code/NiGui) - A cross-platform, desktop GUI toolkit.
 - [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML/JS GUI apps.
 - [wNim](https://github.com/khchen/wNim) - Nim's Windows GUI Framework.
-- [nimqml](https://github.com/filcuc/nimqml) - Qt Qml bindings for the Nim programming language.
-- [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based Crossplatform GUI Framework with Dark theme.
+- [nimqml](https://github.com/filcuc/nimqml) - Qt QML bindings for the Nim programming language.
+- [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based cross-platform GUI Framework with a dark theme.
 - [gintro](https://github.com/StefanSalewski/gintro) - High-level GObject-Introspection based GTK3/GTK4 bindings for Nim.
 - [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
 
@@ -292,14 +292,14 @@
 
 - [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim.
 - [nim-plotly](https://github.com/SciNim/nim-plotly) - The plotting library for Nim.
-- [graph](https://github.com/stisa/graph) - A basic plotting libiary in Nim.
-- [npainter](https://github.com/mrgaturus/npainter) - Semi GPU-Accelerated painting software written in Nim.
+- [graph](https://github.com/stisa/graph) - A basic plotting library in Nim.
+- [npainter](https://github.com/mrgaturus/npainter) - Semi GPU-accelerated painting software written in Nim.
 
 
 ## Terminal
 
 - [illwill](https://github.com/johnnovak/illwill) - Simple cross-platform terminal library inspired by (n)curses.
-- [NimCx](https://github.com/qqtop/NimCx) - Color and Utilities for the Linux Terminal.
+- [NimCx](https://github.com/qqtop/NimCx) - Color and utilities for the Linux terminal.
 - [nicy](https://github.com/icyphox/nicy) - A nice and icy zsh and bash prompt in Nim.
 
 
@@ -317,25 +317,24 @@
 ## Implementations
 
 - [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
-- [Nlvm](https://github.com/arnetheduck/nlvm) - LLVM backend for Nim.
+- [nlvm](https://github.com/arnetheduck/nlvm) - LLVM backend for Nim.
 
 
 ## Macros
 
 - [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
 - [macroutils](https://github.com/PMunch/macroutils) - A package that makes creating macros easier.
-- [nimacros](https://github.com/FemtoEmacs/nimacros) - Documentation for Nim Macros.
+- [nimacros](https://github.com/FemtoEmacs/nimacros) - Documentation for Nim macros.
 - [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
 - [unpack](https://github.com/technicallyagd/unpack) - Sequence/object unpacking/destructuring.
-- [with](https://github.com/zevv/with) - The with macro for Nim.
+- [with](https://github.com/zevv/with) - The `with` macro for Nim.
 - [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
 
 
 ## Package Repositories
 
 - [Nim packages](https://github.com/nim-lang/packages) - List of packages for Nimble.
-- [Nim package directory](https://nimble.directory/) - This service allows you to explore Nim packages known to Nimble.
-  It tests package installation and generates documentation using "nim doc".
+- [Nim package directory](https://nimble.directory/) - Explore Nim packages known to Nimble.
 
 
 ## Protocols
@@ -354,7 +353,7 @@
 
 ## Scripting
 
-- [Nimcr](https://github.com/PMunch/nimcr/blob/master/README.md) - Running Nim code with Shebangs.
+- [nimcr](https://github.com/PMunch/nimcr) - Running Nim code with Shebangs.
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
 
 
@@ -391,7 +390,7 @@
 - [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim.
 - [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library.
 - [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
-- [nim-datauri](https://github.com/juancarlospaco/nim-datauri#nim-datauri) - Data URI Base64 UTF-8.
+- [nim-datauri](https://github.com/juancarlospaco/nim-datauri) - Data URI Base64 UTF-8.
 
 
 ### Translation
@@ -429,7 +428,7 @@
 - [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim.
 - [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server written in Nim.
 - [GuildenStern](https://github.com/olliNiinivaara/GuildenStern) - Genuinely multithreading integrated HTTP/1.1 + WebSocket v13 Server for POSIX-compliant OSes.
-- [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written by pure Nim.
+- [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written in pure Nim.
 - [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
 
 
@@ -437,18 +436,18 @@
 
 - [websocket.nim](https://github.com/niv/websocket.nim) - Websockets for Nim.
 - [ws](https://github.com/treeform/ws) - Simple WebSocket library for Nim.
-- [news](https://github.com/Tormund/news) - Nim easy web socket.
+- [news](https://github.com/Tormund/news) - Nim easy web socket. Based on ws.
 - [jswebsockets](https://juancarlospaco.github.io/nodejs/nodejs/jswebsockets) - WebSockets optimized for JavaScript targets.
 
 
 ### Web Frameworks
 
 - [Jester](https://github.com/dom96/jester) - The sinatra-like web framework for Nim. Jester provides a DSL for quickly creating web applications in Nim.
-- [prologue](https://github.com/planety/prologue) - Full-Stack Web Framework written in Nim.
+- [prologue](https://github.com/planety/prologue) - Full-Stack web framework written in Nim.
 - [rosencrantz](http://andreaferretti.github.io/rosencrantz/) - DSL to write web servers, inspired by [Spray](http://spray.io/) and its successor [Akka HTTP](http://akka.io).
-- [whip](https://github.com/mattaylor/whip) - Simple fast http server for Nim based on httpbeast and nest for high performance routing.
+- [whip](https://github.com/mattaylor/whip) - Simple and fast HTTP server for Nim based on httpbeast and nest for high performance routing.
 - [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
-- [Karax](https://github.com/karaxnim/karax) - Framework for developing single page applications in Nim.
+- [Karax](https://github.com/karaxnim/karax) - A framework for developing single page applications in Nim.
 - [scorper](https://github.com/bung87/scorper) - A micro and elegant web framework written in Nim.
 - [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes.
 
@@ -467,7 +466,7 @@
 ## Markdown
 
 - [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
-- [nim-markdown](https://github.com/soasme/nim-markdown) - A Beautiful Markdown Parser in the Nim World.
+- [nim-markdown](https://github.com/soasme/nim-markdown) - A beautiful Markdown Parser in the Nim world.
 - [lester](https://github.com/madprops/lester) - Create quick documents out of Markdown, into HTML.
 
 
@@ -475,11 +474,11 @@
 
 ### Binding Generators
 
-- [Nimpy](https://github.com/yglukhov/nimpy) - Gen Python wrappers, call python from Nim.
-- [nimterop](https://github.com/nimterop/nimterop) - Nimterop is a Nim package that aims to make C/C++ interop seamless.
 - [c2nim](https://github.com/nim-lang/c2nim) - c2nim is a tool to translate Ansi C code to Nim.
-- [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
+- [nimterop](https://github.com/nimterop/nimterop) - A Nim package that aims to make C/C++ interop seamless.
 - [Futhark](https://github.com/PMunch/futhark) - Automatic wrapping of C headers in Nim with libclang.
+- [nimpy](https://github.com/yglukhov/nimpy) - Generate Python wrappers and call Python from Nim.
+- [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
 
 
 ### Command-Line Interface Automation
@@ -488,7 +487,7 @@
 - [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser.
 - [nim-argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
 - [clapfn](https://github.com/oliversandli/clapfn) - Argument parsing similar to Python's argparse.
-- [cliche](https://github.com/juancarlospaco/cliche) - AutoMagic CLI argument parsing is so Cliché.
+- [cliche](https://github.com/juancarlospaco/cliche) - AutoMagic CLI argument parsing is so cliché.
 
 
 ## Standard Libraries
