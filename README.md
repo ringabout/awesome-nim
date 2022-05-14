@@ -239,6 +239,7 @@
 - [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
 - [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8.
 - [nimgame2](https://github.com/Vladar4/nimgame2) - A simple 2D game engine for Nim.
+- [norx](https://github.com/tankfeud/norx) - A complete wrapper of the ORX 2.5D cross platform game engine library.
 - [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
 - [rod](https://github.com/yglukhov/rod) - Cross-platform game engine.
 - [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
