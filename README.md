@@ -13,6 +13,7 @@
   - [Editors](#editors)
   - [Async IO](#async-io)
   - [Threading](#threading)
+  - [Functional programming and iterators](#functional-programming-and-iterators)
   - [Macros](#macros)
 - [Operating System](#operating-system)
   - [System API](#system-api)
@@ -116,16 +117,21 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [weave](https://github.com/mratsim/weave) - A state-of-the-art multithreading runtime: message-passing based, fast, scalable, ultra-low overhead.
 
+### Functional programming and iterators
+
+- [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
+- [iterrr!](https://github.com/hamidb80/iterrr) -  Macros-based functional-style, lazy-like, extensible iterator library.
+- [itertools](https://github.com/narimiran/itertools) - Nim rewrite of a very popular Python module of the same name.
+- [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
+- [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
+
 
 ### Macros
 
-- [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
 - [macroutils](https://github.com/PMunch/macroutils) - A package that makes creating macros easier.
 - [nimacros](https://github.com/FemtoEmacs/nimacros) - Documentation for Nim macros.
-- [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
 - [unpack](https://github.com/technicallyagd/unpack) - Sequence/object unpacking/destructuring.
 - [with](https://github.com/zevv/with) - The `with` macro for Nim.
-- [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
 
 
 ## Operating System
@@ -159,6 +165,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nimcr](https://github.com/PMunch/nimcr) - Running Nim code with Shebangs.
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
+- [shell](https://github.com/Vindaar/shell) - A mini Nim DSL to execute shell commands more conveniently.
 
 
 ## Hardware
