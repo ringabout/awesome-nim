@@ -54,6 +54,11 @@
   - [Terminal](#terminal)
   - [Design](#design)
   - [GUI](#gui)
+    - [Crossplatform](#crossplatform)
+    - [Windows](#windows)
+    - [Linux](#linux)
+    - [Web Technology](#web-technology)
+    - [Lightweight](#lightweight)
   - [Plotting](#plotting)
 - [Web](#web)
   - [Protocols](#protocols)
@@ -368,17 +373,40 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### GUI
 
-- [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
+#### Crossplatform
+
 - [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
 - [NiGui](https://github.com/trustable-code/NiGui) - A cross-platform, desktop GUI toolkit.
-- [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML/JS GUI apps.
-- [wNim](https://github.com/khchen/wNim) - Nim's Windows GUI Framework.
-- [nimqml](https://github.com/filcuc/nimqml) - Qt QML bindings for the Nim programming language.
-- [webgui](https://github.com/juancarlospaco/webgui) - Web Technologies based cross-platform GUI Framework with a dark theme.
-- [gintro](https://github.com/StefanSalewski/gintro) - High-level GObject-Introspection based GTK3/GTK4 bindings for Nim.
-- [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
+- [ui](https://github.com/nim-lang/ui) - Wrapper for libui. Beginnings of what might become Nim's official UI library.
 - [iup](https://github.com/nim-lang/iup) - Wrapper for IUP. Beginnings of what might become Nim's official UI library.
+- [SDL2](https://github.com/nim-lang/sdl2) - Official wrapper for SDL 2.x.
+- [SDL2](https://github.com/Vladar4/sdl2_nim) - A wrapper for SDL 2.
+
+
+#### Windows
+
+- [wNim](https://github.com/khchen/wNim) - Nim's Windows GUI Framework.
+
+
+#### Linux
+
+- [gintro](https://github.com/StefanSalewski/gintro) - High-level GObject-Introspection based GTK3/GTK4 bindings for Nim.
+- [nimqml](https://github.com/filcuc/nimqml) - Qt QML bindings for the Nim programming language.
+
+
+#### Web Technology
+
+- [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML/JS GUI apps.
+- [nimview](https://github.com/marcomq/nimview) - A Nim/Webview based helper to create desktop/server applications with Nim and HTML/CSS.
+- [webgui](https://github.com/juancarlospaco/webgui) - Web technologies based cross-platform GUI Framework with a dark theme.
 - [fidget](https://github.com/treeform/fidget) - Figma based UI library for Nim, with HTML and OpenGL backends.
+- [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
+
+
+#### Lightweight
+
+- [imgui](https://github.com/nimgl/imgui) - ImGui bindings for Nim via cimgui.
+- [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 
 
 ### Plotting
