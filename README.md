@@ -22,15 +22,18 @@
 - [Operating System](#operating-system)
   - [System API](#system-api)
   - [IO](#io)
+  - [Processes](#processes)
   - [Date and Time](#date-and-time)
   - [Randomization](#randomization)
   - [Scripting](#scripting)
 - [Hardware](#hardware)
   - [Embedded](#embedded)
+- [Science](#science)
 - [Data](#data)
   - [Database](#database)
     - [Driver](#driver)
     - [ORM](#orm)
+  - [Data Structures](#data-structures)
   - [Data Processing](#data-processing)
   - [Parsing](#parsing)
   - [Serialization](#serialization)
@@ -40,7 +43,8 @@
   - [Markdown](#markdown)
 - [Multimedia](#multimedia)
   - [Audio](#audio)
-  - [Image](#image)
+  - [Images](#images)
+  - [Documents](#documents)
 - [Algorithms](#algorithms)
   - [Math](#math)
     - [Symbolic](#symbolic)
@@ -48,7 +52,9 @@
     - [Vector](#vector)
     - [Matrix](#matrix)
   - [Deep Learning](#deep-learning)
+  - [Bigints](#bigints)
   - [Cryptography](#cryptography)
+  - [Blockchain](#blockchain)
   - [Compression](#compression)
 - [User Interface](#user-interface)
   - [Terminal](#terminal)
@@ -195,6 +201,13 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [lockfreequeues](https://github.com/elijahr/lockfreequeues) - Lock-free queue implementations for Nim.
 
 
+### Processes
+
+- [psutil](https://github.com/johnscillieri/psutil-nim) - A port of Python's psutil to Nim.
+- [nim-schedules](https://github.com/soasme/nim-schedules) - A Nim scheduler library that lets you kick off jobs at regular intervals.
+- [nim-daemon](https://github.com/status-im/nim-daemon) - Cross-platform process daemonization library for the Nim language.
+
+
 ### Date and Time
 
 - [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601.
@@ -229,6 +242,13 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [stm32f3](https://github.com/mwbrown/nim_stm32f3) - Run Nim on STM32F3 micro-controller (16KB of RAM).
 
 
+## Science
+
+- [units](https://github.com/Udiknedormin/NimUnits) - Statically-typed quantity units library for the Nim language.
+- [unchained](https://github.com/SciNim/Unchained) - A fully type safe, compile time only units library.
+- [metric](https://github.com/mjendrusch/metric) - A small library providing type-level dimensional analysis.
+- [orbits](https://github.com/treeform/orbits) - Orbital mechanics library for Nim.
+
 ## Data
 
 ### Database
@@ -249,6 +269,22 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nim-allographer](https://github.com/itsumura-h/nim-allographer) - A query_builder/ORM library inspired by Laravel/PHP and Orator/Python for Nim.
 - [nim-gatabase](https://github.com/juancarlospaco/nim-gatabase) - Connection-Pooling Compile-Time ORM for Nim.
 - [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
+
+
+### Data Structures
+
+- [BitVector](https://github.com/MarcAzar/BitVector) - A high-performance Nim implementation of BitVectors.
+- [rbtree](https://github.com/Nycto/RBTreeNim) - A Red/Black tree implementation in Nim.
+- [quadtree](https://github.com/Nycto/QuadtreeNim) - A Quadtree library for Nim.
+- [kdtree](https://github.com/jblindsay/kdtree) - A pure Nim k-d tree implementation for efficient spatial querying of point data.
+- [RTree](https://github.com/StefanSalewski/RTree) - Generic R-tree implementation for Nim.
+- [sorta](https://github.com/narimiran/sorta) - SortedTables in Nim, based on B-trees.
+- [minmaxheap](https://github.com/StefanSalewski/minmaxheap) - A Nim implementation of a Minimum-Maximum heap.
+- [BipBuffer](https://github.com/MarcAzar/BipBuffer) - A Nim implementation of Simon Cooke's Bib Buffer
+- [bloom](https://github.com/boydgreenfield/nimrod-bloom) - Bloom filter implementation in Nim.
+- [binaryheap](https://github.com/bluenote10/nim-heap) - Simple binary heap implementation in Nim.
+- [faststack](https://github.com/Vladar4/FastStack) - Dynamically resizable data structure for fast iteration over large arrays of similar elements.
+- [StashTable](https://github.com/olliNiinivaara/StashTable) - Concurrent hash tables for Nim.
 
 
 ### Data Processing
@@ -304,14 +340,18 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [omni](https://github.com/vitreo12/omni) - A DSL for low-level audio programming.
 
 
-### Image
+### Images
 
-- [nimpng](https://github.com/jangko/nimPNG) - PNG (Portable Network Graphics) decoder and encoder written in Nim.
-- [nimpdf](https://github.com/jangko/nimpdf) - PDF document writer, written in Nim.
-- [nimsvg](https://github.com/bluenote10/NimSvg) - The Nim-based DSL allowing to generate SVG files and GIF animations.
-- [inumon](https://github.com/dizzyliam/inumon) - A high-level image I/O and manipulation library for Nim.
-- [imageman](https://github.com/SolitudeSF/imageman) - Image manipulation library.
 - [pixie](https://github.com/treeform/pixie) - A full-featured 2D graphics library for Nim.
+- [nimpng](https://github.com/jangko/nimPNG) - PNG (Portable Network Graphics) decoder and encoder written in Nim.
+- [nimbmp](https://github.com/jangko/nimBMP) - BMP decoder and encoder written in Nim.
+- [nimsvg](https://github.com/bluenote10/NimSvg) - A Nim-based DSL allowing generation of SVG files and GIF animations.
+- [pnm](https://github.com/jiro4989/pnm) - Library for PNM (Portable Anymap) in Nim.
+
+
+### Documents
+
+- [nimpdf](https://github.com/jangko/nimpdf) - PDF document writer, written in Nim.
 
 
 ## Algorithms
@@ -345,11 +385,29 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [NimTorch](https://github.com/sinkingsugar/nimtorch) - PyTorch - Python + Nim. A Nim front-end to PyTorch's native backend, combining Nim's speed, productivity and portability with PyTorch's latest implementations.
 
 
+### Bigints
+
+- [bigints](https://github.com/nim-lang/bigints) - Bigints for Nim.
+- [nim-stint](https://github.com/status-im/nim-stint) - Stack-based arbitrary-precision integers. Fast and portable with natural syntax for resource-restricted devices.
+- [theo](https://github.com/SciNim/theo) - An optimized bigint and number theory library for Nim.
+
+
 ### Cryptography
 
 - [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library.
-- [nimAES](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
-- [nim-crc32](https://github.com/juancarlospaco/nim-crc32#nim-crc32) - CRC32 for Nim, 2 proc, just pass the thing you want to do CRC.
+
+
+### Blockchain
+
+- [nim-eth](https://github.com/status-im/nim-eth) - Common utilities for Ethereum.
+- [nimbus-eth1](https://github.com/status-im/nimbus-eth1) - An Ethereum 1.0 and 2.0 client for resource-restricted devices.
+- [nimbus-eth2](https://github.com/status-im/nimbus-eth2) - Efficient implementation of the Ethereum 2.0 blockchain.
+- [nim-evmc](https://github.com/status-im/nim-evmc) - Ethereum VM binary compatible interface.
+- [nim-ethash](https://github.com/status-im/nim-ethash) - A pure-Nim implementation of Ethash, the Ethereum proof of work.
+- [nim-contract-abi](https://github.com/status-im/nim-contract-abi) - Implements encoding of parameters according to the Ethereum Contract ABI specification.
+<!-- - [nim-web3](https://github.com/status-im/nim-web3) - The humble beginnings of a Nim library similar to web3.[js|py]. -->
+<!-- - [nim-abc](https://github.com/status-im/nim-abc) - Experimental asynchronous blockchain. -->
+<!-- - [nim-nitro](https://github.com/status-im/nim-nitro) - Highly experimental implementation of the Nitro statechannels protocol in Nim. -->
 
 
 ### Compression
