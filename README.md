@@ -13,7 +13,11 @@
   - [Editors](#editors)
   - [Async IO](#async-io)
   - [Threading](#threading)
-  - [Functional programming and iterators](#functional-programming-and-iterators)
+  - [Error Handling](#error-handling)
+  - [Contracts](#contracts)
+  - [Object-Oriented Programming](#object-oriented-programming)
+  - [Functional Programming](#functional-programming)
+  - [Iteration](#iteration)
   - [Macros](#macros)
 - [Operating System](#operating-system)
   - [System API](#system-api)
@@ -117,13 +121,44 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [weave](https://github.com/mratsim/weave) - A state-of-the-art multithreading runtime: message-passing based, fast, scalable, ultra-low overhead.
 
-### Functional programming and iterators
+
+### Error Handling
+
+- [nim-result](https://github.com/arnetheduck/nim-result/) - Friendly, exception-free value-or-error returns, similar to Option[T].
+- [questionable](https://github.com/status-im/questionable) - Elegant optional types for Nim.
+- [optionsutils](https://github.com/PMunch/nim-optionsutils) - Utility macros for easier handling of options in Nim.
+
+
+### Contracts
+
+- [contracts](https://github.com/Udiknedormin/NimContracts) - Used to make contracts - elegant promises that pieces of code will fulfill certain conditions.
+- [nim-contra](https://github.com/juancarlospaco/nim-contra) - Lightweight and fast self-documenting design by contract programming.
+
+
+### Object-Oriented Programming
+
+- [oop_utils](https://github.com/bluenote10/oop_utils) - Nim macros for building OOP class hierarchies.
+- [interfaced](https://github.com/andreaferretti/interfaced) - Interfaces for Nim.
+- [protocoled](https://github.com/b3liever/protocoled) - Contains the protocol macro for easily implementing interfaces in Nim.
+- [traitor](https://github.com/beef331/traitor) - A macro heavy trait library made from boredom.
+- [classy](https://github.com/nigredo-tori/classy) - Haskell-style typeclasses for Nim.
+
+
+### Functional Programming
 
 - [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
-- [iterrr!](https://github.com/hamidb80/iterrr) -  Macros-based functional-style, lazy-like, extensible iterator library.
-- [itertools](https://github.com/narimiran/itertools) - Nim rewrite of a very popular Python module of the same name.
+- [nimfp](https://github.com/vegansk/nimfp) - Nim functional programming library.
 - [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
 - [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
+
+
+### Iteration
+
+- [iterrr](https://github.com/hamidb80/iterrr) - Macros-based functional-style, lazy-like, extensible iterator library.
+- [itertools](https://github.com/narimiran/itertools) - Nim rewrite of a very popular Python module of the same name.
+- [loopfusion](https://github.com/numforge/loopfusion) - Iterate efficiently over a variadic number of containers.
+- [looper](https://github.com/b3liever/looper) - For loop macros for Nim.
+- [mangle](https://github.com/baabelfish/mangle) - Attempt at a streaming library.
 
 
 ### Macros
