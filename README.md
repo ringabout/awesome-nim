@@ -72,6 +72,10 @@
   - [Template Engines](#template-engines)
   - [Authentication](#authentication)
 - [Game Development](#game-development)
+  - [Game Libraries](#game-libraries)
+  - [Game Frameworks](#game-frameworks)
+  - [Game Engines](#game-engines)
+  - [Rules Engines](#rules-engines)
 - [Development Tools](#development-tools)
   - [Editor Integration](#editor-integration)
   - [REPL](#repl)
@@ -506,20 +510,37 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ## Game Development
 
-- [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
+### Game Libraries
+
+- [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics.
+- [nim-glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
+- [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+- [enu](https://github.com/dsrw/enu) - 3D live coding with a Logo-like DSL for Godot, implemented in Nim.
+
+
+### Game Frameworks
+
 - [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8.
+- [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
+- [nodesnim](https://github.com/ethosa/nodesnim) - Simple 2D game framework based on SDL2 and OpenGL.
+- [c4](https://github.com/c0ntribut0r/cat-400) - Modular and extensible 2D and 3D game framework for Nim.
+- [paranim](https://github.com/paranim/paranim) - A game library based around carefully chosen abstractions.
+
+
+### Game Engines
+
 - [nimgame2](https://github.com/Vladar4/nimgame2) - A simple 2D game engine for Nim.
 - [norx](https://github.com/tankfeud/norx) - A complete wrapper of the ORX 2.5D cross platform game engine library.
 - [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
-- [rod](https://github.com/yglukhov/rod) - Cross-platform game engine.
-- [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
-- [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics.
-- [SDL2](https://github.com/Vladar4/sdl2_nim) - Wrapper for SDL 2.
 - [rapid](https://github.com/liquid600pgm/rapid) - A game engine written in Nim, optimized for rapid game development and prototyping.
-- [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
-- [nim-glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
-- [enu](https://github.com/dsrw/enu) - A Logo-like DSL for Godot, implemented in Nim.
-- [nodesnim](https://github.com/ethosa/nodesnim) - Simple game engine based on SDL2 and OpenGL.
+- [rod](https://github.com/yglukhov/rod) - Cross-platform 2D and 3D game engine.
+- [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
+
+
+### Rules Engines
+
+- [turn_based_game](https://github.com/JohnAD/turn_based_game) - A game rules engine for simulating or playing turn-based games.
+- [pararules](https://github.com/paranim/pararules) - A RETE-based rules engine made for games.
 
 
 ## Development Tools
