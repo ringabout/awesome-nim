@@ -130,7 +130,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Async IO
 
-- [nim-chronos](https://github.com/status-im/nim-chronos) - An efficient library for asynchronous programming.
+- [chronos](https://github.com/status-im/nim-chronos) - An efficient library for asynchronous programming.
 - [cps](https://github.com/disruptek/cps) - Continuation-Passing Style for Nim.
 
 
@@ -138,14 +138,14 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [weave](https://github.com/mratsim/weave) - A state-of-the-art multithreading runtime: message-passing based, fast, scalable, ultra-low overhead.
 - [timerpool](https://github.com/mikra01/timerpool) - Threadsafe timerpool implementation for event purposes.
-- [nim-taskpools](https://github.com/status-im/nim-taskpools) - Lightweight, energy-efficient, easily auditable threadpools.
+- [taskpools](https://github.com/status-im/nim-taskpools) - Lightweight, energy-efficient, easily auditable threadpools.
 - [shared](https://github.com/genotrance/shared) - A Nim library for shared types.
 - [synthesis](https://github.com/mratsim/Synthesis) - A compiletime, procedure-based, low-overhead, no-allocation, state-machine generator optimized for communicating processes and threads.
 
 
 ### Error Handling
 
-- [nim-result](https://github.com/arnetheduck/nim-result/) - Friendly, exception-free value-or-error returns, similar to Option[T].
+- [result](https://github.com/arnetheduck/nim-result/) - Friendly, exception-free value-or-error returns, similar to Option[T].
 - [questionable](https://github.com/status-im/questionable) - Elegant optional types for Nim.
 - [optionsutils](https://github.com/PMunch/nim-optionsutils) - Utility macros for easier handling of options in Nim.
 
@@ -153,7 +153,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Contracts
 
 - [contracts](https://github.com/Udiknedormin/NimContracts) - Used to make contracts - elegant promises that pieces of code will fulfill certain conditions.
-- [nim-contra](https://github.com/juancarlospaco/nim-contra) - Lightweight and fast self-documenting design by contract programming.
+- [contra](https://github.com/juancarlospaco/nim-contra) - Lightweight and fast self-documenting design by contract programming.
 
 
 ### Object-Oriented Programming
@@ -205,27 +205,27 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [ioselectors](https://github.com/xflywind/ioselectors) - The ioselectors plus for Nim.
 - [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim.
-- [nim-faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim.
+- [faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim.
 - [lockfreequeues](https://github.com/elijahr/lockfreequeues) - Lock-free queue implementations for Nim.
 
 
 ### Processes
 
 - [psutil](https://github.com/johnscillieri/psutil-nim) - A port of Python's psutil to Nim.
-- [nim-schedules](https://github.com/soasme/nim-schedules) - A Nim scheduler library that lets you kick off jobs at regular intervals.
-- [nim-daemon](https://github.com/status-im/nim-daemon) - Cross-platform process daemonization library for the Nim language.
+- [schedules](https://github.com/soasme/nim-schedules) - A Nim scheduler library that lets you kick off jobs at regular intervals.
+- [daemon](https://github.com/status-im/nim-daemon) - Cross-platform process daemonization library for the Nim language.
 
 
 ### Date and Time
 
-- [nim-datetime2human](https://github.com/juancarlospaco/nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601.
+- [datetime2human](https://github.com/juancarlospaco/nim-datetime2human) - Calculate date & time with precision from seconds to millenniums. Human friendly date time as string. ISO-8601.
 - [timezones](https://github.com/GULPF/timezones) - Nim timezone library compatible with the standard library.
 - [chrono](https://github.com/treeform/chrono) - A timestamps, calendars, and timezones library.
 
 
 ### Randomization
 
-- [nim-random](https://github.com/oprypin/nim-random) - Random number generation library for Nim, inspired by Python's "random" module.
+- [random](https://github.com/oprypin/nim-random) - Random number generation library for Nim, inspired by Python's "random" module.
 - [sysrandom.nim](https://github.com/euantorano/sysrandom.nim) - A Nim library to generate random numbers and random ranges of bytes using the system's PRNG.
 - [alea](https://github.com/andreaferretti/alea) - Define and compose random variables.
 - [drand48](https://github.com/JeffersonLab/drand48) - Nim implementation of the standard Unix drand48 random number generator.
@@ -276,16 +276,16 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [mycouch](https://github.com/hamidb80/mycouch) - Multisync CouchDB driver for Nim.
 - [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
 - [asyncmysql](https://github.com/tulayang/asyncmysql) - Asynchronous MySQL connector written in pure Nim.
-- [nim-sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
+- [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
 - [litestore](https://github.com/h3rald/litestore) - A lightweight, self-contained, RESTful, searchable, multi-format NoSQL document store.
-- [nim-rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
+- [rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
 
 
 #### ORM
 
 - [ormin](https://github.com/Araq/ormin) - Prepared SQL statement generator , A lightweight ORM.
-- [nim-allographer](https://github.com/itsumura-h/nim-allographer) - A query_builder/ORM library inspired by Laravel/PHP and Orator/Python for Nim.
-- [nim-gatabase](https://github.com/juancarlospaco/nim-gatabase) - Connection-Pooling Compile-Time ORM for Nim.
+- [allographer](https://github.com/itsumura-h/nim-allographer) - A query_builder/ORM library inspired by Laravel/PHP and Orator/Python for Nim.
+- [gatabase](https://github.com/juancarlospaco/nim-gatabase) - Connection-Pooling Compile-Time ORM for Nim.
 - [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
 
 
@@ -322,11 +322,11 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Serialization
 
-- [nim-serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim.
-- [nim-json-serialization](https://github.com/status-im/nim-json-serialization) - Flexible JSON serialization not relying on run-time type information.
-- [nim-protobuf-serialization](https://github.com/status-im/nim-protobuf-serialization) - The nim-protobuf-serialization.
-- [nim-ssz-serialization](https://github.com/status-im/nim-ssz-serialization) - Nim implementation of Simple Serialize (SSZ) serialization and merkleization.
-- [nim-toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization `not` relying on run-time type information.
+- [serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim.
+- [json-serialization](https://github.com/status-im/nim-json-serialization) - Flexible JSON serialization not relying on run-time type information.
+- [protobuf-serialization](https://github.com/status-im/nim-protobuf-serialization) - The nim-protobuf-serialization.
+- [ssz-serialization](https://github.com/status-im/nim-ssz-serialization) - Nim implementation of Simple Serialize (SSZ) serialization and merkleization.
+- [toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization `not` relying on run-time type information.
 - [frosty](https://github.com/disruptek/frosty) - Marshal native Nim objects via streams, sockets.
 - [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools.
 - [flatty](https://github.com/treeform/flatty) - Tools and serializer for plain flat binary files.
@@ -348,13 +348,13 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Translation
 
-- [nim-tinyslation](https://github.com/juancarlospaco/nim-tinyslation) - Text string translation from free online crowdsourced API.
+- [tinyslation](https://github.com/juancarlospaco/nim-tinyslation) - Text string translation from free online crowdsourced API.
 
 
 ### Markdown
 
 - [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
-- [nim-markdown](https://github.com/soasme/nim-markdown) - A beautiful Markdown Parser in the Nim world.
+- [markdown](https://github.com/soasme/nim-markdown) - A beautiful Markdown Parser in the Nim world.
 - [lester](https://github.com/madprops/lester) - Create quick documents out of Markdown, into HTML.
 
 
@@ -420,7 +420,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Bigints
 
 - [bigints](https://github.com/nim-lang/bigints) - Bigints for Nim.
-- [nim-stint](https://github.com/status-im/nim-stint) - Stack-based arbitrary-precision integers. Fast and portable with natural syntax for resource-restricted devices.
+- [stint](https://github.com/status-im/nim-stint) - Stack-based arbitrary-precision integers. Fast and portable with natural syntax for resource-restricted devices.
 - [theo](https://github.com/SciNim/theo) - An optimized bigint and number theory library for Nim.
 
 
@@ -430,9 +430,9 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
 - [constantine](https://github.com/mratsim/constantine) - Constant time pairing-based of elliptic curve based cryptography and digital signatures.
 - [bslcurve](https://github.com/status-im/nim-blscurve) - Nim implementation of BLS signature scheme (Boneh-Lynn-Shacham) over Barreto-Lynn-Scott (BLS) curve BLS12-381.
-- [nim-bncurve](https://github.com/status-im/nim-bncurve) - Nim implementation of Barreto-Naehrig pairing-friendly elliptic curve.
+- [bncurve](https://github.com/status-im/nim-bncurve) - Nim implementation of Barreto-Naehrig pairing-friendly elliptic curve.
 - [xxtea](https://github.com/xxtea/xxtea-nim) - XXTEA encryption algorithm library.
-- [nim-crc32](https://github.com/juancarlospaco/nim-crc32) - CRC32 for Nim. Just pass the thing you want to do CRC.
+- [crc32](https://github.com/juancarlospaco/nim-crc32) - CRC32 for Nim. Just pass the thing you want to do CRC.
 - [rollinghash](https://github.com/MarcAzar/RollingHash) - High performance Nim implementation of a Cyclic Polynomial Hash, aka BuzHash, and the Rabin-Karp algorithm.
 - [murmurhash](https://github.com/cwpearson/nim-murmurhash) - Pure Nim implementation of MurmerHash
 - [des](https://github.com/LucaWolf/des.nim) - DES/3DES, DUKPT and MAC in Nim.
@@ -442,15 +442,15 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Blockchain
 
-- [nim-eth](https://github.com/status-im/nim-eth) - Common utilities for Ethereum.
+- [eth](https://github.com/status-im/nim-eth) - Common utilities for Ethereum.
 - [nimbus-eth1](https://github.com/status-im/nimbus-eth1) - An Ethereum 1.0 and 2.0 client for resource-restricted devices.
 - [nimbus-eth2](https://github.com/status-im/nimbus-eth2) - Efficient implementation of the Ethereum 2.0 blockchain.
-- [nim-evmc](https://github.com/status-im/nim-evmc) - Ethereum VM binary compatible interface.
-- [nim-ethash](https://github.com/status-im/nim-ethash) - A pure-Nim implementation of Ethash, the Ethereum proof of work.
-- [nim-contract-abi](https://github.com/status-im/nim-contract-abi) - Implements encoding of parameters according to the Ethereum Contract ABI specification.
-<!-- - [nim-web3](https://github.com/status-im/nim-web3) - The humble beginnings of a Nim library similar to web3.[js|py]. -->
-<!-- - [nim-abc](https://github.com/status-im/nim-abc) - Experimental asynchronous blockchain. -->
-<!-- - [nim-nitro](https://github.com/status-im/nim-nitro) - Highly experimental implementation of the Nitro statechannels protocol in Nim. -->
+- [evmc](https://github.com/status-im/nim-evmc) - Ethereum VM binary compatible interface.
+- [ethash](https://github.com/status-im/nim-ethash) - A pure-Nim implementation of Ethash, the Ethereum proof of work.
+- [contract-abi](https://github.com/status-im/nim-contract-abi) - Implements encoding of parameters according to the Ethereum Contract ABI specification.
+<!-- - [web3](https://github.com/status-im/nim-web3) - The humble beginnings of a Nim library similar to web3.[js|py]. -->
+<!-- - [abc](https://github.com/status-im/nim-abc) - Experimental asynchronous blockchain. -->
+<!-- - [nitro](https://github.com/status-im/nim-nitro) - Highly experimental implementation of the Nitro statechannels protocol in Nim. -->
 
 
 ### Compression
@@ -518,7 +518,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Plotting
 
 - [ggplotnim](https://github.com/Vindaar/ggplotnim) - A port of ggplot2 for Nim.
-- [nim-plotly](https://github.com/SciNim/nim-plotly) - A plotly wrapper for Nim.
+- [plotly](https://github.com/SciNim/nim-plotly) - A plotly wrapper for Nim.
 - [graph](https://github.com/stisa/graph) - A basic plotting library in Nim.
 - [nimetry](https://github.com/refaqtor/nimetry) - Simple plotting in pure Nim.
 - [nimgraphviz](https://github.com/Aveheuzed/nimgraphviz) - A Nim library for making graphs with GraphViz and DOT.
@@ -528,13 +528,13 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Protocols
 
-- [nim-http-utils](https://github.com/status-im/nim-http-utils) - HTTP helper procedures.
+- [http-utils](https://github.com/status-im/nim-http-utils) - HTTP helper procedures.
 - [puppy](https://github.com/treeform/puppy) - Puppy fetches HTML pages for Nim.
 - [netty](https://github.com/treeform/netty) - Reliable UDP connection library for games in Nim.
-- [nim-json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers.
+- [json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers.
 - [nmqtt](https://github.com/zevv/nmqtt) - Native Nim MQTT client library.
-- [nim-libp2p](https://github.com/status-im/nim-libp2p) - A Nim implementation of the libp2p networking stack.
-- [nim-libp2p-dht](https://github.com/status-im/nim-libp2p-dht) - DHT based on the libp2p kademlia spec.
+- [libp2p](https://github.com/status-im/nim-libp2p) - A Nim implementation of the libp2p networking stack.
+- [libp2p-dht](https://github.com/status-im/nim-libp2p-dht) - DHT based on the libp2p kademlia spec.
 - [webdavclient](https://github.com/beshrkayali/webdavclient) - WebDAV client for Nim.
 - [stomp](https://github.com/subsetpark/nim-stomp) - A pure-Nim client library for interacting with Stomp compliant message brokers.
 - [presto](https://github.com/status-im/nim-presto) - An efficient REST API framework.
@@ -542,14 +542,14 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 #### DNS
 
-- [nim-ndns](https://github.com/rockcavera/nim-ndns) - A pure Nim Domain Name System (DNS) client.
-- [nim-dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language.
+- [ndns](https://github.com/rockcavera/nim-ndns) - A pure Nim Domain Name System (DNS) client.
+- [dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language.
 
 
 #### QUIC
 
-- [nim-quic](https://github.com/status-im/nim-quic) - QUIC for Nim. This is very much a work in progress, and not yet in a usable state.
-- [nim-ngtcp2](https://github.com/status-im/nim-ngtcp2) - A wrapper around ngtcp2: an effort to implement IETF QUIC protocol.
+- [quic](https://github.com/status-im/nim-quic) - QUIC for Nim. This is very much a work in progress, and not yet in a usable state.
+- [ngtcp2](https://github.com/status-im/nim-ngtcp2) - A wrapper around ngtcp2: an effort to implement IETF QUIC protocol.
 
 
 #### Websockets
@@ -558,7 +558,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [ws](https://github.com/treeform/ws) - Simple WebSocket library for Nim.
 - [news](https://github.com/Tormund/news) - Nim Easy WebSocket. Based on ws.
 - [jswebsockets](https://juancarlospaco.github.io/nodejs/nodejs/jswebsockets) - WebSockets optimized for JavaScript targets.
-- [nim-websock](https://github.com/status-im/nim-websock) - An implementation of the WebSocket protocol for Nim.
+- [websock](https://github.com/status-im/nim-websock) - An implementation of the WebSocket protocol for Nim.
 
 
 #### Messaging
@@ -566,7 +566,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [telebot.nim](https://github.com/ba0f3/telebot.nim) - Async client for Telegram Bot API in pure Nim.
 - [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
 - [nwaku](https://github.com/status-im/nwaku) - Implementation of the Waku v1 and v2 protocols.
-- [nim-status](https://github.com/status-im/nim-status) - Nim implementation of the Status protocol.
+- [status](https://github.com/status-im/nim-status) - Nim implementation of the Status protocol.
 
 
 ### HTML Parsers
@@ -600,15 +600,15 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Template Engines
 
 - [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker.
-- [nim-html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
-- [nim-templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
+- [html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
+- [templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
 - [nimja](https://github.com/enthus1ast/nimja) - Typed and compiled template engine inspired by jinja2, twig and onionhammer/nim-templates for Nim.
 - [mustache](https://github.com/soasme/nim-mustache) - A full implementation of v1.2.1 of the Mustache spec.
 
 
 ### Authentication
 
-- [nim-httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim.
+- [httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim.
 - [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim.
 
 
@@ -617,7 +617,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Game Libraries
 
 - [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics.
-- [nim-glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
+- [glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
 - [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
 - [enu](https://github.com/dsrw/enu) - 3D live coding with a Logo-like DSL for Godot, implemented in Nim.
 
@@ -688,8 +688,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Logging
 
-- [nim-chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim.
-- [nim-morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim.
+- [chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim.
+- [morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim.
 
 
 ### Testing
@@ -698,7 +698,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [balls](https://github.com/disruptek/balls) - A unittest macro to save the world, or at least your Sunday.
 - [einheit](https://github.com/jyapayne/einheit) - A Nim unit testing library inspired by Python's unit tests.
 - [asynctest](https://github.com/status-im/asynctest) - Complements the standard unittest module in Nim to allow testing of asynchronous code.
-- [nim-unittest2](https://github.com/status-im/nim-unittest2) - Fork of the "unittest" Nim module focusing on parallel test execution, test-level scoping and strict exception handling.
+- [unittest2](https://github.com/status-im/nim-unittest2) - Fork of the "unittest" Nim module focusing on parallel test execution, test-level scoping and strict exception handling.
 
 
 ### Benchmarking
@@ -714,11 +714,11 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [cligen](https://github.com/c-blake/cligen) - Infer & generate command-line interace/option/argument parsers.
 - [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser.
-- [nim-argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
+- [argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
 - [clapfn](https://github.com/oliversandli/clapfn) - Argument parsing similar to Python's argparse.
 - [cliche](https://github.com/juancarlospaco/cliche) - AutoMagic CLI argument parsing is so cliché.
 - [loki](https://github.com/beshrkayali/loki) - A small library for writing line-oriented command interpreters in Nim.
-- [nim-confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command line options and config files
+- [confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command line options and config files
 
 
 ## Resources
