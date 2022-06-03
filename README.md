@@ -63,7 +63,9 @@
 - [Web](#web)
   - [Protocols](#protocols)
     - [DNS](#dns)
+    - [QUIC](#quic)
     - [Websockets](#websockets)
+    - [Messaging](#messaging)
   - [HTML Parsers](#html-parsers)
   - [HTTP Servers](#http-servers)
   - [Frameworks](#frameworks)
@@ -421,11 +423,16 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Protocols
 
+- [nim-http-utils](https://github.com/status-im/nim-http-utils) - HTTP helper procedures.
+- [puppy](https://github.com/treeform/puppy) - Puppy fetches HTML pages for Nim.
 - [netty](https://github.com/treeform/netty) - Reliable UDP connection library for games in Nim.
 - [nim-json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers.
 - [nmqtt](https://github.com/zevv/nmqtt) - Native Nim MQTT client library.
-- [telebot.nim](https://github.com/ba0f3/telebot.nim) - Async client for Telegram Bot API in pure Nim.
-- [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
+- [nim-libp2p](https://github.com/status-im/nim-libp2p) - A Nim implementation of the libp2p networking stack.
+- [nim-libp2p-dht](https://github.com/status-im/nim-libp2p-dht) - DHT based on the libp2p kademlia spec.
+- [webdavclient](https://github.com/beshrkayali/webdavclient) - WebDAV client for Nim.
+- [stomp](https://github.com/subsetpark/nim-stomp) - A pure-Nim client library for interacting with Stomp compliant message brokers.
+- [presto](https://github.com/status-im/nim-presto) - An efficient REST API framework.
 
 
 #### DNS
@@ -434,12 +441,27 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nim-dnsprotocol](https://github.com/rockcavera/nim-dnsprotocol) - Domain Name System (DNS) protocol for Nim programming language.
 
 
+#### QUIC
+
+- [nim-quic](https://github.com/status-im/nim-quic) - QUIC for Nim. This is very much a work in progress, and not yet in a usable state.
+- [nim-ngtcp2](https://github.com/status-im/nim-ngtcp2) - A wrapper around ngtcp2: an effort to implement IETF QUIC protocol.
+
+
 #### Websockets
 
-- [websocket.nim](https://github.com/niv/websocket.nim) - Websockets for Nim.
+- [websocket.nim](https://github.com/niv/websocket.nim) - WebSockets for Nim.
 - [ws](https://github.com/treeform/ws) - Simple WebSocket library for Nim.
-- [news](https://github.com/Tormund/news) - Nim easy web socket. Based on ws.
+- [news](https://github.com/Tormund/news) - Nim Easy WebSocket. Based on ws.
 - [jswebsockets](https://juancarlospaco.github.io/nodejs/nodejs/jswebsockets) - WebSockets optimized for JavaScript targets.
+- [nim-websock](https://github.com/status-im/nim-websock) - An implementation of the WebSocket protocol for Nim.
+
+
+#### Messaging
+
+- [telebot.nim](https://github.com/ba0f3/telebot.nim) - Async client for Telegram Bot API in pure Nim.
+- [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
+- [nwaku](https://github.com/status-im/nwaku) - Implementation of the Waku v1 and v2 protocols.
+- [nim-status](https://github.com/status-im/nim-status) - Nim implementation of the Status protocol.
 
 
 ### HTML Parsers
