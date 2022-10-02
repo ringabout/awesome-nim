@@ -729,6 +729,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [Computer Programming with Nim](https://ssalewski.de/nimprogramming.html) - A gentle introduction to the Nim programming language.
 - [Nim Basics](https://narimiran.github.io/nim-basics/) - Tutorial for beginners and people just starting with Nim.
 - [Nim Style Guide](https://status-im.github.io/nim-style-guide/) - Status style guide for the Nim language.
+- [Mastering Nim](https://www.amazon.com/Mastering-Nim-complete-programming-language/dp/B0B4R7B9YX) - A complete guide to the programming language.
 
 
 ### Blogs
