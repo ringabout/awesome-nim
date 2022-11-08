@@ -130,6 +130,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Async IO
 
+- [std/async](https://nim-lang.org/docs/async.html) - Async/await implementation in Nim's stdlib (aka asyncdispatch).
 - [chronos](https://github.com/status-im/nim-chronos) - An efficient library for asynchronous programming.
 - [cps](https://github.com/disruptek/cps) - Continuation-Passing Style for Nim.
 
@@ -203,6 +204,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### IO
 
+- [std/selectors](https://nim-lang.org/docs/selectors.html) - Epoll/Kqueue/Select implementation in Nim's stdlib.
 - [ioselectors](https://github.com/xflywind/ioselectors) - The ioselectors plus for Nim.
 - [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim.
 - [faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim.
@@ -554,8 +556,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 #### Websockets
 
-- [websocket.nim](https://github.com/niv/websocket.nim) - WebSockets for Nim.
 - [ws](https://github.com/treeform/ws) - Simple WebSocket library for Nim.
+- [websocket.nim](https://github.com/niv/websocket.nim) - WebSockets for Nim.
 - [news](https://github.com/Tormund/news) - Nim Easy WebSocket. Based on ws.
 - [jswebsockets](https://juancarlospaco.github.io/nodejs/nodejs/jswebsockets) - WebSockets optimized for JavaScript targets.
 - [websock](https://github.com/status-im/nim-websock) - An implementation of the WebSocket protocol for Nim.
@@ -576,8 +578,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### HTTP Servers
 
-- [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim.
-- [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server written in Nim.
+- [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server ([top 10 in FrameworkBenchmarks](https://www.techempower.com/benchmarks/#section=data-r18&test=json)).
+- [httpx](https://github.com/ringabout/httpx) - Cross platform web server for Nim. A fork of httpbeast adding Windows support.
 - [GuildenStern](https://github.com/olliNiinivaara/GuildenStern) - Genuinely multithreading integrated HTTP/1.1 + WebSocket v13 Server for POSIX-compliant OSes.
 - [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written in pure Nim.
 - [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
@@ -725,7 +727,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Books
 
-- [Nim in Action](https://www.manning.com/books/nim-in-action) - Nim's first book.
+- [Nim in Action](https://book.picheta.me/) - Book in Manning's "in Action" series, teaching Nim through 3 practical projects including CLI chat apps, web apps and parsers.
 - [Computer Programming with Nim](https://ssalewski.de/nimprogramming.html) - A gentle introduction to the Nim programming language.
 - [Nim Basics](https://narimiran.github.io/nim-basics/) - Tutorial for beginners and people just starting with Nim.
 - [Nim Style Guide](https://status-im.github.io/nim-style-guide/) - Status style guide for the Nim language.
