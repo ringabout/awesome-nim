@@ -579,7 +579,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### HTTP Servers
 
 - [httpbeast](https://github.com/dom96/httpbeast) - A highly performant, multi-threaded HTTP 1.1 server ([top 10 in FrameworkBenchmarks](https://www.techempower.com/benchmarks/#section=data-r18&test=json)).
-- [httpx](https://github.com/xflywind/httpx) - Cross platform web server for Nim. A fork of httpbeast adding Windows support.
+- [httpx](https://github.com/ringabout/httpx) - Cross platform web server for Nim. A fork of httpbeast adding Windows support.
 - [GuildenStern](https://github.com/olliNiinivaara/GuildenStern) - Genuinely multithreading integrated HTTP/1.1 + WebSocket v13 Server for POSIX-compliant OSes.
 - [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written in pure Nim.
 - [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
