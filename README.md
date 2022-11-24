@@ -635,6 +635,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Game Engines
 
+- [NimForUE](https://github.com/jmgomez/NimForUE) - Nim plugin for UE5 with native performance, hot reloading and full interop that sits between C++ and Blueprints.
 - [nimgame2](https://github.com/Vladar4/nimgame2) - A simple 2D game engine for Nim.
 - [norx](https://github.com/tankfeud/norx) - A complete wrapper of the ORX 2.5D cross platform game engine library.
 - [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
