@@ -628,7 +628,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8.
 - [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
-- [nodesnim](https://github.com/ethosa/nodesnim) - Simple 2D game framework based on SDL2 and OpenGL.
 - [c4](https://github.com/c0ntribut0r/cat-400) - Modular and extensible 2D and 3D game framework for Nim.
 - [paranim](https://github.com/paranim/paranim) - A game library based around carefully chosen abstractions.
 
@@ -639,7 +638,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimgame2](https://github.com/Vladar4/nimgame2) - A simple 2D game engine for Nim.
 - [norx](https://github.com/tankfeud/norx) - A complete wrapper of the ORX 2.5D cross platform game engine library.
 - [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
-- [rapid](https://github.com/liquid600pgm/rapid) - A game engine written in Nim, optimized for rapid game development and prototyping.
 - [rod](https://github.com/yglukhov/rod) - Cross-platform 2D and 3D game engine.
 - [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
 
