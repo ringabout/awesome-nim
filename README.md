@@ -170,6 +170,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
 - [nimfp](https://github.com/vegansk/nimfp) - Nim functional programming library.
+- [nim-pipexp](https://github.com/ShalokShalom/nim-pipexp) - Expression-based pipe operators with placeholder argument for Nim.
 - [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
 - [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
 
