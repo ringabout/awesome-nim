@@ -215,6 +215,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Processes
 
 - [psutil](https://github.com/johnscillieri/psutil-nim) - A port of Python's psutil to Nim.
+- [shell](https://github.com/Vindaar/shell) - A mini Nim DSL to execute shell commands more conveniently.
 - [schedules](https://github.com/soasme/nim-schedules) - A Nim scheduler library that lets you kick off jobs at regular intervals.
 - [daemon](https://github.com/status-im/nim-daemon) - Cross-platform process daemonization library for the Nim language.
 
@@ -238,7 +239,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nimcr](https://github.com/PMunch/nimcr) - Running Nim code with Shebangs.
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
-- [shell](https://github.com/Vindaar/shell) - A mini Nim DSL to execute shell commands more conveniently.
 
 
 ## Hardware
