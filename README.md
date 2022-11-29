@@ -175,6 +175,20 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
 
 
+### Pattern Matching
+
+- [npeg](https://github.com/zevv/npeg) - PEGs for Nim, another take.
+- [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim.
+- [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library.
+- [ast_pattern_match](https://github.com/krux02/ast-pattern-matching) - A library to do pattern matching on the AST.
+
+
+### Regex
+
+- [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match.
+- [awk](https://github.com/greencardamom/awk) - A library of awk functions in Nim.
+
+
 ### Iteration
 
 - [iterrr](https://github.com/hamidb80/iterrr) - Macros-based functional-style, lazy-like, extensible iterator library.
@@ -239,6 +253,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nimcr](https://github.com/PMunch/nimcr) - Running Nim code with Shebangs.
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
+- [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
 
 
 ## Hardware
@@ -337,16 +352,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 
 ## Text
-
-### Pattern Matching
-
-- [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match.
-- [npeg](https://github.com/zevv/npeg) - PEGs for Nim, another take.
-- [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim.
-- [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library.
-- [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
-- [ast_pattern_match](https://github.com/krux02/ast-pattern-matching) - A library to do pattern matching on the AST.
-- [awk](https://github.com/greencardamom/awk) - A library of awk functions in Nim.
 
 
 ### Translation
