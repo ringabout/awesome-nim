@@ -321,6 +321,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
+- [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
 
 
 ### Serialization
@@ -649,7 +650,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [pararules](https://github.com/paranim/pararules) - A RETE-based rules engine made for games.
 
 
-## Development Tools
+### Development Tools
+- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
 
 ### Editor Integration
 
