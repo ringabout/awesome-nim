@@ -321,6 +321,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
+- [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
 
 
 ### Serialization
@@ -651,12 +652,14 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ## Development Tools
 
+
 ### Editor Integration
 
 - [Editor Support](https://github.com/nim-lang/Nim/wiki/editor-support) - Official list of editor plugins for Nim.
 - [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
 - [nim.nvim](https://github.com/alaviss/nim.nvim) - Nim plugin for NeoVim.
 - [vscode-nim](https://github.com/saem/vscode-nim) - Language support for the Nim programming language for VS Code.
+- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
 
 
 ### REPL
