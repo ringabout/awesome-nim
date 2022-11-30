@@ -789,4 +789,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
 
 ---
+
+### Footnotes
 *Awesome-Nim logo is based on the "Nim Crown" logo by Joseph Wecker, used with permission from the Nim project.*
