@@ -123,7 +123,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 
 ### Editors
-
+- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
 - [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
 - [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
 
@@ -659,7 +659,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
 - [nim.nvim](https://github.com/alaviss/nim.nvim) - Nim plugin for NeoVim.
 - [vscode-nim](https://github.com/saem/vscode-nim) - Language support for the Nim programming language for VS Code.
-- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
 
 
 ### REPL
@@ -789,4 +788,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
 
 ---
+
+### Footnotes
 *Awesome-Nim logo is based on the "Nim Crown" logo by Joseph Wecker, used with permission from the Nim project.*
