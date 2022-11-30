@@ -650,8 +650,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [pararules](https://github.com/paranim/pararules) - A RETE-based rules engine made for games.
 
 
-### Development Tools
-- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
+## Development Tools
+
 
 ### Editor Integration
 
@@ -659,6 +659,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
 - [nim.nvim](https://github.com/alaviss/nim.nvim) - Nim plugin for NeoVim.
 - [vscode-nim](https://github.com/saem/vscode-nim) - Language support for the Nim programming language for VS Code.
+- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
 
 
 ### REPL
