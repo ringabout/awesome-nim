@@ -38,6 +38,7 @@
   - [Parsing](#parsing)
   - [Serialization](#serialization)
 - [Text](#text)
+  - [String Types](#string-types)
   - [Pattern Matching](#pattern-matching)
   - [Translation](#translation)
   - [Markdown](#markdown)
@@ -89,6 +90,7 @@
   - [Build Systems / Package Management](#build-systems--package-management)
   - [Logging](#logging)
   - [Testing](#testing)
+  - [Fuzzing](#fuzzing)
   - [Benchmarking](#benchmarking)
   - [Command-Line Interface Automation](#command-line-interface-automation)
 - [Resources](#resources)
@@ -340,7 +342,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ## Text
 
-### String type
+### String Types
 
 - [ssostrings](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation 
 - [cowstrings](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221
