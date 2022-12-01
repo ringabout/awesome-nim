@@ -337,15 +337,15 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools.
 - [flatty](https://github.com/treeform/flatty) - Tools and serializer for plain flat binary files.
 - [nesm](https://xomachine.gitlab.io/NESM/) - NESM is a tool that generates serialization and deserialization code for a given object.
-- [bingo](https://github.com/planetis-m/bingo) - Binary serialization framework for Nim
+- [bingo](https://github.com/planetis-m/bingo) - Binary serialization framework for Nim.
 
 
 ## Text
 
 ### String Types
 
-- [ssostrings](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation 
-- [cowstrings](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221
+- [ssostrings](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation.
+- [cowstrings](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221.
 
 
 ### Pattern Matching
@@ -639,7 +639,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8.
 - [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
-- [naylib](https://github.com/planetis-m/naylib) - safe Raylib wrapper
+- [naylib](https://github.com/planetis-m/naylib) - safe Raylib wrapper.
 - [c4](https://github.com/c0ntribut0r/cat-400) - Modular and extensible 2D and 3D game framework for Nim.
 - [paranim](https://github.com/paranim/paranim) - A game library based around carefully chosen abstractions.
 
@@ -717,8 +717,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Fuzzing
 
-- [drchaos](https://github.com/status-im/nim-drchaos) - A powerful and easy-to-use fuzzing framework in Nim for C/C++/Obj-C targets 
-- [libfuzzer](https://github.com/planetis-m/libfuzzer) - LibFuzzer's interface bindings
+- [drchaos](https://github.com/status-im/nim-drchaos) - A powerful and easy-to-use fuzzing framework in Nim for C/C++/Obj-C targets.
+- [libfuzzer](https://github.com/planetis-m/libfuzzer) - LibFuzzer's interface bindings.
 
 
 ### Benchmarking
