@@ -342,8 +342,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### String type
 
-- [SSO String](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation 
-- [Copy-On-Write String](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221
+- [ssostring](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation 
+- [cowstring](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221
 
 
 ### Pattern Matching
