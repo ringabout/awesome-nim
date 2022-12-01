@@ -38,6 +38,7 @@
   - [Parsing](#parsing)
   - [Serialization](#serialization)
 - [Text](#text)
+  - [String Types](#string-types)
   - [Pattern Matching](#pattern-matching)
   - [Translation](#translation)
   - [Markdown](#markdown)
@@ -89,6 +90,7 @@
   - [Build Systems / Package Management](#build-systems--package-management)
   - [Logging](#logging)
   - [Testing](#testing)
+  - [Fuzzing](#fuzzing)
   - [Benchmarking](#benchmarking)
   - [Command-Line Interface Automation](#command-line-interface-automation)
 - [Resources](#resources)
@@ -142,6 +144,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [taskpools](https://github.com/status-im/nim-taskpools) - Lightweight, energy-efficient, easily auditable threadpools.
 - [shared](https://github.com/genotrance/shared) - A Nim library for shared types.
 - [synthesis](https://github.com/mratsim/Synthesis) - A compiletime, procedure-based, low-overhead, no-allocation, state-machine generator optimized for communicating processes and threads.
+- [sync](https://github.com/planetis-m/sync) - Useful synchronization primitives.
 
 
 ### Error Handling
@@ -161,7 +164,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [oop_utils](https://github.com/bluenote10/oop_utils) - Nim macros for building OOP class hierarchies.
 - [interfaced](https://github.com/andreaferretti/interfaced) - Interfaces for Nim.
-- [protocoled](https://github.com/b3liever/protocoled) - Contains the protocol macro for easily implementing interfaces in Nim.
 - [traitor](https://github.com/beef331/traitor) - A macro heavy trait library made from boredom.
 - [classy](https://github.com/nigredo-tori/classy) - Haskell-style typeclasses for Nim.
 
@@ -335,9 +337,16 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools.
 - [flatty](https://github.com/treeform/flatty) - Tools and serializer for plain flat binary files.
 - [nesm](https://xomachine.gitlab.io/NESM/) - NESM is a tool that generates serialization and deserialization code for a given object.
+- [bingo](https://github.com/planetis-m/bingo) - Binary serialization framework for Nim.
 
 
 ## Text
+
+### String Types
+
+- [ssostrings](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation.
+- [cowstrings](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221.
+
 
 ### Pattern Matching
 
@@ -630,6 +639,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8.
 - [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
+- [naylib](https://github.com/planetis-m/naylib) - safe Raylib wrapper.
 - [c4](https://github.com/c0ntribut0r/cat-400) - Modular and extensible 2D and 3D game framework for Nim.
 - [paranim](https://github.com/paranim/paranim) - A game library based around carefully chosen abstractions.
 
@@ -703,6 +713,12 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [einheit](https://github.com/jyapayne/einheit) - A Nim unit testing library inspired by Python's unit tests.
 - [asynctest](https://github.com/status-im/asynctest) - Complements the standard unittest module in Nim to allow testing of asynchronous code.
 - [unittest2](https://github.com/status-im/nim-unittest2) - Fork of the "unittest" Nim module focusing on parallel test execution, test-level scoping and strict exception handling.
+
+
+### Fuzzing
+
+- [drchaos](https://github.com/status-im/nim-drchaos) - A powerful and easy-to-use fuzzing framework in Nim for C/C++/Obj-C targets.
+- [libfuzzer](https://github.com/planetis-m/libfuzzer) - LibFuzzer's interface bindings.
 
 
 ### Benchmarking
