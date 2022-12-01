@@ -253,6 +253,10 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nimcr](https://github.com/PMunch/nimcr) - Running Nim code with Shebangs.
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
+
+
+### Path Handling
+
 - [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
 
 
