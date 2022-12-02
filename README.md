@@ -651,7 +651,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [norx](https://github.com/tankfeud/norx) - A complete wrapper of the ORX 2.5D cross platform game engine library.
 - [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
 - [rod](https://github.com/yglukhov/rod) - Cross-platform 2D and 3D game engine.
-- [frag](https://github.com/zacharycarter/frag) - 3D Game Engine.
+- [frag](https://github.com/Tail-Wag-Games/frag) - Cross-platform 2D/3D game engine.
 
 
 ### Rules Engines
