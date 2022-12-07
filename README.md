@@ -166,6 +166,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [interfaced](https://github.com/andreaferretti/interfaced) - Interfaces for Nim.
 - [traitor](https://github.com/beef331/traitor) - A macro heavy trait library made from boredom.
 - [classy](https://github.com/nigredo-tori/classy) - Haskell-style typeclasses for Nim.
+- [jsclasses](https://juancarlospaco.github.io/nodejs/nodejs/jsclasses) - Classes with methods, getters, exports, and private/public/static for JavaScript targets.
 
 
 ### Functional Programming
@@ -247,6 +248,10 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nimvisa](https://github.com/leeooox/nimvisa) - Wrapper for NI-VISA instrument control library.
 - [ftd2xx](https://github.com/leeooox/ftd2xx) - Wrapper for FTDI ftd2xx library (USB to JTAG/SPI/I2C/Bitbang etc.).
+- [jsbattery](https://juancarlospaco.github.io/nodejs/nodejs/jsbattery) - Battery API for battery powered devices.
+- [jswebusb](https://juancarlospaco.github.io/nodejs/nodejs/jswebusb) - USB 3.0+ API.
+- [jsbluetooth](https://juancarlospaco.github.io/nodejs/nodejs/jsbluetooth) - Bluetooth API, including BLE.
+- [jsgamepad](https://juancarlospaco.github.io/nodejs/nodejs/jsgamepad) - Gamepad API, including Playstation-like controllers.
 
 
 ### Embedded
@@ -362,6 +367,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Translation
 
 - [tinyslation](https://github.com/juancarlospaco/nim-tinyslation) - Text string translation from free online crowdsourced API.
+- [jsintl](https://juancarlospaco.github.io/nodejs/nodejs/jsintl) - Internationalization API for JavaScript targets.
 
 
 ### Markdown
@@ -379,6 +385,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [omni](https://github.com/vitreo12/omni) - A DSL for low-level audio programming.
 - [wave](https://github.com/jiro4989/wave) - A tiny WAV sound module.
 - [parasound](https://github.com/paranim/parasound) - A library to provide Nim bindings for miniaudio and dr_wav.
+- [jsspeechsynthesis](https://juancarlospaco.github.io/nodejs/nodejs/jsspeechsynthesis) - Speech synthesis API for JavaScript targets.
 
 
 ### Images
@@ -433,6 +440,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Bigints
 
 - [bigints](https://github.com/nim-lang/bigints) - Bigints for Nim.
+- [jsbigints](https://nim-lang.github.io/Nim/jsbigints.html) - Bigints for Nim for JavaScript targets.
 - [stint](https://github.com/status-im/nim-stint) - Stack-based arbitrary-precision integers. Fast and portable with natural syntax for resource-restricted devices.
 - [theo](https://github.com/SciNim/theo) - An optimized bigint and number theory library for Nim.
 
@@ -572,6 +580,11 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [news](https://github.com/Tormund/news) - Nim Easy WebSocket. Based on ws.
 - [jswebsockets](https://juancarlospaco.github.io/nodejs/nodejs/jswebsockets) - WebSockets optimized for JavaScript targets.
 - [websock](https://github.com/status-im/nim-websock) - An implementation of the WebSocket protocol for Nim.
+
+
+#### WebRTC
+
+- [jswebrtc](https://juancarlospaco.github.io/nodejs/nodejs/jswebrtc) - WebRTC for Nim.
 
 
 #### Messaging
@@ -786,7 +799,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [Nim Memory](http://zevv.nl/nim-memory/) - A small tutorial explaining how Nim stores data in memory.
 - [Nim ARC](http://zevv.nl/nim-memory/nim-arc.html) - A friendly explanation of ARC and its implications for the programmer.
 - [nimNx](https://github.com/dkgitdev/nimNx) - A Nintendo Switch Homebrew example project, written in Nim.
-- [nimNxStatic](https://github.com/dkgitdev/nimNxStatic) - A static library example aiming to help integrate Nim code into the current Homebrew C projects for Nintendo Switch 
+- [nimNxStatic](https://github.com/dkgitdev/nimNxStatic) - A static library example aiming to help integrate Nim code into the current Homebrew C projects for Nintendo Switch
 
 
 ### Videos
