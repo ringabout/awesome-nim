@@ -773,6 +773,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [The Nim subreddit](http://reddit.com/r/nim)
 - [The Nim Telegram](https://t.me/nim_lang)
 - [The Nim Telegram in Spanish](https://t.me/NimArgentina)
+- [The Nim Matrix room](https://matrix.to/#/#nim-lang:matrix.org)
 
 
 ### Tutorials
