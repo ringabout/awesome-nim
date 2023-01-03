@@ -17,6 +17,7 @@
   - [Contracts](#contracts)
   - [Object-Oriented Programming](#object-oriented-programming)
   - [Functional Programming](#functional-programming)
+  - [Pattern Matching](#pattern-matching)
   - [Iteration](#iteration)
   - [Macros](#macros)
 - [Operating System](#operating-system)
@@ -39,7 +40,6 @@
   - [Serialization](#serialization)
 - [Text](#text)
   - [String Types](#string-types)
-  - [Pattern Matching](#pattern-matching)
   - [Translation](#translation)
   - [Markdown](#markdown)
 - [Multimedia](#multimedia)
@@ -175,6 +175,17 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nim-pipexp](https://github.com/ShalokShalom/nim-pipexp) - Expression-based pipe operators with placeholder argument for Nim.
 - [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
 - [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
+
+
+### Pattern Matching
+
+- [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match.
+- [npeg](https://github.com/zevv/npeg) - PEGs for Nim, another take.
+- [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim.
+- [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library.
+- [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
+- [ast_pattern_match](https://github.com/krux02/ast-pattern-matching) - A library to do pattern matching on the AST.
+- [awk](https://github.com/greencardamom/awk) - A library of awk functions in Nim.
 
 
 ### Iteration
@@ -346,17 +357,6 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [ssostrings](https://github.com/planetis-m/ssostrings) - Small String Optimized (SSO) string implementation.
 - [cowstrings](https://github.com/planetis-m/cowstrings) - Copy-On-Write string implementation according to nim-lang/RFCs#221.
-
-
-### Pattern Matching
-
-- [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match.
-- [npeg](https://github.com/zevv/npeg) - PEGs for Nim, another take.
-- [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim.
-- [gara](https://github.com/alehander42/gara) - Macro-based pattern matching library.
-- [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
-- [ast_pattern_match](https://github.com/krux02/ast-pattern-matching) - A library to do pattern matching on the AST.
-- [awk](https://github.com/greencardamom/awk) - A library of awk functions in Nim.
 
 
 ### Translation
