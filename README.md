@@ -496,7 +496,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 #### Crossplatform
 
-- [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & GUI framework in Nim.
+- [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
 - [NiGui](https://github.com/trustable-code/NiGui) - A cross-platform, desktop GUI toolkit.
 - [ui](https://github.com/nim-lang/ui) - Wrapper for libui. Beginnings of what might become Nim's official UI library.
 - [iup](https://github.com/nim-lang/iup) - Wrapper for IUP. Beginnings of what might become Nim's official UI library.
