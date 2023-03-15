@@ -601,8 +601,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Gemini Servers
 
-- [Geminim](https://github.com/ardek66/geminim) - A Gemini server
-- [Nemini](https://codeberg.org/pswilde/Nemini) - A very simple Gemini server for serving static gemtext files
+- [Geminim](https://github.com/ardek66/geminim) - A Gemini server.
+- [Nemini](https://codeberg.org/pswilde/Nemini) - A very simple Gemini server for serving static gemtext files.
 
 ### Frameworks
 
