@@ -73,8 +73,10 @@
     - [QUIC](#quic)
     - [Websockets](#websockets)
     - [Messaging](#messaging)
+    - [Gemini](#gemini)
   - [HTML Parsers](#html-parsers)
   - [HTTP Servers](#http-servers)
+  - [Gemini Servers](#gemini-servers)
   - [Frameworks](#frameworks)
   - [Template Engines](#template-engines)
   - [Authentication](#authentication)
@@ -551,6 +553,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [webdavclient](https://github.com/beshrkayali/webdavclient) - WebDAV client for Nim.
 - [stomp](https://github.com/subsetpark/nim-stomp) - A pure-Nim client library for interacting with Stomp compliant message brokers.
 - [presto](https://github.com/status-im/nim-presto) - An efficient REST API framework.
+- [gemini](https://github.com/benob/gemini) - Building blocks for creating Gemini servers and clients.
 
 
 #### DNS
@@ -596,6 +599,10 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written in pure Nim.
 - [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
 
+### Gemini Servers
+
+- [Geminim](https://github.com/ardek66/geminim) - A Gemini server.
+- [Nemini](https://codeberg.org/pswilde/Nemini) - A very simple Gemini server for serving static gemtext files.
 
 ### Frameworks
 
