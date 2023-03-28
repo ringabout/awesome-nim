@@ -620,6 +620,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Template Engines
 
+- [Nim Source Code filters](https://nim-lang.org/docs/filters.html) - Nim's powerful built-in feature which can be used as a templating system or a preprocessor. 
 - [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker.
 - [html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
 - [templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
