@@ -4,7 +4,7 @@
 
 [Nim](https://nim-lang.org/) is a statically typed compiled systems programming language. Good for everything from shell scripting to web front & backend, to ML, HPC, and embedded.
 
-<h2> Contents </h2>
+<!-- <h2> Contents </h2> -->
 
 - [Language Features](#language-features)
   - [Implementations](#implementations)
@@ -38,6 +38,7 @@
   - [Data Processing](#data-processing)
   - [Parsing](#parsing)
   - [Serialization](#serialization)
+  - [Standards](#standards)
 - [Text](#text)
   - [String Types](#string-types)
   - [Translation](#translation)
@@ -73,7 +74,6 @@
     - [QUIC](#quic)
     - [Websockets](#websockets)
     - [Messaging](#messaging)
-    - [Gemini](#gemini)
   - [HTML Parsers](#html-parsers)
   - [HTTP Servers](#http-servers)
   - [Gemini Servers](#gemini-servers)
@@ -352,6 +352,9 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nesm](https://xomachine.gitlab.io/NESM/) - NESM is a tool that generates serialization and deserialization code for a given object.
 - [bingo](https://github.com/planetis-m/bingo) - Binary serialization framework for Nim.
 
+### Standards
+
+- [isocodes](https://github.com/kraptor/isocodes) - ISO codes for Nim (ISO 3166-1, ISO 3166-2, ISO 3166-3, ISO 15924, ISO 15924, ISO 639-2, ISO 639-5)
 
 ## Text
 
