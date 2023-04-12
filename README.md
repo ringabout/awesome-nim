@@ -4,7 +4,7 @@
 
 [Nim](https://nim-lang.org/) is a statically typed compiled systems programming language. Good for everything from shell scripting to web front & backend, to ML, HPC, and embedded.
 
-<!-- <h2> Contents </h2> -->
+<h2> Contents </h2>
 
 - [Language Features](#language-features)
   - [Implementations](#implementations)
