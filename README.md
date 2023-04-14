@@ -505,6 +505,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [iup](https://github.com/nim-lang/iup) - Wrapper for IUP. Beginnings of what might become Nim's official UI library.
 - [SDL2](https://github.com/nim-lang/sdl2) - Official wrapper for SDL 2.x.
 - [SDL2](https://github.com/Vladar4/sdl2_nim) - A wrapper for SDL 2.
+- [Owlkettle](https://github.com/can-lehmann/owlkettle) - Declarative user interface framework based on GTK
 
 
 #### Windows
