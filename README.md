@@ -710,6 +710,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
 - [nifty](https://github.com/h3rald/nifty) - A decentralized pseudo package manager and script runner.
 - [nsis](https://github.com/nim-libs/nsis) - Nim programming language setup tool.
+- [nim-windows-container](https://github.com/sirredbeard/nim-windows-container) - A Windows Container with a complete Nim build environment.
 
 
 ### Logging
