@@ -665,6 +665,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
 - [rod](https://github.com/yglukhov/rod) - Cross-platform 2D and 3D game engine.
 - [frag](https://github.com/Tail-Wag-Games/frag) - Cross-platform 2D/3D game engine.
+- [semicongine](https://github.com/saemideluxe/semicongine) - Cross-platform, (almost) dependency-free game engine.
 
 
 ### Rules Engines
