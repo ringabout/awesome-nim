@@ -615,7 +615,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [whip](https://github.com/mattaylor/whip) - Simple and fast HTTP server for Nim based on httpbeast and nest for high performance routing.
 - [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
 - [karax](https://github.com/karaxnim/karax) - A framework for developing single page applications in Nim.
-- [happyx](https://github.com/HapticX/happyx) - A macro-oriented full stack asynchronous web framework written in Nim
+- [happyx](https://github.com/HapticX/happyx) - A macro-oriented full stack asynchronous web framework written in Nim.
 - [scorper](https://github.com/bung87/scorper) - A micro and elegant web framework written in Nim.
 - [starlight](https://github.com/planety/starlight) - Flask-like web framework written in Nim.
 - [rosencrantz](https://github.com/andreaferretti/rosencrantz) - DSL to write web servers, inspired by Spray and its successor Akka HTTP.
