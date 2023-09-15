@@ -167,6 +167,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [oop_utils](https://github.com/bluenote10/oop_utils) - Nim macros for building OOP class hierarchies.
 - [interfaced](https://github.com/andreaferretti/interfaced) - Interfaces for Nim.
 - [traitor](https://github.com/beef331/traitor) - A macro heavy trait library made from boredom.
+- [classes](https://github.com/jjv360/nim-classes) - Python-style class system for Nim.
 - [classy](https://github.com/nigredo-tori/classy) - Haskell-style typeclasses for Nim.
 
 
