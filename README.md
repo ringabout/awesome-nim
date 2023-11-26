@@ -559,7 +559,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [stomp](https://github.com/subsetpark/nim-stomp) - A pure-Nim client library for interacting with Stomp compliant message brokers.
 - [presto](https://github.com/status-im/nim-presto) - An efficient REST API framework.
 - [gemini](https://github.com/benob/gemini) - Building blocks for creating Gemini servers and clients.
-- [yahttp](https://github.com/mishankov/yahttp) - Awesome simple HTTP client
+- [yahttp](https://github.com/mishankov/yahttp) - Awesome simple HTTP client.
 
 
 #### DNS
