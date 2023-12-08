@@ -820,6 +820,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [disruptek twitch](https://www.twitch.tv/disruptek) - The live broadcast regarding Nim language.
 - [yardanico twitch](https://www.twitch.tv/yardanico) - The live broadcast regarding Nim language.
 - [zachary_carter twitch](https://www.twitch.tv/zachary_carter) - The live broadcast regarding Nim language.
+- [Nim Tutorials](https://www.youtube.com/playlist?list=PLYBJzqz8zpWaiGbFcSdlh08zlpe8Tl_Gh) - YouTube video series that teaches how to program in Nim and goes over various standared libraries.
+
 
 ---
 
