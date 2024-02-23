@@ -632,6 +632,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
 - [nimja](https://github.com/enthus1ast/nimja) - Typed and compiled template engine inspired by jinja2, twig and onionhammer/nim-templates for Nim.
 - [mustache](https://github.com/soasme/nim-mustache) - A full implementation of v1.2.1 of the Mustache spec.
+- [Tim](https://github.com/openpeeps/tim) - A high-performance template engine & markup language.
 
 
 ### Authentication
