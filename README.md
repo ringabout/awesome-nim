@@ -141,6 +141,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Threading
 
+- [malebolgia](https://github.com/Araq/malebolgia) - A powerful library in Nim that simplifies the implementation of concurrent and parallel programming.
 - [weave](https://github.com/mratsim/weave) - A state-of-the-art multithreading runtime: message-passing based, fast, scalable, ultra-low overhead.
 - [timerpool](https://github.com/mikra01/timerpool) - Threadsafe timerpool implementation for event purposes.
 - [taskpools](https://github.com/status-im/nim-taskpools) - Lightweight, energy-efficient, easily auditable threadpools.
