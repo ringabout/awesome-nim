@@ -386,6 +386,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [omni](https://github.com/vitreo12/omni) - A DSL for low-level audio programming.
 - [wave](https://github.com/jiro4989/wave) - A tiny WAV sound module.
 - [parasound](https://github.com/paranim/parasound) - A library to provide Nim bindings for miniaudio and dr_wav.
+- [jacket](https://github.com/SpotlightKid/jacket) - A Nim wrapper for the libjack C library to write clients for the JACK audio server. 
 
 
 ### Images
