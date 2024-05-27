@@ -74,6 +74,7 @@
     - [QUIC](#quic)
     - [Websockets](#websockets)
     - [Messaging](#messaging)
+    - [Multicast](#multicast)
   - [HTML Parsers](#html-parsers)
   - [HTTP Servers](#http-servers)
   - [Gemini Servers](#gemini-servers)
@@ -591,6 +592,11 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [dimscord](https://github.com/krisppurg/dimscord) - A Discord Bot & REST Library for Nim.
 - [nwaku](https://github.com/status-im/nwaku) - Implementation of the Waku v1 and v2 protocols.
 - [status](https://github.com/status-im/nim-status) - Nim implementation of the Status protocol.
+
+
+#### Multicast
+
+- [nimMulticast](https://github.com/enthus1ast/nimMulticast) - UDP Multicast made simple. 
 
 
 ### HTML Parsers
