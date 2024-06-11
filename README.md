@@ -530,6 +530,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [webgui](https://github.com/juancarlospaco/webgui) - Web technologies based cross-platform GUI Framework with a dark theme.
 - [fidget](https://github.com/treeform/fidget) - Figma based UI library for Nim, with HTML and OpenGL backends.
 - [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
+- [webview](https://github.com/neroist/webview) - Nim bindings and wrapper for Webview.
+- [webui](https://github.com/webui-dev/nim-webui) - Nim bindings and wrapper for WebUI.
 
 
 #### Lightweight
