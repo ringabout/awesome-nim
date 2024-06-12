@@ -506,10 +506,12 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimx](https://github.com/yglukhov/nimx) - Desktop, Mobile & Web GUI framework in Nim.
 - [NiGui](https://github.com/trustable-code/NiGui) - A cross-platform, desktop GUI toolkit.
 - [ui](https://github.com/nim-lang/ui) - Wrapper for libui. Beginnings of what might become Nim's official UI library.
+- [uing](https://github.com/neroist/uing) - Wrapper & bindings for libui-ng, an updated and maintained fork of libui.
 - [iup](https://github.com/nim-lang/iup) - Wrapper for IUP. Beginnings of what might become Nim's official UI library.
 - [SDL2](https://github.com/nim-lang/sdl2) - Official wrapper for SDL 2.x.
 - [SDL2](https://github.com/Vladar4/sdl2_nim) - A wrapper for SDL 2.
 - [Owlkettle](https://github.com/can-lehmann/owlkettle) - Declarative user interface framework based on GTK.
+- [libtray](https://github.com/neroist/libtray) - Nim wrapper for Tray (dmikushin's fork), a library to create system tray/menu bar icon with a popup menu.
 
 
 #### Windows
