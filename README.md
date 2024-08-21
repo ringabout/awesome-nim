@@ -191,6 +191,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [glob](https://github.com/citycide/glob) - Pure library for matching file paths against Unix style glob patterns.
 - [ast_pattern_match](https://github.com/krux02/ast-pattern-matching) - A library to do pattern matching on the AST.
 - [awk](https://github.com/greencardamom/awk) - A library of awk functions in Nim.
+- [tinyre](https://github.com/khchen/tinyre) - A tiny regex engine based on Rob Pike's VM implementation.
 
 
 ### Iteration
@@ -387,7 +388,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [omni](https://github.com/vitreo12/omni) - A DSL for low-level audio programming.
 - [wave](https://github.com/jiro4989/wave) - A tiny WAV sound module.
 - [parasound](https://github.com/paranim/parasound) - A library to provide Nim bindings for miniaudio and dr_wav.
-- [jacket](https://github.com/SpotlightKid/jacket) - A Nim wrapper for the libjack C library to write clients for the JACK audio server. 
+- [jacket](https://github.com/SpotlightKid/jacket) - A Nim wrapper for the libjack C library to write clients for the JACK audio server.
 
 
 ### Images
@@ -497,6 +498,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [chroma](https://github.com/treeform/chroma) - Everything you want to do with colors, in Nim.
 - [typography](https://github.com/treeform/typography) - Fonts, typesetting and rasterization.
 - [trick](https://github.com/exelotl/trick) - Library for GBA/NDS image conversion, and more!
+- [HexToAnsi](https://github.com/farias-hecdin/HexToAnsi/blob/main/src/nim/README.md) - Convert hexadecimal colors to ANSI colors.
 
 
 ### GUI
@@ -600,7 +602,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 #### Multicast
 
-- [nimMulticast](https://github.com/enthus1ast/nimMulticast) - UDP Multicast made simple. 
+- [nimMulticast](https://github.com/enthus1ast/nimMulticast) - UDP Multicast made simple.
 
 
 ### HTML Parsers
@@ -638,7 +640,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Template Engines
 
-- [Nim Source Code filters](https://nim-lang.org/docs/filters.html) - Nim's powerful built-in feature which can be used as a templating system or a preprocessor. 
+- [Nim Source Code filters](https://nim-lang.org/docs/filters.html) - Nim's powerful built-in feature which can be used as a templating system or a preprocessor.
 - [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker.
 - [html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
 - [templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
@@ -769,7 +771,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [cliche](https://github.com/juancarlospaco/cliche) - AutoMagic CLI argument parsing is so cliché.
 - [loki](https://github.com/beshrkayali/loki) - A small library for writing line-oriented command interpreters in Nim.
 - [confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command line options and config files
-
+- [Cmdos](https://github.com/farias-hecdin/Cmdos) - A simple way to process cli arguments and help messages.
 
 ## Resources
 
@@ -817,7 +819,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [Nim Memory](http://zevv.nl/nim-memory/) - A small tutorial explaining how Nim stores data in memory.
 - [Nim ARC](http://zevv.nl/nim-memory/nim-arc.html) - A friendly explanation of ARC and its implications for the programmer.
 - [nimNx](https://github.com/dkgitdev/nimNx) - A Nintendo Switch Homebrew example project, written in Nim.
-- [nimNxStatic](https://github.com/dkgitdev/nimNxStatic) - A static library example aiming to help integrate Nim code into the current Homebrew C projects for Nintendo Switch 
+- [nimNxStatic](https://github.com/dkgitdev/nimNxStatic) - A static library example aiming to help integrate Nim code into the current Homebrew C projects for Nintendo Switch
 
 
 ### Videos
