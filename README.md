@@ -27,6 +27,8 @@
   - [Date and Time](#date-and-time)
   - [Randomization](#randomization)
   - [Scripting](#scripting)
+- [System Tools](#system-tools)
+  - [Backups](#backups)   
 - [Hardware](#hardware)
   - [Embedded](#embedded)
 - [Science](#science)
@@ -149,6 +151,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [shared](https://github.com/genotrance/shared) - A Nim library for shared types.
 - [synthesis](https://github.com/mratsim/Synthesis) - A compiletime, procedure-based, low-overhead, no-allocation, state-machine generator optimized for communicating processes and threads.
 - [sync](https://github.com/planetis-m/sync) - Useful synchronization primitives.
+- [threadlogging](https://codeberg.org/pswilde/threadlogging) - A thread safe logging library using Nim's own logging module
 
 
 ### Error Handling
@@ -260,6 +263,13 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
 
 
+## System Tools
+
+### Backups
+
+- [norg](https://codeberg.org/pswilde/norgbackup) - A portable wrapper for borg and restic.
+
+ 
 ## Hardware
 
 - [nimvisa](https://github.com/leeooox/nimvisa) - Wrapper for NI-VISA instrument control library.
