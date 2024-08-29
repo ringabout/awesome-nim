@@ -646,6 +646,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [starlight](https://github.com/planety/starlight) - Flask-like web framework written in Nim.
 - [rosencrantz](https://github.com/andreaferretti/rosencrantz) - DSL to write web servers, inspired by Spray and its successor Akka HTTP.
 - [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes.
+- [nim-palladian](https://github.com/itsumura-h/nim-palladian) - Palladian is a Nim front-end framework based on and wrapped around Preact.
 
 
 ### Template Engines
