@@ -694,6 +694,8 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [rod](https://github.com/yglukhov/rod) - Cross-platform 2D and 3D game engine.
 - [frag](https://github.com/Tail-Wag-Games/frag) - Cross-platform 2D/3D game engine.
 - [semicongine](https://github.com/saemideluxe/semicongine) - Cross-platform, (almost) dependency-free game engine.
+- [saohime](https://github.com/glassesneo/saohime) - An extensible 2D game engine for Nim, inspired by Bevy Engine.
+- [alasgar](https://github.com/abisxir/alasgar) - Pure nim 3D game engine based on OpenGL.
 
 
 ### Rules Engines
