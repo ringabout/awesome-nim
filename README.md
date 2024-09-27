@@ -466,6 +466,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [constantine](https://github.com/mratsim/constantine) - Constant time pairing-based of elliptic curve based cryptography and digital signatures.
 - [bslcurve](https://github.com/status-im/nim-blscurve) - Nim implementation of BLS signature scheme (Boneh-Lynn-Shacham) over Barreto-Lynn-Scott (BLS) curve BLS12-381.
 - [bncurve](https://github.com/status-im/nim-bncurve) - Nim implementation of Barreto-Naehrig pairing-friendly elliptic curve.
+- [xxhash.nim](https://github.com/OpenSystemsLab/xxhash.nim) - A wrapper for the xxhash hashing library in Nim.
 - [xxtea](https://github.com/xxtea/xxtea-nim) - XXTEA encryption algorithm library.
 - [crc32](https://github.com/juancarlospaco/nim-crc32) - CRC32 for Nim. Just pass the thing you want to do CRC.
 - [rollinghash](https://github.com/MarcAzar/RollingHash) - High performance Nim implementation of a Cyclic Polynomial Hash, aka BuzHash, and the Rabin-Karp algorithm.
