@@ -461,6 +461,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 ### Cryptography
 
 - [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library.
+- [hashlib](https://github.com/khchen/hashlib) - Hash library that contains almost all the hash functions for Nim.
 - [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
 - [constantine](https://github.com/mratsim/constantine) - Constant time pairing-based of elliptic curve based cryptography and digital signatures.
 - [bslcurve](https://github.com/status-im/nim-blscurve) - Nim implementation of BLS signature scheme (Boneh-Lynn-Shacham) over Barreto-Lynn-Scott (BLS) curve BLS12-381.
