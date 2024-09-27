@@ -131,6 +131,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 ### Editors
 - [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
+- [Nev](https://github.com/Nimaoth/Nev) - A keyboard focused GUI and terminal text editor.
 - [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
 - [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
 
