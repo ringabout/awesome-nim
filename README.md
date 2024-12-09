@@ -294,6 +294,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [unchained](https://github.com/SciNim/Unchained) - A fully type safe, compile time only units library.
 - [metric](https://github.com/mjendrusch/metric) - A small library providing type-level dimensional analysis.
 - [orbits](https://github.com/treeform/orbits) - Orbital mechanics library for Nim.
+- [qex](https://github.com/jcosborn/qex) - High-level framework for lattice field operations
 
 ## Data
 
