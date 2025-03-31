@@ -304,6 +304,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 
 - [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver.
 - [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim.
+- [tiny_sqlite](https://github.com/GULPF/tiny_sqlite) - Very lightweight and safe SQLite library.
 - [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver.
 - [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim.
 - [amysql](https://github.com/bung87/amysql) - Async MySQL Connector write in pure Nim.
