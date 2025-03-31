@@ -310,7 +310,7 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [mycouch](https://github.com/hamidb80/mycouch) - Multisync CouchDB driver for Nim.
 - [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
 - [asyncmysql](https://github.com/tulayang/asyncmysql) - Asynchronous MySQL connector written in pure Nim.
-- [limdb](https://github.com/capocasa/limdb) - Very high performance, persistent and safe key-value store based on LMDB with Nim table-like interface
+- [limdb](https://github.com/capocasa/limdb) - Very high performance, persistent and safe key-value store based on LMDB with Nim table-like interface.
 - [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
 - [litestore](https://github.com/h3rald/litestore) - A lightweight, self-contained, RESTful, searchable, multi-format NoSQL document store.
 - [rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
