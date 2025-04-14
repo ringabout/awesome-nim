@@ -123,6 +123,11 @@ Nim provides unique features for seamless and transparent interoperability with 
 - [Node.js](https://github.com/juancarlospaco/nodejs) - Node.js standard library for Nim.
 
 
+Also, unlike those above, which requires runtime dependancy, some pure-Nim libraries are implemented.
+
+- [pylib](https://github.com/nimpylib/pylib) - Pure Nim implementation for Python builtins, libraries and sugars.
+
+
 ### Package Repositories
 
 - [Nim packages](https://github.com/nim-lang/packages) - List of packages for Nimble.
