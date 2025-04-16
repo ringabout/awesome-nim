@@ -357,9 +357,10 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Parsing
 
-- [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
-- [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
+- [iniplus](https://github.com/penguinite/iniplus.git) - INI parser with support for arrays and tables.
+- [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
+- [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 
 
 ### Serialization
