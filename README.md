@@ -365,16 +365,17 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Serialization
 
-- [serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim.
-- [json-serialization](https://github.com/status-im/nim-json-serialization) - Flexible JSON serialization not relying on run-time type information.
-- [protobuf-serialization](https://github.com/status-im/nim-protobuf-serialization) - The nim-protobuf-serialization.
-- [ssz-serialization](https://github.com/status-im/nim-ssz-serialization) - Nim implementation of Simple Serialize (SSZ) serialization and merkleization.
-- [toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization `not` relying on run-time type information.
-- [frosty](https://github.com/disruptek/frosty) - Marshal native Nim objects via streams, sockets.
-- [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools.
-- [flatty](https://github.com/treeform/flatty) - Tools and serializer for plain flat binary files.
-- [nesm](https://xomachine.gitlab.io/NESM/) - NESM is a tool that generates serialization and deserialization code for a given object.
 - [bingo](https://github.com/planetis-m/bingo) - Binary serialization framework for Nim.
+- [flatty](https://github.com/treeform/flatty) - Tools and serializer for plain flat binary files.
+- [frosty](https://github.com/disruptek/frosty) - Marshal native Nim objects via streams, sockets.
+- [json-serialization](https://github.com/status-im/nim-json-serialization) - Flexible JSON serialization not relying on run-time type information.
+- [nesm](https://xomachine.gitlab.io/NESM/) - NESM is a tool that generates serialization and deserialization code for a given object.
+- [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools.
+- [protobuf-serialization](https://github.com/status-im/nim-protobuf-serialization) - The nim-protobuf-serialization.
+- [serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim.
+- [ssz-serialization](https://github.com/status-im/nim-ssz-serialization) - Nim implementation of Simple Serialize (SSZ) serialization and merkleization.
+- [tnetstring](https://github.com/mahlonsmith/nim-tnetstring) - Parsing and serializing for the TNetstring format.
+- [toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization `not` relying on run-time type information.
 
 ### Standards
 
