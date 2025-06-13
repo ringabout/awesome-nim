@@ -307,19 +307,20 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 #### Driver
 
-- [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver.
-- [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim.
-- [tiny_sqlite](https://github.com/GULPF/tiny_sqlite) - Very lightweight and safe SQLite library.
-- [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver.
-- [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim.
 - [amysql](https://github.com/bung87/amysql) - Async MySQL Connector write in pure Nim.
-- [mycouch](https://github.com/hamidb80/mycouch) - Multisync CouchDB driver for Nim.
-- [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
+- [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver.
 - [asyncmysql](https://github.com/tulayang/asyncmysql) - Asynchronous MySQL connector written in pure Nim.
+- [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim.
+- [kuzu](https://github.com/mahlonsmith/nim-kuzu) - Wrapper for Kuzu - an embedded graph database built for query speed and scalability.
 - [limdb](https://github.com/capocasa/limdb) - Very high performance, persistent and safe key-value store based on LMDB with Nim table-like interface.
-- [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
 - [litestore](https://github.com/h3rald/litestore) - A lightweight, self-contained, RESTful, searchable, multi-format NoSQL document store.
+- [mycouch](https://github.com/hamidb80/mycouch) - Multisync CouchDB driver for Nim.
+- [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver.
+- [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim.
 - [rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
+- [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
+- [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
+- [tiny_sqlite](https://github.com/GULPF/tiny_sqlite) - Very lightweight and safe SQLite library.
 
 
 #### ORM
