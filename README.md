@@ -763,6 +763,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim.
 - [morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim.
+- [watchtower](https://github.com/BeigeHornet151/watchtower) - Lightweight logging library with colorized output, log rotation, and context fields.
+
 
 
 ### Testing
