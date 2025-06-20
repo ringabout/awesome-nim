@@ -538,6 +538,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [SDL2](https://github.com/Vladar4/sdl2_nim) - A wrapper for SDL 2.
 - [Owlkettle](https://github.com/can-lehmann/owlkettle) - Declarative user interface framework based on GTK.
 - [libtray](https://github.com/neroist/libtray) - Nim wrapper for Tray (dmikushin's fork), a library to create system tray/menu bar icon with a popup menu.
+- [nim-easygui](https://github.com/BeigeHornet151/nim-easygui) - Extremely simple GUI library for Nim with English-like syntax.
 
 
 #### Windows
