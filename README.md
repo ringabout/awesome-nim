@@ -565,6 +565,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 #### Lightweight
 
 - [imgui](https://github.com/nimgl/imgui) - ImGui bindings for Nim via cimgui.
+- [koi](https://github.com/johnnovak/koi) - Immediate mode UI for Nim.
 - [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 
 
