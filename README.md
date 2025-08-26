@@ -750,6 +750,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Build Systems / Package Management
 
 - [ChooseNim](https://github.com/dom96/choosenim) - Installing and switching between Nim versions (à la rustup, pyenv).
+- [GrabNim](https://codeberg.org/janAkali/grabnim) - Install and switch between multiple Nim compiler versions. (Alternative to ChooseNim).
 - [Nake](https://github.com/fowlmouth/nake) - Describe your Nim builds as tasks.
 - [Nawabs](https://github.com/Araq/nawabs) - A build system that throws away version numbering in favor of git hashes.
 - [Nimble](https://github.com/nim-lang/nimble) - Nimble can be used as a build system.
