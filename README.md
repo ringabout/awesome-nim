@@ -513,6 +513,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Terminal
 
 - [illwill](https://github.com/johnnovak/illwill) - Simple cross-platform terminal library inspired by (n)curses.
+- [niffler](https://github.com/gokr/niffler) - Command line AI assistant written in Nim.
 - [NimCx](https://github.com/qqtop/NimCx) - Color and utilities for the Linux terminal.
 - [pager](https://git.sr.ht/~reesmichael1/nim-pager) - A simple command line pager library, written in Nim.
 
