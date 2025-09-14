@@ -98,6 +98,7 @@
   - [Fuzzing](#fuzzing)
   - [Benchmarking](#benchmarking)
   - [Command-Line Interface Automation](#command-line-interface-automation)
+  - [Static Analysis](#static-analysis)
 - [Resources](#resources)
   - [Books](#books)
   - [Blogs](#blogs)
@@ -804,6 +805,11 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [loki](https://github.com/beshrkayali/loki) - A small library for writing line-oriented command interpreters in Nim.
 - [confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command line options and config files
 - [Cmdos](https://github.com/farias-hecdin/Cmdos) - A simple way to process cli arguments and help messages.
+
+### Static Analysis
+
+- [DrNim](https://nim-lang.org/docs/drnim.html) - Combines the Nim frontend with the Z3 proof engine, in order to allow verify/validate software.
+- [nimalyzer](https://github.com/thindil/nimalyzer) - Static code analyzer for Nim, inspired by AdaControl.
 
 ## Resources
 
