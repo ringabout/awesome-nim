@@ -516,8 +516,10 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [illwill](https://github.com/johnnovak/illwill) - Simple cross-platform terminal library inspired by (n)curses.
 - [niffler](https://github.com/gokr/niffler) - Command line AI assistant written in Nim.
-- [NimCx](https://github.com/qqtop/NimCx) - Color and utilities for the Linux terminal.
+- [Nimmm](https://github.com/joachimschmidt557/nimmm) - A terminal file manager for Linux.
 - [pager](https://git.sr.ht/~reesmichael1/nim-pager) - A simple command line pager library, written in Nim.
+- [pnimrp](https://github.com/bloomingchad/pnimrp) - Stream your favorite radio stations at the comfort of your terminal.
+- [prettyterm](https://github.com/CodeLibraty/prettyterm) - Library for creating beautiful terminal interfaces in Nim.
 
 
 ### Design
