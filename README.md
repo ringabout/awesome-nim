@@ -70,6 +70,7 @@
     - [Web Technology](#web-technology)
     - [Lightweight](#lightweight)
   - [Plotting](#plotting)
+- [Mobile](#mobile)
 - [Web](#web)
   - [Protocols](#protocols)
     - [DNS](#dns)
@@ -578,7 +579,11 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [graph](https://github.com/stisa/graph) - A basic plotting library in Nim.
 - [nimetry](https://github.com/refaqtor/nimetry) - Simple plotting in pure Nim.
 - [nimgraphviz](https://github.com/Aveheuzed/nimgraphviz) - A Nim library for making graphs with GraphViz and DOT.
+- [nimgnuplot](https://github.com/nervecenter/nimgnuplot) - A simple gnuplot interface for Nim, compatible with Datamancer dataframes.
 
+## Mobile
+
+- [react-native-nim](https://github.com/siddarthkay/react-native-nim) - A react-native template which demonstrates nim interop with iOS/Android mobile client from react-native.
 
 ## Web
 
