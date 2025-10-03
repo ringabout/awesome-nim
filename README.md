@@ -773,9 +773,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Logging
 
 - [chronicles](https://github.com/status-im/nim-chronicles) - A crafty implementation of structured logging for Nim.
-- [morelogging](https://github.com/FedericoCeratto/nim-morelogging) - Logging library for Nim.
-- [watchtower](https://github.com/BeigeHornet151/watchtower) - Lightweight logging library with colorized output, log rotation, and context fields.
-
+- [kslog](https://github.com/c-blake/kslog) - Minimalistic Kernel-Syslogd For Linux in Nim.
+- [threadlogging](https://codeberg.org/pswilde/threadlogging) - A thread safe logging library using Nim's own logging module.
 
 
 ### Testing
