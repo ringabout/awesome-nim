@@ -313,6 +313,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver.
 - [asyncmysql](https://github.com/tulayang/asyncmysql) - Asynchronous MySQL connector written in pure Nim.
 - [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim.
+- [db_connector](https://github.com/nim-lang/db_connector) - Unified db connector in Nim.
 - [kuzu](https://github.com/mahlonsmith/nim-kuzu) - Wrapper for Kuzu - an embedded graph database built for query speed and scalability.
 - [limdb](https://github.com/capocasa/limdb) - Very high performance, persistent and safe key-value store based on LMDB with Nim table-like interface.
 - [litestore](https://github.com/h3rald/litestore) - A lightweight, self-contained, RESTful, searchable, multi-format NoSQL document store.
@@ -322,6 +323,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
 - [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
 - [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
+- [surrealdb.nim](https://github.com/Xkonti/surrealdb.nim) - SurrealDB driver for Nim.
 - [tiny_sqlite](https://github.com/GULPF/tiny_sqlite) - Very lightweight and safe SQLite library.
 
 
