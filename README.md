@@ -211,7 +211,6 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [itertools](https://github.com/narimiran/itertools) - Nim rewrite of a very popular Python module of the same name.
 - [loopfusion](https://github.com/numforge/loopfusion) - Iterate efficiently over a variadic number of containers.
 - [looper](https://github.com/b3liever/looper) - For loop macros for Nim.
-- [mangle](https://github.com/baabelfish/mangle) - Attempt at a streaming library.
 
 
 ### Macros
@@ -363,7 +362,6 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Parsing
 
 - [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
-- [iniplus](https://github.com/penguinite/iniplus.git) - INI parser with support for arrays and tables.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 
@@ -564,7 +562,6 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimview](https://github.com/marcomq/nimview) - A Nim/Webview based helper to create desktop/server applications with Nim and HTML/CSS.
 - [webgui](https://github.com/juancarlospaco/webgui) - Web technologies based cross-platform GUI Framework with a dark theme.
 - [fidget](https://github.com/treeform/fidget) - Figma based UI library for Nim, with HTML and OpenGL backends.
-- [nsciter](https://github.com/Yardanico/nsciter) - High-level and low-level Nim wrapper for https://sciter.com.
 - [webview](https://github.com/neroist/webview) - Nim bindings and wrapper for Webview.
 - [webui](https://github.com/webui-dev/nim-webui) - Nim bindings and wrapper for WebUI.
 
@@ -688,7 +685,6 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Authentication
 
-- [httpauth](https://github.com/FedericoCeratto/nim-httpauth) - HTTP Authentication library for Nim.
 - [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim.
 
 
@@ -769,7 +765,6 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
 - [nifty](https://github.com/h3rald/nifty) - A decentralized pseudo package manager and script runner.
 - [nsis](https://github.com/nim-libs/nsis) - Nim programming language setup tool.
-- [nim-windows-container](https://github.com/sirredbeard/nim-windows-container) - A Windows Container with a complete Nim build environment.
 
 
 ### Logging
@@ -824,7 +819,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Books
 
 - [Nim in Action](https://book.picheta.me/) - Book in Manning's "in Action" series, teaching Nim through 3 practical projects including CLI chat apps, web apps and parsers.
-- [Computer Programming with Nim](https://ssalewski.de/nimprogramming.html) - A gentle introduction to the Nim programming language.
+- [Computer Programming with Nim](https://www.nimprogrammingbook.com/book/nimprogramming_colorful.pdf) - A gentle introduction to the Nim programming language.
 - [Nim Basics](https://narimiran.github.io/nim-basics/) - Tutorial for beginners and people just starting with Nim.
 - [Nim Style Guide](https://status-im.github.io/nim-style-guide/) - Status style guide for the Nim language.
 - [Mastering Nim](https://www.amazon.com/Mastering-Nim-complete-programming-language/dp/B0B4R7B9YX) - A complete guide to the programming language.
