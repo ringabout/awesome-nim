@@ -361,7 +361,9 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Parsing
 
+- [beautifulparser](https://github.com/TelegramXPlus/beautifulparser) - Simple library for parsing HTML documents inspired by beautifulsoup4.
 - [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
+- [Marvdown](https://github.com/openpeeps/marvdown) - A stupid simple Markdown parser.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 
@@ -756,6 +758,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Build Systems / Package Management
 
+- [Atlas](https://github.com/nim-lang/atlas) - The Atlas Package cloner. It manages an isolated workspace that contains projects and dependencies.
 - [ChooseNim](https://github.com/nim-lang/choosenim) - Installing and switching between Nim versions (à la rustup, pyenv).
 - [GrabNim](https://codeberg.org/janAkali/grabnim) - Install and switch between multiple Nim compiler versions. (Alternative to ChooseNim).
 - [Nake](https://github.com/fowlmouth/nake) - Describe your Nim builds as tasks.
@@ -791,6 +794,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Benchmarking
 
+- [benchy](https://github.com/treeform/benchy) - Simple benchmarking to time your code.
 - [golden](https://github.com/disruptek/golden) - A benchmark for compile-time and/or runtime Nim.
 - [timeit](https://github.com/xflywind/timeit) - Measuring execution times written by Nim.
 - [criterion](https://github.com/disruptek/criterion) - Statistic-driven micro-benchmark framework.
