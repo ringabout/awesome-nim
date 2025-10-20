@@ -563,7 +563,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML/JS GUI apps.
 - [nimview](https://github.com/marcomq/nimview) - A Nim/Webview based helper to create desktop/server applications with Nim and HTML/CSS.
 - [webgui](https://github.com/juancarlospaco/webgui) - Web technologies based cross-platform GUI Framework with a dark theme.
-- [fidget](https://github.com/treeform/fidget) - Figma based UI library for Nim, with HTML and OpenGL backends.
+- [fidget2](https://github.com/treeform/fidget2) - Library for natively compiled cross platform UIs - Web with HTML5 (WASM), Windows, macOS, Linux with OpenGL.
 - [webview](https://github.com/neroist/webview) - Nim bindings and wrapper for Webview.
 - [webui](https://github.com/webui-dev/nim-webui) - Nim bindings and wrapper for WebUI.
 
