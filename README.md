@@ -195,6 +195,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Pattern Matching
 
+- [razaberi](https://github.com/Beglaa/razaberi) - Pattern matching library, 2000+ test cases, exhaustiveness checking, deep destructuring support.
 - [regex](https://github.com/nitely/nim-regex) - Pure Nim regex engine with linear time match.
 - [npeg](https://github.com/zevv/npeg) - PEGs for Nim, another take.
 - [patty](https://github.com/andreaferretti/patty) - A pattern matching library for Nim.
