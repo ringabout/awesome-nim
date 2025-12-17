@@ -289,6 +289,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [ratel](https://github.com/PMunch/ratel) - Next-generation, zero-cost abstraction microconroller programming in Nim.
 - [ardunimo](https://github.com/gokr/ardunimo) - Nim wrapper for Arduino + LinkIt ONE SDK by Mediatek.
 - [ardunimesp](https://gitlab.com/NetaLabTek/Arduimesp) - Nim wrapper for Arduino ESP8266 framework + A tool for flashing, compiling and making a Nim project into an Arduino project.
+- [avr_io](https://github.com/Abathargh/avr_io) - Nim register bindings and utilities for AVR microcontrollers.
+- [avrman](https://github.com/Abathargh/avrman) - A tool for managing Nim and C projects targetting AVR microcontrollers.
 - [msp430f5510](https://gitlab.com/jalexander8717/msp430f5510-nim) - Run Nim on MSP430f5510 micro-controller (6KB of RAM).
 - [Nesper](https://github.com/elcritch/nesper) - Program the ESP32 using Nim. Library on top of esp-idf.
 - [stm32f3](https://github.com/mwbrown/nim_stm32f3) - Run Nim on STM32F3 micro-controller (16KB of RAM).
