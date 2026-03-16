@@ -815,6 +815,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [loki](https://github.com/beshrkayali/loki) - A small library for writing line-oriented command interpreters in Nim.
 - [confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command line options and config files
 - [Cmdos](https://github.com/farias-hecdin/Cmdos) - A simple way to process cli arguments and help messages.
+- [cozycliparser](https://github.com/indiscipline/cozycliparser) - Lean, feature-rich, DSL-free CLI parser based on `std/parseopt`. [Docs](https://indiscipline.github.io/cozycliparser/).
 
 ### Static Analysis
 
