@@ -746,6 +746,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [INim](https://github.com/AndreiRegiani/INim) - Interactive Nim Shell.
 - [jupyternim](https://github.com/stisa/jupyternim) - A Jupyter kernel for Nim.
+- [Reploid](https://github.com/RowDaBoat/reploid) - A Nim REPL running on top of a `nim c` or a `nimscript` VM, `import [anything]`. 
 
 
 ### Binding Generators
