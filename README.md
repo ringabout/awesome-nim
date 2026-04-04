@@ -28,7 +28,7 @@
   - [Randomization](#randomization)
   - [Scripting](#scripting)
 - [System Tools](#system-tools)
-  - [Backups](#backups)   
+  - [Backups](#backups)
 - [Hardware](#hardware)
   - [Embedded](#embedded)
 - [Science](#science)
@@ -106,6 +106,7 @@
   - [Community](#community)
   - [Tutorials](#tutorials)
   - [Videos](#videos)
+  - [Footnotes](#footnotes)
 
 
 ## Language Features
@@ -269,6 +270,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [nimcr](https://github.com/PMunch/nimcr) - Running Nim code with Shebangs.
 - [nimr](https://github.com/Jeff-Ciesielski/nimr) - Run Nim programs like scripts.
+- [nimbang](https://github.com/jabbalaci/nimbang) - Running Nim programs as scripts with shebang.
 
 
 ## System Tools
@@ -277,7 +279,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [norg](https://codeberg.org/pswilde/norgbackup) - A portable wrapper for borg and restic.
 
- 
+
 ## Hardware
 
 - [nimvisa](https://github.com/leeooox/nimvisa) - Wrapper for NI-VISA instrument control library.
@@ -746,7 +748,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [INim](https://github.com/AndreiRegiani/INim) - Interactive Nim Shell.
 - [jupyternim](https://github.com/stisa/jupyternim) - A Jupyter kernel for Nim.
-- [Reploid](https://github.com/RowDaBoat/reploid) - A Nim REPL running on top of a `nim c` or a `nimscript` VM, `import [anything]`. 
+- [Reploid](https://github.com/RowDaBoat/reploid) - A Nim REPL running on top of a `nim c` or a `nimscript` VM, `import [anything]`.
 
 
 ### Binding Generators
