@@ -112,6 +112,7 @@
 ## Language Features
 
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Nim development workflow orchestration, automated code review, and multi-agent coordination. MIT licensed.
 ### Implementations
 
 - [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
