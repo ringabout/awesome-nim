@@ -368,6 +368,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [beautifulparser](https://github.com/TelegramXPlus/beautifulparser) - Simple library for parsing HTML documents inspired by beautifulsoup4.
 - [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
+- [iniplus](https://codeberg.org/onbox/iniplus) - Extended INI parser with support for arrays and tables.
 - [Marvdown](https://github.com/openpeeps/marvdown) - A stupid simple Markdown parser.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
@@ -480,20 +481,21 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Cryptography
 
-- [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library.
-- [hashlib](https://github.com/khchen/hashlib) - Hash library that contains almost all the hash functions for Nim.
-- [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
-- [constantine](https://github.com/mratsim/constantine) - Constant time pairing-based of elliptic curve based cryptography and digital signatures.
-- [bslcurve](https://github.com/status-im/nim-blscurve) - Nim implementation of BLS signature scheme (Boneh-Lynn-Shacham) over Barreto-Lynn-Scott (BLS) curve BLS12-381.
+- [bcryptrocks](https://codeberg.org/penguinite/bcryptrocks) -  Nim wrapper of Solar Designer's `crypt_blowfish` library
 - [bncurve](https://github.com/status-im/nim-bncurve) - Nim implementation of Barreto-Naehrig pairing-friendly elliptic curve.
+- [bslcurve](https://github.com/status-im/nim-blscurve) - Nim implementation of BLS signature scheme (Boneh-Lynn-Shacham) over Barreto-Lynn-Scott (BLS) curve BLS12-381.
+- [constantine](https://github.com/mratsim/constantine) - Constant time pairing-based of elliptic curve based cryptography and digital signatures.
+- [crc32](https://github.com/juancarlospaco/nim-crc32) - CRC32 for Nim. Just pass the thing you want to do CRC.
+- [des](https://github.com/LucaWolf/des.nim) - DES/3DES, DUKPT and MAC in Nim.
+- [hashlib](https://github.com/khchen/hashlib) - Hash library that contains almost all the hash functions for Nim.
+- [murmurhash](https://github.com/cwpearson/nim-murmurhash) - Pure Nim implementation of MurmerHash
+- [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
+- [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library.
+- [NiMPC](https://github.com/markspanbroek/nimpc) - A secure multi-party computation (MPC) library for the Nim programming language.
+- [rollinghash](https://github.com/MarcAzar/RollingHash) - High performance Nim implementation of a Cyclic Polynomial Hash, aka BuzHash, and the Rabin-Karp algorithm.
+- [shimsham](https://github.com/apense/shimsham) - A collection of hash functions, including JH, SHA-2, SHA-3, SipHash, Tiger, and Whirlpool.
 - [xxhash.nim](https://github.com/OpenSystemsLab/xxhash.nim) - A wrapper for the xxhash hashing library in Nim.
 - [xxtea](https://github.com/xxtea/xxtea-nim) - XXTEA encryption algorithm library.
-- [crc32](https://github.com/juancarlospaco/nim-crc32) - CRC32 for Nim. Just pass the thing you want to do CRC.
-- [rollinghash](https://github.com/MarcAzar/RollingHash) - High performance Nim implementation of a Cyclic Polynomial Hash, aka BuzHash, and the Rabin-Karp algorithm.
-- [murmurhash](https://github.com/cwpearson/nim-murmurhash) - Pure Nim implementation of MurmerHash
-- [des](https://github.com/LucaWolf/des.nim) - DES/3DES, DUKPT and MAC in Nim.
-- [shimsham](https://github.com/apense/shimsham) - A collection of hash functions, including JH, SHA-2, SHA-3, SipHash, Tiger, and Whirlpool.
-- [NiMPC](https://github.com/markspanbroek/nimpc) - A secure multi-party computation (MPC) library for the Nim programming language.
 
 
 ### Blockchain
@@ -681,12 +683,13 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Template Engines
 
+- [html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
+- [mustache](https://github.com/soasme/nim-mustache) - A full implementation of v1.2.1 of the Mustache spec.
+- [nimja](https://github.com/enthus1ast/nimja) - Typed and compiled template engine inspired by jinja2, twig and onionhammer/nim-templates for Nim.
 - [Nim Source Code filters](https://nim-lang.org/docs/filters.html) - Nim's powerful built-in feature which can be used as a templating system or a preprocessor.
 - [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker.
-- [html-dsl](https://github.com/juancarlospaco/nim-html-dsl) - Nim HTML DSL.
 - [templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
-- [nimja](https://github.com/enthus1ast/nimja) - Typed and compiled template engine inspired by jinja2, twig and onionhammer/nim-templates for Nim.
-- [mustache](https://github.com/soasme/nim-mustache) - A full implementation of v1.2.1 of the Mustache spec.
+- [temple](https://codeberg.org/onbox/temple) - Simple run-time templating library for Nim.
 - [Tim](https://github.com/openpeeps/tim) - A high-performance template engine & markup language.
 
 
