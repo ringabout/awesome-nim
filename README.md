@@ -29,6 +29,7 @@
   - [Scripting](#scripting)
 - [System Tools](#system-tools)
   - [Backups](#backups)
+  - [Prometheus exporters](#prometheus-exporters)
 - [Hardware](#hardware)
   - [Embedded](#embedded)
 - [Science](#science)
@@ -278,6 +279,10 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Backups
 
 - [norg](https://codeberg.org/pswilde/norgbackup) - A portable wrapper for borg and restic.
+
+### Prometheus exporters
+
+- [node-exporter-lite](https://github.com/twekkel/node_exporter-lite) - An ultra‑light Prometheus [node_exporter](https://github.com/prometheus/node_exporter) replacement.
 
 
 ## Hardware
