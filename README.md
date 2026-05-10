@@ -282,7 +282,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Prometheus exporters
 
-- [node-exporter-lite](https://github.com/twekkel/node_exporter-lite) - An ultra‑light Prometheus [node_exporter](https://github.com/prometheus/node_exporter) replacement.
+- [node-exporter-lite](https://github.com/twekkel/node_exporter-lite) - An ultra‑light [node_exporter](https://github.com/prometheus/node_exporter) replacement.
+- [unbound-exporter-lite](https://github.com/twekkel/unbound_exporter-lite) - An ultra‑light [unbound_exporter](https://github.com/letsencrypt/unbound_exporter) replacement.
 
 
 ## Hardware
