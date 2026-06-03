@@ -441,7 +441,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Documents
 
 - [nimpdf](https://github.com/jangko/nimpdf) - PDF document writer, written in Nim.
-
+- [jn](https://github.com/joereynolds/jn) - A CLI note taker and task manager.
 
 ## Algorithms
 
