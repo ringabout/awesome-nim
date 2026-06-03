@@ -535,6 +535,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [pager](https://git.sr.ht/~reesmichael1/nim-pager) - A simple command line pager library, written in Nim.
 - [pnimrp](https://github.com/bloomingchad/pnimrp) - Stream your favorite radio stations at the comfort of your terminal.
 - [prettyterm](https://github.com/CodeLibraty/prettyterm) - Library for creating beautiful terminal interfaces in Nim.
+- [jn](https://github.com/joereynolds/jn) - A CLI note taker and task manager.
 
 
 ### Design
