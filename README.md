@@ -675,18 +675,19 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Frameworks
 
-- [Jester](https://github.com/dom96/jester) - The sinatra-like web framework for Nim. Jester provides a DSL for quickly creating web applications in Nim.
-- [prologue](https://github.com/planety/prologue) - A fullstack web framework written in Nim.
-- [whip](https://github.com/mattaylor/whip) - Simple and fast HTTP server for Nim based on httpbeast and nest for high performance routing.
 - [basolato](https://github.com/itsumura-h/nim-basolato) - A fullstack web framework for Nim based on Jester.
-- [karax](https://github.com/karaxnim/karax) - A framework for developing single page applications in Nim.
 - [happyx](https://github.com/HapticX/happyx) - A macro-oriented full stack asynchronous web framework written in Nim.
-- [scorper](https://github.com/bung87/scorper) - A micro and elegant web framework written in Nim.
-- [starlight](https://github.com/planety/starlight) - Flask-like web framework written in Nim.
-- [rosencrantz](https://github.com/andreaferretti/rosencrantz) - DSL to write web servers, inspired by Spray and its successor Akka HTTP.
+- [Jazzy](https://github.com/canermastan/jazzy-framework) - The Productive Framework. Developer-friendly, lightning fast, and designed for rapid development.
+- [Jester](https://github.com/dom96/jester) - The sinatra-like web framework for Nim. Jester provides a DSL for quickly creating web applications in Nim.
+- [karax](https://github.com/karaxnim/karax) - A framework for developing single page applications in Nim.
 - [nim_websitecreator](https://github.com/ThomasTJdev/nim_websitecreator) - Nim fullstack website framework - deploy a website within minutes.
 - [nim-palladian](https://github.com/itsumura-h/nim-palladian) - Palladian is a Nim front-end framework based on and wrapped around Preact.
-
+- [prologue](https://github.com/planety/prologue) - A fullstack web framework written in Nim.
+- [rosencrantz](https://github.com/andreaferretti/rosencrantz) - DSL to write web servers, inspired by Spray and its successor Akka HTTP.
+- [scorper](https://github.com/bung87/scorper) - A micro and elegant web framework written in Nim.
+- [starlight](https://github.com/planety/starlight) - Flask-like web framework written in Nim.
+- [Supranim](https://github.com/supranim/supranim) - A simple web framework for creating REST APIs and beautiful web apps. Model View Controller structure and other cool things.
+- [whip](https://github.com/mattaylor/whip) - Simple and fast HTTP server for Nim based on httpbeast and nest for high performance routing.
 
 ### Template Engines
 
