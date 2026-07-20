@@ -330,7 +330,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [mycouch](https://github.com/hamidb80/mycouch) - Multisync CouchDB driver for Nim.
 - [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver.
 - [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim.
-- [RocheDB](https://github.com/puffball1567/rochedb) - Ring-oriented NoSQL document and vector store for locality-aware retrieval. [Apache-2.0]
+- [KoutenDB](https://github.com/puffball1567/koutendb) - Locality-aware NoSQL document/vector database built around rings and orbit-inspired retrieval.
 - [rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
 - [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
 - [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
