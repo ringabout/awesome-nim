@@ -782,6 +782,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Nake](https://github.com/fowlmouth/nake) - Describe your Nim builds as tasks.
 - [Nawabs](https://github.com/Araq/nawabs) - A build system that throws away version numbering in favor of git hashes.
 - [Nimble](https://github.com/nim-lang/nimble) - Nimble can be used as a build system.
+- [nim-agent-template](https://github.com/Vyrnexis/nim-agent-template) - Scaffolding generator and template featuring AI agent skills, MCP tooling, and multi-toolchain build profiles.
 - [nimph](https://github.com/disruptek/nimph) - Nim package hierarchy manager from the future.
 - [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
 - [nifty](https://github.com/h3rald/nifty) - A decentralized pseudo package manager and script runner.
