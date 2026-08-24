@@ -832,6 +832,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Cmdos](https://github.com/farias-hecdin/Cmdos) - A simple way to process cli arguments and help messages.
 - [cozycliparser](https://github.com/indiscipline/cozycliparser) - Lean, feature-rich, DSL-free CLI parser based on `std/parseopt`. [Docs](https://indiscipline.github.io/cozycliparser/).
 - [Cliquet](https://github.com/RowDaBoat/cliquet) - A CLI args and config file parser merging both into a single object, with automatic help generation.
+- [easyargs](https://github.com/nervecenter/easyargs) - Dead simple data-oriented argument parsing for Nim.
 
 ### Static Analysis
 
