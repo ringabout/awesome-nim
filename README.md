@@ -711,7 +711,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Game Libraries
 
-- [bgfxim](https://github.com/puffball1567/bgfxim) - Complete, low-level Nim bindings for the bgfx C99 API. [BSD-2-Clause]
+- [bgfxim](https://github.com/puffball1567/bgfxim) - Complete, low-level Nim bindings for the bgfx C99 API [BSD-2-Clause].
 - [enu](https://github.com/dsrw/enu) - 3D live coding with a Logo-like DSL for Godot, implemented in Nim.
 - [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
 - [glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
