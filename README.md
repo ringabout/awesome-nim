@@ -711,11 +711,12 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Game Libraries
 
-- [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics.
-- [jolt-nim](https://github.com/puffball1567/jolt-nim) - Native Nim bindings for Jolt Physics 5.6.0 with raw and ownership-safe high-level APIs [MIT].
-- [glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
-- [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+- [bgfxim](https://github.com/puffball1567/bgfxim) - Complete, low-level Nim bindings for the bgfx C99 API [BSD-2-Clause].
 - [enu](https://github.com/dsrw/enu) - 3D live coding with a Logo-like DSL for Godot, implemented in Nim.
+- [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+- [glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
+- [jolt-nim](https://github.com/puffball1567/jolt-nim) - Native Nim bindings for Jolt Physics 5.6.0 with raw and ownership-safe high-level APIs [MIT].
+- [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics.
 
 
 ### Game Frameworks
