@@ -801,6 +801,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Testing
 
 - [faker](https://github.com/jiro4989/faker) - A Nim package that generates fake data for you.
+- [Mock Jutsu](https://github.com/altansayan/mock-jutsu-api) - Checksum-valid financial and identity test data generator (IBAN MOD-97, Luhn cards, TCKN, ISIN), plus real registered BIC/SWIFT codes. No native Nim package, but usable via its REST API.
 - [balls](https://github.com/disruptek/balls) - A unittest macro to save the world, or at least your Sunday.
 - [einheit](https://github.com/jyapayne/einheit) - A Nim unit testing library inspired by Python's unit tests.
 - [asynctest](https://github.com/status-im/asynctest) - Complements the standard unittest module in Nim to allow testing of asynchronous code.
