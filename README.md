@@ -57,7 +57,8 @@
     - [Vector](#vector)
     - [Matrix](#matrix)
   - [Deep Learning](#deep-learning)
-  - [LLM](#llm)
+  - [AI Agents](#ai-agents)
+  - [AI REST API clients](#ai-rest-api-clients)
   - [Bigints](#bigints)
   - [Cryptography](#cryptography)
   - [Blockchain](#blockchain)
@@ -486,8 +487,10 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [laser](https://github.com/numforge/laser) - Carefully-tuned primitives for running tensor and image-processing code on CPU, GPUs and accelerators.
 <!-- - [flambeau](https://github.com/SciNim/flambeau) - Nim bindings to libtorch. -->
 
+### AI Agents
+- [3code](https://github.com/capocasa/3code) - The Economical Coding Agent. Saves tokens, brain cycles, computer power, and your privacy
 
-### LLM Clients
+### AI REST API clients
 
 - [chachachat](https://github.com/openpeeps/chachachat) - A simple, embeddable LLM client API with chat and RAG capabilities. Compatible with OpenAI API
 
