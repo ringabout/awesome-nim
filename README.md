@@ -57,6 +57,8 @@
     - [Vector](#vector)
     - [Matrix](#matrix)
   - [Deep Learning](#deep-learning)
+  - [AI Agents](#ai-agents)
+  - [AI REST API clients](#ai-rest-api-clients)
   - [Bigints](#bigints)
   - [Cryptography](#cryptography)
   - [Blockchain](#blockchain)
@@ -84,6 +86,7 @@
   - [Gemini Servers](#gemini-servers)
   - [Frameworks](#frameworks)
   - [Template Engines](#template-engines)
+  - [String Validators](#string-validators)
   - [Authentication](#authentication)
 - [Game Development](#game-development)
   - [Game Libraries](#game-libraries)
@@ -242,6 +245,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim.
 - [faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim.
 - [lockfreequeues](https://github.com/elijahr/lockfreequeues) - Lock-free queue implementations for Nim.
+- [flysystem](https://github.com/openpeeps/flysystem) - A filesystem API for Nim, inspired by Flysystem from the PHP ecosystem.
 
 
 ### Processes
@@ -379,7 +383,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Marvdown](https://github.com/openpeeps/marvdown) - A stupid simple Markdown parser.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
-
+- [openparser](https://github.com/openpeeps/openparser) - A collection SIMD-accelerated parsers and dumpers. Supporting: JSON, YAML, XML, TOML, CSV, BSON, Plist, HTML, CSS, RSS, Atom, DotEnv, iCal, vCard, NIF, SQL, Regex, Gettext, Fast Binary Encoding (FBE), QR, SVG, Colors.
+- [sweetsyntax](https://github.com/openpeeps/sweetsyntax) - A generic parser and AST explorer for analyzing programming languages.
 
 ### Serialization
 
@@ -394,10 +399,13 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [ssz-serialization](https://github.com/status-im/nim-ssz-serialization) - Nim implementation of Simple Serialize (SSZ) serialization and merkleization.
 - [tnetstring](https://github.com/mahlonsmith/nim-tnetstring) - Parsing and serializing for the TNetstring format.
 - [toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization `not` relying on run-time type information.
+- [jsony](https://github.com/treeform/jsony) - A loose, direct to object json parser with hooks.
 
 ### Standards
 
 - [isocodes](https://github.com/kraptor/isocodes) - ISO codes for Nim (ISO 3166-1, ISO 3166-2, ISO 3166-3, ISO 15924, ISO 15924, ISO 639-2, ISO 639-5)
+- [filetype](https://github.com/jiro4989/filetype) - Small and dependency free Nim package to infer file and MIME type checking the magic numbers signature.
+- [mimedb](https://github.com/openpeeps/mimedb) - A large database of MIME types for Nim.
 
 ## Text
 
@@ -417,6 +425,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [HastyScribe](https://github.com/h3rald/hastyscribe) - Self-contained markdown compiler generating self-contained HTML documents.
 - [markdown](https://github.com/soasme/nim-markdown) - A beautiful Markdown Parser in the Nim world.
 - [lester](https://github.com/madprops/lester) - Create quick documents out of Markdown, into HTML.
+- [marvdown](https://github.com/openpeeps/marvdown) - A stupid simple Markdown parser.
 
 
 ## Multimedia
@@ -478,6 +487,13 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [laser](https://github.com/numforge/laser) - Carefully-tuned primitives for running tensor and image-processing code on CPU, GPUs and accelerators.
 <!-- - [flambeau](https://github.com/SciNim/flambeau) - Nim bindings to libtorch. -->
 
+### AI Agents
+- [3code](https://github.com/capocasa/3code) - The Economical Coding Agent. Saves tokens, brain cycles, computer power, and your privacy.
+
+### AI REST API clients
+
+- [chachachat](https://github.com/openpeeps/chachachat) - A simple, embeddable LLM client API with chat and RAG capabilities. Compatible with OpenAI API.
+
 
 ### Bigints
 
@@ -503,7 +519,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [shimsham](https://github.com/apense/shimsham) - A collection of hash functions, including JH, SHA-2, SHA-3, SipHash, Tiger, and Whirlpool.
 - [xxhash.nim](https://github.com/OpenSystemsLab/xxhash.nim) - A wrapper for the xxhash hashing library in Nim.
 - [xxtea](https://github.com/xxtea/xxtea-nim) - XXTEA encryption algorithm library.
-
+- [nimcypher](https://github.com/nimbase/nimcypher) - A Port of Monocypher in Nim + high-level API, extra algos, and opt-in SIMD acceleration.
+- [blackpaper](https://github.com/openpeeps/blackpaper) - A super simple password strength estimator in Nim.
 
 ### Blockchain
 
@@ -524,7 +541,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [supersnappy](https://github.com/guzba/supersnappy) - Dependency-free and performant Nim Snappy implementation.
 - [snappy](https://github.com/status-im/nim-snappy) - Nim implementation of Snappy compression algorithm.
 - [zip](https://github.com/nim-lang/zip) - Wrapper for the zip library.
-
+- [nbrotli](https://github.com/nimbase/nbrotli) - A 100% pure Nim port of Brotli, no C bindings, no FFI. SIMD accelerated + MemFiles support.
 
 ## User Interface
 
@@ -668,6 +685,9 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Mummy](https://github.com/guzba/mummy) - A multi-threaded HTTP 1.1 server with first-class support for WebSockets.
 - [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written in pure Nim.
 - [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
+- [caprese](https://github.com/zenywallet/caprese) - A front-end web server specialized for real-time message exchange.
+- [hyperx](https://github.com/nitely/nim-hyperx) - Pure Nim HTTP/2 client and server.
+- [powpow](https://github.com/openpeeps/powpow) - An event notification library. Supporting UDP, TCP, HTTP/1.1, HTTP/2, WebSockets, and more. Alternative to libuv and libevent.
 
 ### Gemini Servers
 
@@ -699,12 +719,16 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [smalte](https://github.com/roquie/smalte) - It is a dead simple and lightweight template engine. Specially designed for configure application before start in Docker.
 - [templates](https://github.com/onionhammer/nim-templates) - A simple string templating library for Nim.
 - [temple](https://codeberg.org/onbox/temple) - Simple run-time templating library for Nim.
-- [Tim](https://github.com/openpeeps/tim) - A high-performance template engine & markup language.
+- [Tim](https://github.com/tim-engine/tim) - A high-performance template engine & markup language.
 
+### String Validators
+- [valido](https://github.com/openpeeps/valido) - A library of string validators and sanitizers.
+- [bag](https://github.com/openpeeps/bag) - Validate HTTP input data in a fancy way (based on [pkg/valido](https://github.com/openpeeps/valido)).
 
 ### Authentication
 
 - [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim.
+- [twofa](https://github.com/openpeeps/twofa) - Generate TOTP, HOTP and QR codes.
 
 
 ## Game Development
@@ -773,6 +797,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Futhark](https://github.com/PMunch/futhark) - Automatic wrapping of C headers in Nim with libclang.
 - [nimpy](https://github.com/yglukhov/nimpy) - Generate Python wrappers and call Python from Nim.
 - [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
+- [denim](https://github.com/openpeeps/denim) - Use Nim to build powerful Node.js/Bun addons via Node API (NAPI).
 <!-- - [rnim](https://github.com/SciNim/rnim) - A bridge between R and Nim. Currently this is a barely working prototype. -->
 
 
@@ -789,7 +814,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
 - [nifty](https://github.com/h3rald/nifty) - A decentralized pseudo package manager and script runner.
 - [nsis](https://github.com/nim-libs/nsis) - Nim programming language setup tool.
-
+- [clue](https://github.com/openpeeps/clue) - An alternative package manager for Nim development.
 
 ### Logging
 
@@ -836,6 +861,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [cozycliparser](https://github.com/indiscipline/cozycliparser) - Lean, feature-rich, DSL-free CLI parser based on `std/parseopt`. [Docs](https://indiscipline.github.io/cozycliparser/).
 - [Cliquet](https://github.com/RowDaBoat/cliquet) - A CLI args and config file parser merging both into a single object, with automatic help generation.
 - [easyargs](https://github.com/nervecenter/easyargs) - Dead simple data-oriented argument parsing for Nim.
+- [kapsis](https://github.com/openpeeps/kapsis) - An extensible, macro-based DSL with runtime dispatch, built-in validation, type checking, and plugins (shared libs) support.
 
 ### Static Analysis
 
