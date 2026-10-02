@@ -399,7 +399,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [ssz-serialization](https://github.com/status-im/nim-ssz-serialization) - Nim implementation of Simple Serialize (SSZ) serialization and merkleization.
 - [tnetstring](https://github.com/mahlonsmith/nim-tnetstring) - Parsing and serializing for the TNetstring format.
 - [toml-serialization](https://github.com/status-im/nim-toml-serialization) - Flexible TOML serialization `not` relying on run-time type information.
-- [jsony](https://github.com/treeform/jsony) - A loose, direct to object json parser with hooks
+- [jsony](https://github.com/treeform/jsony) - A loose, direct to object json parser with hooks.
 
 ### Standards
 
@@ -492,7 +492,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### AI REST API clients
 
-- [chachachat](https://github.com/openpeeps/chachachat) - A simple, embeddable LLM client API with chat and RAG capabilities. Compatible with OpenAI API
+- [chachachat](https://github.com/openpeeps/chachachat) - A simple, embeddable LLM client API with chat and RAG capabilities. Compatible with OpenAI API.
 
 
 ### Bigints
@@ -519,7 +519,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [shimsham](https://github.com/apense/shimsham) - A collection of hash functions, including JH, SHA-2, SHA-3, SipHash, Tiger, and Whirlpool.
 - [xxhash.nim](https://github.com/OpenSystemsLab/xxhash.nim) - A wrapper for the xxhash hashing library in Nim.
 - [xxtea](https://github.com/xxtea/xxtea-nim) - XXTEA encryption algorithm library.
-- [nimcypher](https://github.com/nimbase/nimcypher) - A Port of Monocypher in Nim + high-level API, extra algos, and opt-in SIMD acceleration
+- [nimcypher](https://github.com/nimbase/nimcypher) - A Port of Monocypher in Nim + high-level API, extra algos, and opt-in SIMD acceleration.
 - [blackpaper](https://github.com/openpeeps/blackpaper) - A super simple password strength estimator in Nim.
 
 ### Blockchain
@@ -541,7 +541,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [supersnappy](https://github.com/guzba/supersnappy) - Dependency-free and performant Nim Snappy implementation.
 - [snappy](https://github.com/status-im/nim-snappy) - Nim implementation of Snappy compression algorithm.
 - [zip](https://github.com/nim-lang/zip) - Wrapper for the zip library.
-- [nbrotli](https://github.com/nimbase/nbrotli) - A 100% pure Nim port of Brotli, no C bindings, no FFI. SIMD accelerated + MemFiles support
+- [nbrotli](https://github.com/nimbase/nbrotli) - A 100% pure Nim port of Brotli, no C bindings, no FFI. SIMD accelerated + MemFiles support.
 
 ## User Interface
 
@@ -685,8 +685,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Mummy](https://github.com/guzba/mummy) - A multi-threaded HTTP 1.1 server with first-class support for WebSockets.
 - [netkit](https://github.com/iocrate/netkit) - Out-of-the-box, stable and secure network facilities and utilities written in pure Nim.
 - [jshttp2](https://juancarlospaco.github.io/nodejs/nodejs/jshttp2) - Async HTTPS 2.0 web server.
-- [caprese](https://github.com/zenywallet/caprese) - A front-end web server specialized for real-time message exchange
-- [hyperx](https://github.com/nitely/nim-hyperx) - Pure Nim HTTP/2 client and server
+- [caprese](https://github.com/zenywallet/caprese) - A front-end web server specialized for real-time message exchange.
+- [hyperx](https://github.com/nitely/nim-hyperx) - Pure Nim HTTP/2 client and server.
 - [powpow](https://github.com/openpeeps/powpow) - An event notification library. Supporting UDP, TCP, HTTP/1.1, HTTP/2, WebSockets, and more. Alternative to libuv and libevent.
 
 ### Gemini Servers
@@ -722,8 +722,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Tim](https://github.com/tim-engine/tim) - A high-performance template engine & markup language.
 
 ### String Validators
-- [valido](https://github.com/openpeeps/valido) - A library of string validators and sanitizers
-- [bag](https://github.com/openpeeps/bag) - Validate HTTP input data in a fancy way (based on [pkg/valido](https://github.com/openpeeps/valido))
+- [valido](https://github.com/openpeeps/valido) - A library of string validators and sanitizers.
+- [bag](https://github.com/openpeeps/bag) - Validate HTTP input data in a fancy way (based on [pkg/valido](https://github.com/openpeeps/valido)).
 
 ### Authentication
 
@@ -797,7 +797,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Futhark](https://github.com/PMunch/futhark) - Automatic wrapping of C headers in Nim with libclang.
 - [nimpy](https://github.com/yglukhov/nimpy) - Generate Python wrappers and call Python from Nim.
 - [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
-- [denim](https://github.com/openpeeps/denim) - Use Nim to build powerful Node.js/Bun addons via Node API (NAPI)
+- [denim](https://github.com/openpeeps/denim) - Use Nim to build powerful Node.js/Bun addons via Node API (NAPI).
 <!-- - [rnim](https://github.com/SciNim/rnim) - A bridge between R and Nim. Currently this is a barely working prototype. -->
 
 
@@ -814,7 +814,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
 - [nifty](https://github.com/h3rald/nifty) - A decentralized pseudo package manager and script runner.
 - [nsis](https://github.com/nim-libs/nsis) - Nim programming language setup tool.
-- [clue](https://github.com/openpeeps/clue) - An alternative package manager for Nim development
+- [clue](https://github.com/openpeeps/clue) - An alternative package manager for Nim development.
 
 ### Logging
 
@@ -861,7 +861,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [cozycliparser](https://github.com/indiscipline/cozycliparser) - Lean, feature-rich, DSL-free CLI parser based on `std/parseopt`. [Docs](https://indiscipline.github.io/cozycliparser/).
 - [Cliquet](https://github.com/RowDaBoat/cliquet) - A CLI args and config file parser merging both into a single object, with automatic help generation.
 - [easyargs](https://github.com/nervecenter/easyargs) - Dead simple data-oriented argument parsing for Nim.
-- [kapsis](https://github.com/openpeeps/kapsis) - An extensible, macro-based DSL with runtime dispatch, built-in validation, type checking, and plugins (shared libs) support
+- [kapsis](https://github.com/openpeeps/kapsis) - An extensible, macro-based DSL with runtime dispatch, built-in validation, type checking, and plugins (shared libs) support.
 
 ### Static Analysis
 
