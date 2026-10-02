@@ -488,7 +488,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 <!-- - [flambeau](https://github.com/SciNim/flambeau) - Nim bindings to libtorch. -->
 
 ### AI Agents
-- [3code](https://github.com/capocasa/3code) - The Economical Coding Agent. Saves tokens, brain cycles, computer power, and your privacy
+- [3code](https://github.com/capocasa/3code) - The Economical Coding Agent. Saves tokens, brain cycles, computer power, and your privacy.
 
 ### AI REST API clients
 
