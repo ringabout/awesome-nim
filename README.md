@@ -384,7 +384,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 - [openparser](https://github.com/openpeeps/openparser) - A collection SIMD-accelerated parsers and dumpers. Supporting: JSON, YAML, XML, TOML, CSV, BSON, Plist, HTML, CSS, RSS, Atom, DotEnv, iCal, vCard, NIF, SQL, Regex, Gettext, Fast Binary Encoding (FBE), QR, SVG, Colors.
-- [sweetsyntax](https://github.com/openpeeps/sweetsyntax) - A generic parser and AST explorer for analyzing programming languages
+- [sweetsyntax](https://github.com/openpeeps/sweetsyntax) - A generic parser and AST explorer for analyzing programming languages.
 
 ### Serialization
 
