@@ -780,6 +780,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimlsp](https://github.com/PMunch/nimlsp) - The Language Server Protocol implementation for Nim.
 - [nim.nvim](https://github.com/alaviss/nim.nvim) - Nim plugin for NeoVim.
 - [vscode-nim](https://github.com/saem/vscode-nim) - Language support for the Nim programming language for VS Code.
+- [Nim using nimlangserver](https://plugins.jetbrains.com/plugin/31790-nim-using-nimlangserver) - Language support for the Nim programming language for Intellij Idea and more.
 
 
 ### REPL
