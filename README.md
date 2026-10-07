@@ -1,10 +1,12 @@
-<h1> <a href="https://nim-lang.org"><img src="asset/awesome-nim-logo.svg" alt="Awesome-nim-logo" width="600"/></a><a href="https://awesome.re"><img align="right" src="https://awesome.re/badge.svg"></a> </h1>
+# Awesome Nim [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<a href="https://nim-lang.org"><img src="asset/awesome-nim-logo.svg" alt="Awesome-nim-logo" width="600"/></a>
 
 > A curated list of awesome Nim frameworks, libraries, software and resources.
 
 [Nim](https://nim-lang.org/) is a statically typed compiled systems programming language. Good for everything from shell scripting to web front & backend, to ML, HPC, and embedded.
 
-<h2> Contents </h2>
+## Contents
 
 - [Language Features](#language-features)
   - [Implementations](#implementations)
@@ -35,8 +37,6 @@
 - [Science](#science)
 - [Data](#data)
   - [Database](#database)
-    - [Driver](#driver)
-    - [ORM](#orm)
   - [Data Structures](#data-structures)
   - [Data Processing](#data-processing)
   - [Parsing](#parsing)
@@ -52,10 +52,6 @@
   - [Documents](#documents)
 - [Algorithms](#algorithms)
   - [Math](#math)
-    - [Symbolic](#symbolic)
-    - [FFT](#fft)
-    - [Vector](#vector)
-    - [Matrix](#matrix)
   - [Deep Learning](#deep-learning)
   - [AI Agents](#ai-agents)
   - [AI REST API clients](#ai-rest-api-clients)
@@ -67,20 +63,10 @@
   - [Terminal](#terminal)
   - [Design](#design)
   - [GUI](#gui)
-    - [Crossplatform](#crossplatform)
-    - [Windows](#windows)
-    - [Linux](#linux)
-    - [Web Technology](#web-technology)
-    - [Lightweight](#lightweight)
   - [Plotting](#plotting)
 - [Mobile](#mobile)
 - [Web](#web)
   - [Protocols](#protocols)
-    - [DNS](#dns)
-    - [QUIC](#quic)
-    - [Websockets](#websockets)
-    - [Messaging](#messaging)
-    - [Multicast](#multicast)
   - [HTML Parsers](#html-parsers)
   - [HTTP Servers](#http-servers)
   - [Gemini Servers](#gemini-servers)
@@ -118,7 +104,7 @@
 
 ### Implementations
 
-- [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
+- [Nim](https://github.com/nim-lang/Nim) - A compiled, garbage-collected systems programming language with a strong productivity/performance ratio, focusing on efficiency, expressiveness, and elegance (in that order).
 - [nlvm](https://github.com/arnetheduck/nlvm) - LLVM backend for Nim.
 
 
@@ -127,10 +113,10 @@
 Nim provides unique features for seamless and transparent interoperability with other technologies. Some users found it useful to make other standard libraries usable from Nim.
 
 - [cpython](https://github.com/juancarlospaco/cpython) - Python standard library for Nim.
-- [Node.js](https://github.com/juancarlospaco/nodejs) - Node.js standard library for Nim.
+- [Node.js](https://github.com/juancarlospaco/nodejs) - Nim bindings for the Node.js standard library.
 
 
-Also, unlike those above, which requires runtime dependancy, some pure-Nim libraries are implemented.
+Also, unlike those above, which require a runtime dependency, some pure-Nim libraries are implemented.
 
 - [pylib](https://github.com/nimpylib/pylib) - Pure Nim implementation for Python builtins, libraries and sugars.
 
@@ -142,7 +128,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 
 ### Editors
-- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, Javascript, etc.
+- [moe](https://github.com/fox0430/moe) - A vim-like editor made with Nim, also supports C, Rust, JavaScript, etc.
 - [Nev](https://github.com/Nimaoth/Nev) - A keyboard focused GUI and terminal text editor.
 - [Nim Playground](https://play.nim-lang.org/) - Code and run Nim online.
 - [DoongJohn's Nim playground](https://doongjohn.github.io/nim-playground/) - An alternative implementation of the Nim playground.
@@ -164,12 +150,11 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [shared](https://github.com/genotrance/shared) - A Nim library for shared types.
 - [synthesis](https://github.com/mratsim/Synthesis) - A compiletime, procedure-based, low-overhead, no-allocation, state-machine generator optimized for communicating processes and threads.
 - [sync](https://github.com/planetis-m/sync) - Useful synchronization primitives.
-- [threadlogging](https://codeberg.org/pswilde/threadlogging) - A thread safe logging library using Nim's own logging module
 
 
 ### Error Handling
 
-- [result](https://github.com/arnetheduck/nim-result/) - Friendly, exception-free value-or-error returns, similar to Option[T].
+- [result](https://github.com/arnetheduck/nim-result/) - Friendly, exception-free value-or-error returns, similar to `Option[T]`.
 - [questionable](https://github.com/status-im/questionable) - Elegant optional types for Nim.
 - [optionsutils](https://github.com/PMunch/nim-optionsutils) - Utility macros for easier handling of options in Nim.
 
@@ -194,7 +179,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [cascade](https://github.com/citycide/cascade) - Method & assignment cascades for Nim, inspired by Smalltalk & Dart.
 - [nimfp](https://github.com/vegansk/nimfp) - Nim functional programming library.
 - [nim-pipexp](https://github.com/ShalokShalom/nim-pipexp) - Expression-based pipe operators with placeholder argument for Nim.
-- [pipe](https://github.com/5paceToast/pipe) - Pipe operator for Nim, as seen in functional languages.
+- [pipe](https://github.com/5paceToast/pipe) - Placeholder-based pipe operator inspired by functional languages.
 - [zero-functional](https://github.com/zero-functional/zero-functional) - A library providing (almost) zero-cost chaining for functional abstractions in Nim.
 
 
@@ -265,7 +250,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Randomization
 
-- [random](https://github.com/oprypin/nim-random) - Random number generation library for Nim, inspired by Python's "random" module.
+- [random](https://github.com/oprypin/nim-random) - Python-inspired random number generation library for Nim.
 - [sysrandom.nim](https://github.com/euantorano/sysrandom.nim) - A Nim library to generate random numbers and random ranges of bytes using the system's PRNG.
 - [alea](https://github.com/andreaferretti/alea) - Define and compose random variables.
 - [drand48](https://github.com/JeffersonLab/drand48) - Nim implementation of the standard Unix drand48 random number generator.
@@ -298,11 +283,11 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Embedded
 
-- [ratel](https://github.com/PMunch/ratel) - Next-generation, zero-cost abstraction microconroller programming in Nim.
+- [ratel](https://github.com/PMunch/ratel) - Next-generation, zero-cost abstraction microcontroller programming in Nim.
 - [ardunimo](https://github.com/gokr/ardunimo) - Nim wrapper for Arduino + LinkIt ONE SDK by Mediatek.
 - [ardunimesp](https://gitlab.com/NetaLabTek/Arduimesp) - Nim wrapper for Arduino ESP8266 framework + A tool for flashing, compiling and making a Nim project into an Arduino project.
 - [avr_io](https://github.com/Abathargh/avr_io) - Nim register bindings and utilities for AVR microcontrollers.
-- [avrman](https://github.com/Abathargh/avrman) - A tool for managing Nim and C projects targetting AVR microcontrollers.
+- [avrman](https://github.com/Abathargh/avrman) - A tool for managing Nim and C projects targeting AVR microcontrollers.
 - [msp430f5510](https://gitlab.com/jalexander8717/msp430f5510-nim) - Run Nim on MSP430f5510 micro-controller (6KB of RAM).
 - [Nesper](https://github.com/elcritch/nesper) - Program the ESP32 using Nim. Library on top of esp-idf.
 - [stm32f3](https://github.com/mwbrown/nim_stm32f3) - Run Nim on STM32F3 micro-controller (16KB of RAM).
@@ -324,7 +309,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 #### Driver
 
 - [amysql](https://github.com/bung87/amysql) - Async MySQL Connector write in pure Nim.
-- [anonimongo](https://github.com/mashingan/anonimongo) - Another Nim pure Mongo DB driver.
+- [anonimongo](https://github.com/mashingan/anonimongo) - Another pure Nim MongoDB driver.
 - [asyncmysql](https://github.com/tulayang/asyncmysql) - Asynchronous MySQL connector written in pure Nim.
 - [asyncpg](https://github.com/cheatfate/asyncpg) - Asynchronous PostgreSQL driver for Nim.
 - [db_connector](https://github.com/nim-lang/db_connector) - Unified db connector in Nim.
@@ -333,10 +318,10 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [litestore](https://github.com/h3rald/litestore) - A lightweight, self-contained, RESTful, searchable, multi-format NoSQL document store.
 - [mycouch](https://github.com/hamidb80/mycouch) - Multisync CouchDB driver for Nim.
 - [nimongo](https://github.com/SSPkrolik/nimongo) - Pure Nim lang MongoDB driver.
-- [redis](https://github.com/nim-lang/redis) - Official redis wrapper for Nim.
+- [Redis](https://github.com/nim-lang/redis) - Official Redis wrapper for Nim.
 - [KoutenDB](https://github.com/puffball1567/koutendb) - Locality-aware NoSQL document/vector database built around rings and orbit-inspired retrieval.
 - [rocksdb](https://github.com/status-im/nim-rocksdb) - Nim wrapper for RocksDB, a persistent key-value store for flash and RAM Storage.
-- [sqlcipher](https://github.com/status-im/nim-sqlcipher) - SQLCipher wrapper.
+- [sqlcipher](https://github.com/status-im/nim-sqlcipher) - Bindings for SQLCipher.
 - [SQLiteral](https://github.com/olliNiinivaara/SQLiteral) - A high level SQLite API for Nim.
 - [surrealdb.nim](https://github.com/Xkonti/surrealdb.nim) - SurrealDB driver for Nim.
 - [tiny_sqlite](https://github.com/GULPF/tiny_sqlite) - Very lightweight and safe SQLite library.
@@ -347,7 +332,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [ormin](https://github.com/Araq/ormin) - Prepared SQL statement generator , A lightweight ORM.
 - [allographer](https://github.com/itsumura-h/nim-allographer) - A query_builder/ORM library inspired by Laravel/PHP and Orator/Python for Nim.
 - [gatabase](https://github.com/juancarlospaco/nim-gatabase) - Connection-Pooling Compile-Time ORM for Nim.
-- [norm](https://github.com/moigagoo/norm) - Norm is an object-oriented, framework-agnostic ORM for Nim that supports SQLite and PostgreSQL.
+- [norm](https://github.com/moigagoo/norm) - Object-oriented, framework-agnostic ORM for Nim with SQLite and PostgreSQL support.
 
 
 ### Data Structures
@@ -359,8 +344,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [RTree](https://github.com/StefanSalewski/RTree) - Generic R-tree implementation for Nim.
 - [sorta](https://github.com/narimiran/sorta) - SortedTables in Nim, based on B-trees.
 - [minmaxheap](https://github.com/StefanSalewski/minmaxheap) - A Nim implementation of a Minimum-Maximum heap.
-- [BipBuffer](https://github.com/MarcAzar/BipBuffer) - A Nim implementation of Simon Cooke's Bib Buffer
-- [bloom](https://github.com/boydgreenfield/nimrod-bloom) - Bloom filter implementation in Nim.
+- [BipBuffer](https://github.com/MarcAzar/BipBuffer) - A Nim implementation of Simon Cooke's Bip Buffer.
+- [bloom](https://github.com/boydgreenfield/nimrod-bloom) - Implementation of a Bloom filter in Nim.
 - [binaryheap](https://github.com/bluenote10/nim-heap) - Simple binary heap implementation in Nim.
 - [faststack](https://github.com/Vladar4/FastStack) - Dynamically resizable data structure for fast iteration over large arrays of similar elements.
 - [StashTable](https://github.com/olliNiinivaara/StashTable) - Concurrent hash tables for Nim.
@@ -380,7 +365,6 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [beautifulparser](https://github.com/TelegramXPlus/beautifulparser) - Simple library for parsing HTML documents inspired by beautifulsoup4.
 - [Binarylang](https://github.com/sealmove/binarylang) - Extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion.
 - [iniplus](https://codeberg.org/onbox/iniplus) - Extended INI parser with support for arrays and tables.
-- [Marvdown](https://github.com/openpeeps/marvdown) - A stupid simple Markdown parser.
 - [NimYAML](https://github.com/flyx/NimYAML) - YAML implementation for Nim.
 - [parsetoml](https://github.com/NimParsers/parsetoml) - A Nim library to parse TOML files.
 - [openparser](https://github.com/openpeeps/openparser) - A collection SIMD-accelerated parsers and dumpers. Supporting: JSON, YAML, XML, TOML, CSV, BSON, Plist, HTML, CSS, RSS, Atom, DotEnv, iCal, vCard, NIF, SQL, Regex, Gettext, Fast Binary Encoding (FBE), QR, SVG, Colors.
@@ -392,7 +376,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [flatty](https://github.com/treeform/flatty) - Tools and serializer for plain flat binary files.
 - [frosty](https://github.com/disruptek/frosty) - Marshal native Nim objects via streams, sockets.
 - [json-serialization](https://github.com/status-im/nim-json-serialization) - Flexible JSON serialization not relying on run-time type information.
-- [nesm](https://xomachine.gitlab.io/NESM/) - NESM is a tool that generates serialization and deserialization code for a given object.
+- [nesm](https://xomachine.gitlab.io/NESM/) - Code generator for serialization and deserialization of Nim objects.
 - [protobuf-nim](https://github.com/PMunch/protobuf-nim) - Protobuf implementation in pure Nim that leverages the power of the macro system to not depend on any external tools.
 - [protobuf-serialization](https://github.com/status-im/nim-protobuf-serialization) - The nim-protobuf-serialization.
 - [serialization](https://github.com/status-im/nim-serialization) - A modern and extensible serialization framework for Nim.
@@ -403,7 +387,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Standards
 
-- [isocodes](https://github.com/kraptor/isocodes) - ISO codes for Nim (ISO 3166-1, ISO 3166-2, ISO 3166-3, ISO 15924, ISO 15924, ISO 639-2, ISO 639-5)
+- [isocodes](https://github.com/kraptor/isocodes) - ISO codes for Nim (ISO 3166-1, ISO 3166-2, ISO 3166-3, ISO 15924, ISO 639-2, and ISO 639-5).
 - [filetype](https://github.com/jiro4989/filetype) - Small and dependency free Nim package to infer file and MIME type checking the magic numbers signature.
 - [mimedb](https://github.com/openpeeps/mimedb) - A large database of MIME types for Nim.
 
@@ -464,7 +448,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 #### FFT
 
-- [impulse](https://github.com/SciNim/impulse) - Impulse will be a collection of primitives for signal processing (FFT, Convolutions).
+- [impulse](https://github.com/SciNim/impulse) - Collection of signal-processing primitives, including FFT and convolutions.
 
 
 #### Vector
@@ -497,28 +481,28 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Bigints
 
-- [bigints](https://github.com/nim-lang/bigints) - Bigints for Nim.
+- [bigints](https://github.com/nim-lang/bigints) - Arbitrary-precision integer support for Nim.
 - [stint](https://github.com/status-im/nim-stint) - Stack-based arbitrary-precision integers. Fast and portable with natural syntax for resource-restricted devices.
 - [theo](https://github.com/SciNim/theo) - An optimized bigint and number theory library for Nim.
 
 
 ### Cryptography
 
-- [bcryptrocks](https://codeberg.org/penguinite/bcryptrocks) -  Nim wrapper of Solar Designer's `crypt_blowfish` library
+- [bcryptrocks](https://codeberg.org/penguinite/bcryptrocks) - Nim wrapper for Solar Designer's `crypt_blowfish` library.
 - [bncurve](https://github.com/status-im/nim-bncurve) - Nim implementation of Barreto-Naehrig pairing-friendly elliptic curve.
 - [bslcurve](https://github.com/status-im/nim-blscurve) - Nim implementation of BLS signature scheme (Boneh-Lynn-Shacham) over Barreto-Lynn-Scott (BLS) curve BLS12-381.
 - [constantine](https://github.com/mratsim/constantine) - Constant time pairing-based of elliptic curve based cryptography and digital signatures.
-- [crc32](https://github.com/juancarlospaco/nim-crc32) - CRC32 for Nim. Just pass the thing you want to do CRC.
+- [crc32](https://github.com/juancarlospaco/nim-crc32) - Implementation of CRC32 for Nim.
 - [des](https://github.com/LucaWolf/des.nim) - DES/3DES, DUKPT and MAC in Nim.
 - [hashlib](https://github.com/khchen/hashlib) - Hash library that contains almost all the hash functions for Nim.
-- [murmurhash](https://github.com/cwpearson/nim-murmurhash) - Pure Nim implementation of MurmerHash
-- [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
+- [murmurhash](https://github.com/cwpearson/nim-murmurhash) - Pure Nim implementation of MurmurHash.
+- [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard (AES) and Rijndael algorithm implementation in Nim.
 - [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library.
 - [NiMPC](https://github.com/markspanbroek/nimpc) - A secure multi-party computation (MPC) library for the Nim programming language.
 - [rollinghash](https://github.com/MarcAzar/RollingHash) - High performance Nim implementation of a Cyclic Polynomial Hash, aka BuzHash, and the Rabin-Karp algorithm.
 - [shimsham](https://github.com/apense/shimsham) - A collection of hash functions, including JH, SHA-2, SHA-3, SipHash, Tiger, and Whirlpool.
 - [xxhash.nim](https://github.com/OpenSystemsLab/xxhash.nim) - A wrapper for the xxhash hashing library in Nim.
-- [xxtea](https://github.com/xxtea/xxtea-nim) - XXTEA encryption algorithm library.
+- [xxtea](https://github.com/xxtea/xxtea-nim) - Nim library implementing the XXTEA encryption algorithm.
 - [nimcypher](https://github.com/nimbase/nimcypher) - A Port of Monocypher in Nim + high-level API, extra algos, and opt-in SIMD acceleration.
 - [blackpaper](https://github.com/openpeeps/blackpaper) - A super simple password strength estimator in Nim.
 
@@ -592,17 +576,17 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 #### Web Technology
 
-- [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML/JS GUI apps.
+- [Neel](https://github.com/Niminem/Neel) - A library for making Electron-like HTML and JavaScript GUI apps.
 - [nimview](https://github.com/marcomq/nimview) - A Nim/Webview based helper to create desktop/server applications with Nim and HTML/CSS.
 - [webgui](https://github.com/juancarlospaco/webgui) - Web technologies based cross-platform GUI Framework with a dark theme.
-- [fidget2](https://github.com/treeform/fidget2) - Library for natively compiled cross platform UIs - Web with HTML5 (WASM), Windows, macOS, Linux with OpenGL.
+- [fidget2](https://github.com/treeform/fidget2) - Library for natively compiled cross-platform UIs on WebAssembly, Windows, macOS, and Linux with OpenGL.
 - [webview](https://github.com/neroist/webview) - Nim bindings and wrapper for Webview.
 - [webui](https://github.com/webui-dev/nim-webui) - Nim bindings and wrapper for WebUI.
 
 
 #### Lightweight
 
-- [imgui](https://github.com/nimgl/imgui) - ImGui bindings for Nim via cimgui.
+- [imgui](https://github.com/nimgl/imgui) - Bindings to Dear ImGui through cimgui.
 - [koi](https://github.com/johnnovak/koi) - Immediate mode UI for Nim.
 - [nimAntTweakBar](https://github.com/krux02/nimAntTweakBar) - Wrapper for AntTweakBar.
 
@@ -625,7 +609,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Protocols
 
 - [http-utils](https://github.com/status-im/nim-http-utils) - HTTP helper procedures.
-- [puppy](https://github.com/treeform/puppy) - Puppy fetches HTML pages for Nim.
+- [puppy](https://github.com/treeform/puppy) - HTML fetching library for Nim.
 - [netty](https://github.com/treeform/netty) - Reliable UDP connection library for games in Nim.
 - [json-rpc](https://github.com/status-im/nim-json-rpc) - Nim library for implementing JSON-RPC clients and servers.
 - [nmqtt](https://github.com/zevv/nmqtt) - Native Nim MQTT client library.
@@ -646,7 +630,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 #### QUIC
 
-- [quic](https://github.com/status-im/nim-quic) - QUIC for Nim. This is very much a work in progress, and not yet in a usable state.
+- [quic](https://github.com/status-im/nim-quic) - Work-in-progress Nim implementation of QUIC that is not yet usable.
 - [ngtcp2](https://github.com/status-im/nim-ngtcp2) - A wrapper around ngtcp2: an effort to implement IETF QUIC protocol.
 
 
@@ -727,7 +711,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Authentication
 
-- [oauth](https://github.com/CORDEA/oauth) - OAuth library for Nim.
+- [oauth](https://github.com/CORDEA/oauth) - Authentication support for Nim applications.
 - [twofa](https://github.com/openpeeps/twofa) - Generate TOTP, HOTP and QR codes.
 
 
@@ -735,19 +719,19 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Game Libraries
 
-- [bgfxim](https://github.com/puffball1567/bgfxim) - Complete, low-level Nim bindings for the bgfx C99 API [BSD-2-Clause].
+- [bgfxim](https://github.com/puffball1567/bgfxim) - Complete, low-level Nim bindings for the bgfx C99 API (BSD-2-Clause).
 - [enu](https://github.com/dsrw/enu) - 3D live coding with a Logo-like DSL for Godot, implemented in Nim.
 - [GLAD](https://github.com/Dav1dde/glad) - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
 - [glm](https://github.com/stavenko/nim-glm) - Port of the popular glm C++ library to Nim.
-- [jolt-nim](https://github.com/puffball1567/jolt-nim) - Native Nim bindings for Jolt Physics 5.6.0 with raw and ownership-safe high-level APIs [MIT].
-- [nimgl](https://github.com/nimgl/nimgl) - NimGL is a Nim library that offers bindings for popular libraries used in computer graphics.
+- [jolt-nim](https://github.com/puffball1567/jolt-nim) - Native Nim bindings for Jolt Physics 5.6.0 with raw and ownership-safe high-level APIs (MIT).
+- [nimgl](https://github.com/nimgl/nimgl) - Bindings for popular libraries used in computer graphics.
 
 
 ### Game Frameworks
 
 - [nico](https://github.com/ftsf/nico) - Nim Game Framework based on Pico-8.
 - [natu](https://github.com/exelotl/natu) - Toolkit for writing Game Boy Advance games in Nim.
-- [naylib](https://github.com/planetis-m/naylib) - safe Raylib wrapper.
+- [naylib](https://github.com/planetis-m/naylib) - A safe Raylib wrapper.
 - [c4](https://github.com/c0ntribut0r/cat-400) - Modular and extensible 2D and 3D game framework for Nim.
 - [paranim](https://github.com/paranim/paranim) - A game library based around carefully chosen abstractions.
 
@@ -791,8 +775,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Binding Generators
 
-- [c2nim](https://github.com/nim-lang/c2nim) - c2nim is a tool to translate Ansi C code to Nim.
-- [nimgen](https://github.com/genotrance/nimgen) - nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries. Superseded by nimterop.
+- [c2nim](https://github.com/nim-lang/c2nim) - Tool for translating ANSI C code to Nim.
+- [nimgen](https://github.com/genotrance/nimgen) - Helper for c2nim that simplifies and automates C library wrapping; superseded by nimterop.
 - [nimterop](https://github.com/nimterop/nimterop) - A Nim package that leverages tree-sitter to make C/C++ interop seamless. Superseded by Futhark.
 - [Futhark](https://github.com/PMunch/futhark) - Automatic wrapping of C headers in Nim with libclang.
 - [nimpy](https://github.com/yglukhov/nimpy) - Generate Python wrappers and call Python from Nim.
@@ -807,8 +791,8 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [ChooseNim](https://github.com/nim-lang/choosenim) - Installing and switching between Nim versions (à la rustup, pyenv).
 - [GrabNim](https://codeberg.org/janAkali/grabnim) - Install and switch between multiple Nim compiler versions. (Alternative to ChooseNim).
 - [Nake](https://github.com/fowlmouth/nake) - Describe your Nim builds as tasks.
-- [Nawabs](https://github.com/Araq/nawabs) - A build system that throws away version numbering in favor of git hashes.
-- [Nimble](https://github.com/nim-lang/nimble) - Nimble can be used as a build system.
+- [Nawabs](https://github.com/Araq/nawabs) - A build system that throws away version numbering in favor of Git hashes.
+- [Nimble](https://github.com/nim-lang/nimble) - Nim's package manager, which can also be used as a build system.
 - [nim-agent-template](https://github.com/Vyrnexis/nim-agent-template) - Scaffolding generator and template featuring AI agent skills, MCP tooling, and multi-toolchain build profiles.
 - [nimph](https://github.com/disruptek/nimph) - Nim package hierarchy manager from the future.
 - [nimby](https://github.com/treeform/nimby) - A very simple and unofficial package manager for Nim.
@@ -850,13 +834,13 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Command-Line Interface Automation
 
-- [cligen](https://github.com/c-blake/cligen) - Infer & generate command-line interace/option/argument parsers.
+- [cligen](https://github.com/c-blake/cligen) - Infer and generate command-line interface, option, and argument parsers.
 - [docopt.nim](https://github.com/docopt/docopt.nim) - Command-line args parser.
 - [argparse](https://github.com/iffy/nim-argparse) - Argument parsing for Nim.
 - [clapfn](https://github.com/oliversandli/clapfn) - Argument parsing similar to Python's argparse.
 - [cliche](https://github.com/juancarlospaco/cliche) - AutoMagic CLI argument parsing is so cliché.
 - [loki](https://github.com/beshrkayali/loki) - A small library for writing line-oriented command interpreters in Nim.
-- [confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command line options and config files
+- [confutils](https://github.com/status-im/nim-confutils) - Simplified handling of command-line options and config files.
 - [Cmdos](https://github.com/farias-hecdin/Cmdos) - A simple way to process cli arguments and help messages.
 - [cozycliparser](https://github.com/indiscipline/cozycliparser) - Lean, feature-rich, DSL-free CLI parser based on `std/parseopt`. [Docs](https://indiscipline.github.io/cozycliparser/).
 - [Cliquet](https://github.com/RowDaBoat/cliquet) - A CLI args and config file parser merging both into a single object, with automatic help generation.
@@ -893,7 +877,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Community
 
 - [The Nim forum](http://forum.nim-lang.org/)
-- [The Nim IRC channel](http://webchat.freenode.net/?channels=nim)
+- [The Nim IRC channel](https://web.libera.chat/#nim)
 - [The Nim Gitter channel](https://gitter.im/nim-lang/Nim)
 - [The Nim Discord channel](https://discord.gg/ptW3Rb3)
 - [The Nim mailing list (forum archive)](https://www.mail-archive.com/nim-general@lists.nim-lang.org/)
@@ -914,7 +898,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [Nim Memory](http://zevv.nl/nim-memory/) - A small tutorial explaining how Nim stores data in memory.
 - [Nim ARC](http://zevv.nl/nim-memory/nim-arc.html) - A friendly explanation of ARC and its implications for the programmer.
 - [nimNx](https://github.com/dkgitdev/nimNx) - A Nintendo Switch Homebrew example project, written in Nim.
-- [nimNxStatic](https://github.com/dkgitdev/nimNxStatic) - A static library example aiming to help integrate Nim code into the current Homebrew C projects for Nintendo Switch
+- [nimNxStatic](https://github.com/dkgitdev/nimNxStatic) - Static library example for integrating Nim code into Nintendo Switch Homebrew C projects.
 
 
 ### Videos
@@ -928,7 +912,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [clyybber twitch](https://www.twitch.tv/clyybber) - The live broadcast regarding Nim language.
 - [d0m96 twitch](https://www.twitch.tv/d0m96) - The live broadcast regarding Nim language.
 - [disruptek twitch](https://www.twitch.tv/disruptek) - The live broadcast regarding Nim language.
-- [Nim Tutorials](https://www.youtube.com/playlist?list=PLYBJzqz8zpWaiGbFcSdlh08zlpe8Tl_Gh) - YouTube video series that teaches how to program in Nim and goes over various standared libraries.
+- [Nim Tutorials](https://www.youtube.com/playlist?list=PLYBJzqz8zpWaiGbFcSdlh08zlpe8Tl_Gh) - YouTube video series that teaches Nim programming and covers standard libraries.
 
 
 ---
