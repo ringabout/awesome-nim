@@ -872,6 +872,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 ### Books
 
+- [Algorithms in Nim: With Applications in Physics, Biology, Finance](https://github.com/mdipierro/nlib-nim) - Book companion repository with Nim examples in algorithm design, scientific computing, Monte Carlo simulations, and parallel algorithms.
 - [Nim in Action](https://book.picheta.me/) - Book in Manning's "in Action" series, teaching Nim through 3 practical projects including CLI chat apps, web apps and parsers.
 - [Computer Programming with Nim](https://www.nimprogrammingbook.com/book/nimprogramming_colorful.pdf) - A gentle introduction to the Nim programming language.
 - [Nim Basics](https://narimiran.github.io/nim-basics/) - Tutorial for beginners and people just starting with Nim.
