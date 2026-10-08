@@ -893,7 +893,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 ### Community
 
 - [The Nim forum](http://forum.nim-lang.org/)
-- [The Nim IRC channel](http://webchat.freenode.net/?channels=nim)
+- [The Nim IRC channel](https://web.libera.chat/#nim)
 - [The Nim Gitter channel](https://gitter.im/nim-lang/Nim)
 - [The Nim Discord channel](https://discord.gg/ptW3Rb3)
 - [The Nim mailing list (forum archive)](https://www.mail-archive.com/nim-general@lists.nim-lang.org/)
