@@ -244,7 +244,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [ioselectors](https://github.com/xflywind/ioselectors) - The ioselectors plus for Nim.
 - [wepoll](https://github.com/xflywind/wepoll) - Windows epoll wrapper for Nim.
 - [faststreams](https://github.com/status-im/nim-faststreams) - Nearly zero-overhead input/output streams for Nim.
-- [lockfreequeues](https://github.com/elijahr/lockfreequeues) - Lock-free queue implementations for Nim.
+- [lockfree](https://github.com/elijahr/lockfree) - Lock-free data structures and concurrency library for Nim.
 - [flysystem](https://github.com/openpeeps/flysystem) - A filesystem API for Nim, inspired by Flysystem from the PHP ecosystem.
 
 
