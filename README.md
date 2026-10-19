@@ -799,6 +799,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimpy](https://github.com/yglukhov/nimpy) - Generate Python wrappers and call Python from Nim.
 - [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
 - [denim](https://github.com/openpeeps/denim) - Use Nim to build powerful Node.js/Bun addons via Node API (NAPI).
+- [nimts](https://github.com/axiomantic/nimts) - Seamless TypeScript and WebAssembly bridge for Nim with Vite HMR, multi-threaded Web Workers, and zero-copy TypedArray views. [MIT] [website](https://axiomantic.github.io/nimts/)
 <!-- - [rnim](https://github.com/SciNim/rnim) - A bridge between R and Nim. Currently this is a barely working prototype. -->
 
 
