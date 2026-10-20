@@ -796,6 +796,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimgen](https://github.com/genotrance/nimgen) - nimgen is a helper for c2nim to simplify and automate the wrapping of C libraries. Superseded by nimterop.
 - [nimterop](https://github.com/nimterop/nimterop) - A Nim package that leverages tree-sitter to make C/C++ interop seamless. Superseded by Futhark.
 - [Futhark](https://github.com/PMunch/futhark) - Automatic wrapping of C headers in Nim with libclang.
+- [HeaderKit](https://github.com/axiomantic/headerkit) - Universal C/C++ interop toolkit that scaffolds turnkey Nimble packages or standalone Nim code, producing repeatable, customizable, multi-version bindings. Also supports LuaJIT and Python (ctypes, CFFI, Cython). [website](https://axiomantic.github.io/headerkit/)
 - [nimpy](https://github.com/yglukhov/nimpy) - Generate Python wrappers and call Python from Nim.
 - [jnim](https://github.com/yglukhov/jnim) - Nim - Java bridge.
 - [denim](https://github.com/openpeeps/denim) - Use Nim to build powerful Node.js/Bun addons via Node API (NAPI).
