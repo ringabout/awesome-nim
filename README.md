@@ -119,6 +119,7 @@
 ### Implementations
 
 - [Nim](https://github.com/nim-lang/Nim) - Nim (formerly known as "Nimrod") is a compiled, garbage-collected systems programming language which has an excellent productivity/performance ratio. Nim's design focuses on efficiency, expressiveness, elegance (in the order of priority).
+- [llvnim](https://github.com/xlebore3o4ka/llvnim23) - Hand-written Nim bindings for the LLVM-C API 23.1.x, covering ~90% of the API used for building JITs and compilers.
 - [nlvm](https://github.com/arnetheduck/nlvm) - LLVM backend for Nim.
 
 
