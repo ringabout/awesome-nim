@@ -494,7 +494,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [chachachat](https://github.com/openpeeps/chachachat) - A simple, embeddable LLM client API with chat and RAG capabilities. Compatible with OpenAI API.
 - [kavel](https://github.com/hanshs474/kavel-nim) - Client for the Kavel image API: text-to-image and photo edits, with a free tier that needs no API key.
-
+- [emaki](https://github.com/hanshs474/emaki-nim) - Nim SDK for [emaki.ai](https://emaki.ai/) (Seedance 2.5 & 2.0 AI video generation).
 
 ### Bigints
 
