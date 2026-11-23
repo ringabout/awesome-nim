@@ -494,6 +494,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 
 - [chachachat](https://github.com/openpeeps/chachachat) - A simple, embeddable LLM client API with chat and RAG capabilities. Compatible with OpenAI API.
 - [kavel](https://github.com/hanshs474/kavel-nim) - Client for the Kavel image API: text-to-image and photo edits, with a free tier that needs no API key.
+- [aibirthday](https://github.com/hanshs474/abvg-nim) - Nim client for [aibirthdayvideogenerator.com](https://aibirthdayvideogenerator.com/): 12-second vertical birthday videos from a single photo.
 
 
 ### Bigints
