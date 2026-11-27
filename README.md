@@ -516,6 +516,7 @@ Also, unlike those above, which requires runtime dependancy, some pure-Nim libra
 - [nimaes](https://github.com/jangko/nimAES) - Advanced Encryption Standard, Rinjdael Algorithm written in Nim.
 - [nimcrypto](https://github.com/cheatfate/nimcrypto) - Nim cryptographic library.
 - [NiMPC](https://github.com/markspanbroek/nimpc) - A secure multi-party computation (MPC) library for the Nim programming language.
+- [nimtls](https://github.com/cryogenicdeadfrost/nimtls) - Zero-OpenSSL static BearSSL TLS library with tiered OS/embedded CA roots, Sans-I/O engine, sync/async wrappers, and C-ABI. [MIT]
 - [rollinghash](https://github.com/MarcAzar/RollingHash) - High performance Nim implementation of a Cyclic Polynomial Hash, aka BuzHash, and the Rabin-Karp algorithm.
 - [shimsham](https://github.com/apense/shimsham) - A collection of hash functions, including JH, SHA-2, SHA-3, SipHash, Tiger, and Whirlpool.
 - [xxhash.nim](https://github.com/OpenSystemsLab/xxhash.nim) - A wrapper for the xxhash hashing library in Nim.
